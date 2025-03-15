@@ -1,0 +1,1000 @@
+fix deprecation warn for socketappender convenience constructor
+solr - 7896 : avoid browser basicauth dialogue when blockunknown = false . always show dashboard menu . clarify refguide
+updated the offset reference in ManyToOneRingBuffer to use a method instead of a class constant to improve code clarity and maintainability by standardizing the way message length offsets are accessed
+server : fix npe while cloudstack agent fail to connect to mgt server ( # 4779 )
+introduced a new ` flags ` variable and modified ` ShadowPaint ` and ` PaintTest ` to support anti - aliasing functionality to enhance rendering quality by allowing conditional anti - aliasing based on the provided flags
+window ` ` manage field names & content ' ' : make title consistent with menu ( + localization ) ( # 6895 )
+some test case polish . run test on both javac / ecj generate
+add a unit test for digest issue , refactor to make sure the challenge be parse at last
+add RemoteInputListener interface and manage connection state in RemoteInput class to provide events for connection status updates to listeners
+hive - 10871 : llap : bug in split processing in io elevator cause duplicate row ( sergey shelukhin )
+updated the filter condition in HomeConnectBridgeHandler to include only enabled things to ensure that only active handlers are processed for better performance
+fix bug where a null logo bitstream cause a server error on save a policy for a collection or community
+make date - formatting test less fragile with regular expression . ( # 2450 )
+hive - 10274 : send context and description to tez via dag info ( gunther hagleitner , review by vikram dixit k )
+use tag time to improve accuracy of heapsummary . gettime ( )
+updated upload count retrieval method by shifting from ` RxJava2Tasks ` to ` ApacheHttpClientMediaWikiApi ` to improve code organization and maintainability by centralizing API interactions
+remove useless mvcc / no mvcc condition from mvstore code
+[ issue # 5626 ] optimize defaultmessagestore # getearliestmessagetime and defaultmessagestore # pickupstoretimestamp ( # 5627 )
+added a check to ensure the folder is marked as open only if it is actually associated with an open folder to prevent inconsistencies in folder state management
+test : add test to check sort order of pgproperty value
+fixed issue 241 . remove the extra column in the mentioned table . test page html be also edit to ensure the testing be still correct
+simpifying uninstall drop target to check item type instead of class instance
+updated assertion in RequestBuilderTest to check multiple expected error messages to improve the flexibility of error message validation in test cases
+updated nearby fragment management by renaming retained fragment tags and consolidating fragment transactions to improve code clarity and maintainability by using more descriptive identifiers for fragments
+rename ` ` status ' ' input parameter to ` ` sessionstatus ' ' to prevent confusion
+thirdeye - 697 : detector : configure email report to optionally disable send if no anomaly be detect
+[ flink - 19750 ] [ connector / kafka ] fix bug of not open deserializationschema when flinkkafkaconsumerbase recovers from state ( # 13785 )
+remove unused data manager method ( fix # 2386 )
+added a constructor to BlockingResponseListener that accepts a maximum length parameter to allow customization of the maximum response length during instantiation
+defer the deserialization of the message to an async thread to be able to handle more incoming , still i can send more than i can receive
+fix some log and potential memory leak . ( # 7414 )
+remove the trailing slashes from URLs in the assertions to ensure consistency in URL formatting for accurate test validation
+move saml config test to where it can read the resource
+updated import statements in ListFragment . java and changed the parameter name in updateNoteReminder method in SnoozeActivity . java to improve code clarity and align variable naming conventions
+added a private static class AcceptAllFilter to simplify filtering entries in directory streams to improves code clarity by reusing a consistent filter implementation instead of defining it inline
+jdbc k8 & data loading : add teardown and update names / docs
+8186459 : [ jvmci ] classnotfoundexception throw by compilertovm . lookuptype ( ) should be convert to a linkageerror
+issue # 99 : support for private repo contain port in docker image name
+updated login failure messages in LoginActivity to use a more generic error string to provide a consistent error message for wrong credentials during login attempts
+ds - 722 setting autofocus to main / first field in many form . html5 , xmlui .
+add test that validate the bean in an configured environment
+[ mng - 7644 ] fix version comparison where . x1 < - x2 for any string qualifier x
+remove padding and margin from sheet default . fixed sizing of sheet for very large content .
+update package structure and imports to reflect internal organization of the Robolectric framework to enhance code organization and clarify dependencies within the internal package
+fix issue # 1111 by not create methodtype on each invocation ( to work around a possible concurrency bug in jdk ) ( # 1114 )
+change fill pattern from SOLID _ FILL to SOLID _ FOREGROUND in FrillsAndFills . java to ensure correct background color rendering in cell styles
+added functionality to draw self - loops if enabled in the graph to enhance visualization of self - loops for better graph representation
+updated variable and method names related to TVM Solidity from " 0 _ 5 _ 10 " to " 059 " to maintain consistency and clarity in naming conventions
+testing : change name of dropwizardapprule . addmanged ( ) to manage ( ) , to mirror the method on environment . lifecycle ( ) . manage . ( )
+fix bug where drag handle translation be not set to 0 on device profile change .
+[ ds - 247 ] loggingusageeventlistener and the usageeventaction do all xmlui logging now .
+hive - 12953 : update description of hive . ppd . remove . duplicatefilters in hiveconf . java ( shannon ladymon via ashutosh chauhan )
+disconnect test for mac since build server apparently have issue
+added maven bundles for Jetty ALPN dependencies and initiated bundle diagnostics to enhance compatibility with ALPN features and facilitate debugging when needed
+fix async gateway test . with a serious change in the way optimistic locking handle
+transaction : clarify the meaning of the transaction hash in the javadoc .
+updated annotations in GenruleBuildable . java to exclude certain fields from rule key to ensure genrule execution is not considered for artifact caching
+on unix , prefer ` ` firefox - bin ' ' if it ' s on the path , and add the firefox directory on the path ( if any ) to the ld _ library _ path
+phoenix - 374 : enable access to dynamic column in * or cf . * selection ( addendum )
+[ build ] [ hadoop compatibility ] remove unneeded dependency to ' flink - clients '
+phoenix - 5584 older client do n ' t get correct view metadata when a 4.15 client create a view .
+[ fix # 75245126 ] instructor join course do not update the googleid of correspond student entity from sampledata
+replaced the import of TestCellReference from the xssf package to the ss package in AllXSSFTests . java to ensure compatibility with the updated class structure in the Apache POI library
+fix the force lens be able to move bedrock . close # 1115
+added a new file LongPointerPressTest3049 . java implementing a simple UI with long pointer press functionality to test and demonstrate the behavior of long pointer press events in the application
+access trufflefunctioninlining only in the runtime and let getdecision ( ) return null if disabled
+keep the code style consistent with maves in basebuilder
+disallow list indent more than 3 space ( spec 0.29 )
+make optional assertion extensible by introduce abstractoptionalassert
+ignore fail test . see gh - 1070
+[ wasm ] use native string conversion for testcaselogger , remove call to ` fromjsstring ` / ` tojsstring `
+camel - 12988 : update doc to clarify how to specify route to start up last
+added a condition to check if the format is video when getting web subscriptions to ensure web subscriptions are only processed for video formats
+add security settings to disable certain TLS algorithms in both ComHostnameVerifier and JavaxHostnameVerifier to enhance security by ensuring that weak TLS algorithms are not used
+filter host to query on zone wide storage ( # 3733 )
+updated cache entry logging and query result formatting in Driver and QueryResultsCache classes to enhance clarity and include cache entry details in log messages
+added functionality to optionally skip updating the dependency model after managing dependencies to improve flexibility for standalone recipe executions by avoiding unnecessary model updates
+update shadowactivity ' s startintentsenderforresult to send the intent automatically to match more closely the android activity ' s implementation .
+replaced GLCanvas with GLJPanel and added FBO ( Frame Buffer Object ) support for OpenGL to improve rendering performance and flexibility in graphics rendering
+refactor HydrawiseAccountHandler to use synchronized lists and ensure thread - safe access for controller listeners to enhance thread safety during concurrent modifications of the controller listeners list
+added a ` beforeClass ` setup method to the ` TestCoreAdminApis ` class to handle Java 9 compatibility to ensure tests do not run on Java 9 due to compatibility issues with EasyMock as noted in SOLR - 9893
+fix ` localdatetime ` handling of bc date ( # 1388 )
+nullpointerexception fix when shutdowning the jabber protocol provider
+hive - 13912 dbtxnmanager . committxn ( ) : ora - 00918 : column ambiguously define ( eugene koifman , review by alan gate )
+use bytebuffer instead of bytechunk . this be in a preparation for remove o . a . coyote . inputbuffer . doread ( bytechunk ) .
+added a synchronous utility method ` toSync ` to convert a ` CompletableFuture ` to a synchronous result to facilitate easier handling of asynchronous results in a synchronous manner
+added ActionGraphBuilder as a parameter in multiple compiler factory classes and refactored related method calls to improve dependency injection and enhance the architecture by utilizing the ActionGraphBuilder for rule resolution
+add a new test for file upload use a hidden file input . also disable file input visibility check in legacy firefox driver . fix # 706
+updated SQLManager to handle SQL exceptions during table creation to improve error handling and ensure graceful failure in table creation process
+issue 344 : the build now support a custom maven repository location .
+apps - 2633 : set algebra label invisible as soon a hidden prefix be set
+refactor ( metadata ) : init at the right time the map for metadata .
+fix flag issue cause corrupt output on drm playback .
+do n ' t sort cache instance by id if it be already sort
+updated the error message for missing method call in verify ( mock ) to improve clarity and consistency in error reporting
+modified the logging condition to check if backupFolder is not null before logging to improve code safety by avoiding potential null pointer exceptions
+added a new class ` ArrayNewInstanceOfVoid ` that tests the creation of a void array using reflection to explore and demonstrate the behavior of Java ' s reflection API when attempting to create an array of void type
+added the @ AddToRuleKey annotation to the toolType field in ClangCompiler . java and GccCompiler . java to ensure that the tool type is correctly included in the rule key for build configuration
+replaced hard - coded timeout values with a constant variable ` PINCODE _ TIMEOUT ` to improve code readability and maintainability by using a named constant
+fix test and sample after a breaking change in prometheus
+move mongodb test from jetty - nosql module to common test module . activate during build with - dmongodb . enabled = true
+fix test case after change in http : / / issues . apache . org / jira / browse / amq - 4237 break the test ' s mbean lookup
+updated the condition from checking for a table name prefix to checking if the table is artificial to improve logic clarity by using a more descriptive condition
+updated file checks from ` isFile ( ) ` to ` ! isDir ( ) ` and ` isDirectory ( ) ` to simplify conditional logic to enhance code clarity and avoid unnecessary error handling for unknown file types
+373952 ensure mongosessionmanager un / binds session attribute on refresh only if necessary
+now call setsizefromlayout ( ) rather than fix to a 320x240 size
+replaced the usage of the _ stopping variable with a local variable stopping in AbstractConnector . java to improve code clarity and ensure consistent behavior during stopping operations
+updated method signature in HuobiStreamingService by removing a parameter to streamline the WebSocket connection initialization process
+camel - 11350 : optimize - stopwatch should be tiny to have less memory footprint
+fix log on stderr during test
+show the unexpected error so we can figure out more about it
+added View . OnLayoutChangeListener interface to AllAppsTransitionController class to streamline layout change handling by implementing listener directly in the class
+replaced variable names from ` theHandler ` to ` handler ` for consistency throughout the code to improve code readability and maintainability
+resolve int - 577 by add namespace support for set of default output channel
+updated the caching mechanism by replacing an integer with a duration string format to enhance flexibility in cache duration management and improve clarity in configuration
+bump openapi version refs to release 3.0 . 0
+changed method acquire ( ) to not append ( ) , to allow caller to decide
+introduced a check for the presence of " alt - rt . jar " in the boot class path to warn users and skip tests if the alternative runtime library is detected
+updated JDBC user deletion queries to be case - insensitive and modified user data in test cases to ensure accurate user deletion regardless of case and align test data with expected outcomes
+replace the use of Arrays with ArrayList for building options in FlightRecorderProfiler to improve performance and flexibility in handling runtime options
+mow - 347 do n ' t insert screenshot if no video available
+modified the HttpParser to include a check for content in the content view during parsing to ensure that the parser handles cases where there is no content before declaring completion
+camel - atmos : fix typo in endpoint javadoc
+added support for " printf " and " print " methods alongside " println " in the Java2TypeScriptAdapter to enhance versatility of the adapter to handle additional printing functions
+added a new test class ` TestCapacityUntilGCWrapAround ` and enhanced ` WhiteBox ` with native methods for metaspace capacity to verify that increasing metaspace capacity does not cause wrap around on 32 - bit platforms
+use qualify reference in package - info . java javadoc to accommodate limitation in eclipse
+fix samplingstatcalculator so it no longer add elapsed time to endtime , a this be handle by sampleresult .
+added unit test base on user forum issue
+tmi - 22 : change iioexception to warn for image with single chunk icc _ profile with bad index / count .
+tweak gravityrod , terrapick , and tornadorod animation . make terraform rod respect world specific sea level . close # 102
+added a conditional check to ignore specific entries in SpringModule and refactored the code accordingly to improve clarity and prevent unnecessary registration of certain bean types in the application context
+- api change for the constructor of loader : if not specify , the loader will get the parent cl from the context ,
+bug 52161 - enable plugins to add own translation rule in addition to upgrade . properties .
+correct ellipsoidal selector initialization ( # 1632 )
+fixed # 1990 ota device skin download not working because of ntlm proxy . this be a bug in javase ' s security process .
+[ geos - 6701 ] provide good error message when wfs sortby attribute do not exist
+replaced the null check for ` grantTuple [ 0 ] ` from ` . equals ( null ) ` to ` = = null ` to avoid potential NullPointerException and follow conventional null checking practices
+try to fix incompatibility of handling png on window and mac ...
+added stupididty exception for common issue with getminecraftlogger .
+add javadocs and retype method process query in a consistent fashion
+fix # 4509 , convert sleep to asserteventually
+ticket # 3874 : add two method to stringutil that may be useful for this ticket
+pas 404 error trigger by a missing root web application to the container error handle to generate the response body .
+refactor command handling logic and enhance syntax highlighting functionality in SystemHighlighter . java to improve code clarity and ensure proper highlighting for commands and arguments
+reset build identifier for the next release
+updated position method to use idx dimensionSize instead of idx to ensure correct buffer positioning based on dimension size
+added drag - and - drop readiness checking to the system UI to enable dynamic handling of drag - and - drop functionality in the shell interface
+ignore socket option test which do not work on java 8 +
+fix gump . the ibm jre do not implement this new cipher
+modify getdescription to fix ` ` ? ' ' desc bug
+added JsonProperty annotation to ScimGroupMember class to facilitate JSON serialization and deserialization of the " value " field
+modify HqlQueryRenderer to collect reserved words into a list of tokens before returning them to enhance the processing of reserved words in queries for improved schema scoping support
+2 . x : fix incorrect error message at subscriptionhelper . setonce ( # 5623 )
+refactor Parser . java to improve code structure and readability to enhance maintainability and facilitate future modifications
+updated parameters and logic in offsetStreamIndex method calls for better handling of index adjustments to enhance functionality to support cases where indexes start at one
+tika - 794 correct little16 mime magic logic , and enable the cpio test now that the detection be correct
+[ flink - 18731 ] [ table - planner - blink ] fix monotonicity logic of uuid function
+added equality , hashCode , and toString methods to OneTimeTokenAccount class to improve object comparison and debugging output
+added a condition to check if the assistant has been launched during a fling event to ensure the assistant is only launched if it has not already been initiated
+added a new file SolarisShortDSA . java that implements DSA key generation and verification to identify and handle a potential Solaris bug related to DSA key lengths
+remove search string label when change sort order ( fix # 283 )
+bug 6763 : restore the volume lock when create a snapshot for the volume to ensure only one thread be create the snapshot at a time .
+fixed crash when download notification be press in landscape mode
+replaced failure handling with an AtomicReference for the request failure in HttpClientTLSTest to improve the clarity and robustness of the failure reporting mechanism
+removed the equals method for Scorer objects in ConjunctionScorer . java to simplify the comparison logic between Scorer instances
+added a null check and error logging when removing a colliding item to improve error handling during the item removal process
+make cp group ids unique between multiple inits of cp subsystem
+of - 173 log now every cache shrink to 90 % cause by cullcache ( )
+updated API version from v2 to v3 and modified account handling logic in multiple classes to enhance functionality and maintain compatibility with the latest API specifications
+fix build and example for libfreenect2
+added optional handling for page data in AsyncPageReader and enhanced test coverage in TestDrillParquetReader to improve resource management and validate behavior with empty dictionary pages
+updated argument requirements and improved error handling in SerumStreamingService . java to enforce correct market data type input and enhance method robustness
+add a config option to disable the animation when an item be charge on a mana pool .
+[ java ] retry cluster connect on restart and update client to give more information on timeout .
+waitforhelper . java add exception logging ( # 5023 )
+make test more reliable on less filesystems
+apps - 1016 fix the order of inject css resource , which fix the dialog style bug
+replace the file path string with ant fileresource object for strong typing and good path handling .
+fix issue with blockworldvector cause java . lang . verifyerror due to how bukkit load plugins .
+updated ` CacheEntry ` class to use ` private static final ` for fields to enhance immutability and thread safety of cache entries
+[ gr - 19980 ] native - image - agent need to escape resource entry because they be regular expression .
+updated FileCredentialsCache to validate and modify the retrieved KRB5CCNAME variable , and refactored EmptyCC to accept command - line arguments to improve cache management and ensure proper error handling for missing files
+update the database path for the ValidateMultiSignContractTest to ensure clarity and specificity in test output location
+[ nc - 1273 ] consider peer count insufficient until minimum peer for fast sync be connect ( # 629 )
+no logical change : delete a space character
+fix conversion for areequal [ segment [ x , y ] , segment [ z , w ] ] type expression ( ogp xml export )
+added a condition to clear pending rendering operations when their count exceeds 20 , 000 and the implementation is minimized to manage memory and prevent performance issues with excessive rendering operations
+make sure the hazelcasttestsupport . asserttrueeventually run the task ( # 23419 )
+update on a key should not shift store operation time
+save some space by not show node icon
+fix unit test for new default redirect behavior
+fix # 915 - the jetty - maven - plugin : stop goal do n ' t stop everything completely .
+adjust housekeeping activity to be more aggresive when idle
+refactor field retrieval to use a local variable for the object class type to improve code readability and reduce repeated method calls
+[ flink - 20266 ] [ runtime ] replace dedicate thread pool in componentclosingutils with use of ' futureutils . ortimeout ( ) '
+bug 8130 : destroy all vols associate with a vm in error state , during the vm creation flow
+server : fix check for ipv6 range overlap ( # 6705 )
+replace ` InitializeUserDetailsManagerConfigurer ` with ` InitializeAuthenticationProviderManagerConfigurer ` and standardize variable names to improve clarity and consistency in the authentication configuration process
+increased the timeout duration from 15000 to 30000 milliseconds in getLeaderRetry method to allow more time for retrieving the leader of the specified shard in case of delays
+exclude orig input value from param validation result , limit x vulnerability
+fix a regression due to the last scale _ to _ fill change
+updated field comparison in SolrTestCaseJ4 . java to compare solrDocument1 and solrDocument2 to ensure accurate validation of field names between two Solr documents
+mondrian : fix for bug 2666196 , which involve performance degradation when non - highcardinality set be evaluate .
+[ flink - 10695 ] ` ` can not load user class ' ' error should set the underlying classnotfoundexception a their cause
+revise expandhashtag ( ) to handle number and add test code to preprocesstest . java
+no changes were made to the code logic in the read method of MessagePack . java to consistent formatting and code clarity
+added marker interface from cdi so it can be reuse in other di project
+do n ' t generate empty json element for comment ( # 4832 )
+fix libraries not be add to the modlist when use external metadata . close # 4879
+add an alias for node _ popup _ scripting that may be in use by add - on
+updated constants and methods in OverviewActionsView and RecentsView to improve action view visibility and animation handling to enhance user experience with focused task interactions and ensure consistent behavior across different device profiles
+camel - 3979 : fix potential class cast exception in camel - jms .
+fix checkstyle issue in gcloud - java - core ( # 871 )
+deleted deprecated classes AbstractDelegatedVerb and FailureContext to remove unused code to improve maintainability
+updated variable declarations to be final and added Gzip handling for the MicroServlet to improve code clarity and ensure proper gzip compression for the new servlet endpoint
+repeat / retry : fix unbounded downstream request above long . max _ value
+make speedmentimpl stop all it component upon stop ( )
+oai specific configuration loader ; just a wrapper for the usual config loader for this web app
+hbase - 3416 for intra - row scanning , the update reader notification reset the query matcher and can lead to incorrect behavior
+disabled jmx when test by default to speedup unit test .
+fix for sf bug 2317842 : update separator in package / file path comparison to make source highlight work on window .
+added methods to obtain YARN application ID and to locate Hadoop and YARN binaries to enhance integration with YARN for better application management
+of - 2215 : when detect ' mariadb ' a a database name , use mysql ' s script
+hbase - 21155 save on a few log string and some churn in wal splitter by skip out early if no log in dir ; addendum
+added a new test class ` ExecuteAndReturnStringTest ` to handle user agent retrieval to test and demonstrate the usage of the ` executeAndReturnString ` method in a simple browser component setup
+added a new file ` InvokespecialInterface . java ` implementing an interface with default methods and dynamic invocation to demonstrate the use of ` invokespecial ` and ` invokeinterface ` in Java along with a lambda expression
+[ hotfix ] fix checkstyle violation in evictingboundedlist
+change default traversal to edge traversal if encodingmanager need turn cost support
+added a condition to check if style . backgroundDisabled is not null and a validation for the selection value to ensure proper handling of disabled state and prevent illegal selection values
+hbase - 9224 print out name of the method we do not support rather than throw npe
+include border space to align tasbar icon with hotseat .
+replace complex string construction with a simplified retrieval from a values map to streamline code for better readability and performance
+version guard serialization of new field in scheduledexecutor ( # 17280 )
+update directory retrieval from getIndexDir ( ) to getNewIndexDir ( ) in ReplicationHandler . java to ensure the use of the new index directory for replication processes
+modify the equality check in DisplayModeTest to initialize the equal variable as true and use a logical AND condition to ensure that all display modes are evaluated for equality instead of defaulting to false
+fix wrong conversion of unicode char ( # 7419 )
+sf patch # 1528142 malformed oai - pmh response : illegal byte in utf - 8 for sf bug # 1490162
+patricklightbody : selenium remember the last frame each window be at , but webdriver do not . this bridge that mismatch in the webdriverbackedselenium impl .
+added a clear button to the DataBrowser toolbar with action functionality to enhance user experience by providing a quick way to close all tables
+updated the construction of ` baseUrl ` in ` OAuth2AuthorizationRequestRedirectFilter ` to utilize ` UrlUtils . buildFullRequestUrl ( request ) ` to simplify and enhance the URL building process by removing unnecessary port handling logic
+fix error message check that be system or machine dependent
+[ bitmex ] fix order book so that the ask side be order in reverse in the same way a other exchange .
+[ fix # 2049 ] delombok now figure out usage of ‘ var ’ and delomboks them a just ‘ var ’ instead of their actual type .
+no logical change : fix warning and remove unused import
+modified Hadoop configuration initialization to disable default properties to ensure Hive defaults are used without overriding by existing Hadoop properties
+replaced the call to ` drawChildren ` with a call to ` draw ` in the ` WidgetGroup ` class to ensure that the rendering of child widgets is properly handled according to the updated drawing logic
+added unit test base on issue on user forum .
+obtain catalina _ base in consistent way ( though container ) .
+added tests for the " jmm " date - time pattern and implemented a switch case to return the correct pattern based on the locale to enhance date - time formatting support and ensure correct patterns are returned for different locales
+updated color mapping in PlotSquared for improved color code support to enhance user experience by providing clearer information on color codes
+add ZuulProperties to TraceRestClientRibbonCommandFactory and TraceZuulAutoConfiguration to enhance configuration flexibility for Zuul - related properties
+tika - 1325 : small workaround until we can integrate pdfbox - 2122 . default timezone be now set and then unset for ttf test in fontparsers test .
+allow build . time to be disable so buildinfomojo ' s output be repeatable
+updated calculation of xDist to use absolute difference to ensure correct distance is calculated regardless of scrolling direction
+fix build and delete unnecessary file
+updated LazyMessage and related classes to remove nullable annotations from parameters to improve consistency and clarity by enforcing non - nullable string formats
+fix checkargument format string in teststream ( # 24134 )
+move html and xml parser to a ` ` markup ' ' subpackage in order to make room for the ` ` text ' ' parse mechanism
+camel - 2669 : improve nodelist to string convertion . so it include the xml tag etc a you would expect .
+[ hotfix ] add @ nullable annotation to futureutils . getwithoutexception
+gracefully handle indy instruction during call - graph construction by give a warning if verbose : cg mode be enable
+minor test correction . use example . com for test email a it guarranteed undeliverable
+issue # 4033 - address lenient uriutil decode behavior change in test
+added the method getColumnDataType to AbstractResultSet and ResultTableResultSet and declared it in ResultSet to provide a unified way of retrieving column data types in result sets
+fix serviceclientconfig build issue ( # 3864 )
+[ bug - 64972 ] hssfpicturedata # getpicturetype ( ) should return 0 for unknown picture type ( to be consistent with other implementation )
+use instant / duration per review comment
+- add parsing of libmediainfo version ( # 1787 )
+added reflective proxy creation for IdeaDependency classes in ProjectReader to enhance flexibility and modify behavior of IdeaDependency handling through dynamic proxies
+8183542 : factor out serial gc specific code from gencollectedheap into it own subclass
+added multiple @ SuppressWarnings ( " serial " ) annotations in GsonTypes . java to suppress serialization warnings for improved code clarity
+remove unnecessary polling of mouse position when it be available from event .
+updated the MongoQueryCreator to handle null parameters gracefully by providing a default empty string to improve error handling and prevent potential NullPointerExceptions during query execution
+[ flink - 7491 ] [ table ] add multiset type and collect aggregation function to sql .
+added a method to retrieve an IdentityProvider by issuer with exception handling for incorrect result sizes to ensure accurate retrieval of OIDC identity providers while handling potential errors gracefully
+pdfbox - 1648 : improve the cmapparser to detect miss delimiters a propose by may gilead and kevin pearcey
+refactor ContactsBackupJob to use a bound service for file expiration operations to enhance service connection management and improve code structure
+updated the ForAll class to include custom constraints and instantiation logic to enhance type inference capabilities and enforce bounds checking
+add property that can hide account configuration from the list of available account , this way make it configuration readonly .
+added a check for inconsistent display count in the DisplayController class to log an error when the number of supported display bounds is inconsistent between updates
+updated schema removal method to use a direct key retrieval to simplify the code for better readability and maintainability
+use postmessage instead of load to trigger passive login
+added a new Box2DTest file and integrated it into the application to provide a dedicated test for Box2D physics within the project
+improve comment and add debug log . patch by jbellis
+[ flink - 31393 ] [ runtime ] fix the bug that hsfiledatamanager use an incorrect default timeout .
+refresh gapic client with late toolkit ( # 1662 )
+added help button and help file for openoffice integration . start adapt the help file from the plugin web page , to fit the new integrated feature .
+fixed # 339 , set tcp _ nodelay option on the accepted child socket and not on the accepting
+[ binance ] remove some compiler warning ( e . g . unused import ) , unecessary implement
+cache result of ` classinfo # loadclass ( ) ` for speed across repeat call
+untangle try - catch a bit in servlet , to properly catch 404 error
+datajpa - 499 - querydsl now use the null - handling configured on the sort . order .
+updated iteration logic in ParallelAction and SequenceAction to check for null actor before proceeding to ensure that actions are only executed when a valid actor is present , improving runtime safety
+test : fix checkstyle violation in cttypetest . java ( # 2403 )
+flume - 2420 . hdfs bucketwriter must access sfwriters map only within synchronize block .
+fix # 888 , add unit test for default interface method
+ambari - 2361 . simplify the agent cert creation and server cert sign so that cleanup of cert can make retries a simpler process . ( dmitry sen via swagle )
+added handling for HTTP response codes that should not include a body and implemented a test for it to ensure compliance with HTTP specifications regarding responses with no body content
+refactor script engine management in ScriptTransformer to improve error handling to ensure compatibility with Java 6 or above and provide clearer error messages for script execution issues
+hive - 13931 : add support for hikaricp and replace bonecp usage with hikaricp ( prasanth jayachandran review by sushanth sowmyan )
+replaced ` mDevice . pressHome ( ) ` with ` mLauncher . pressHome ( ) ` in multiple test files to streamline the home press operation to consistently use the launcher interface
+added file locking functionality and associated event handling in the FileMenuFilter and OCFileListFragment classes to enable users to lock and unlock files effectively within the application
+update the version information in the Version . java file to reflect the latest changes and improvements in the software
+clear endpoint cache after update keyspace metadata
+refactored thread state waiting logic to use a dedicated method for improved readability to enhance code maintainability and reduce duplication in the wait - for - state logic
+refactor SkylarkDescription and related classes to modify the method for getting coerced attribute values to improve the handling of dependencies in the attribute values retrieval process
+[ java ] introduce common interface for all web storage type ( # 10528 )
+fix npe when projection compatibility check on create or replace view query ( # 20345 )
+catch throwable instead of exception in segmentgenerationjobrunner ( # 9120 )
+solr - 698 -- spellcheckcomponent should use the querystring set in the responsebuilder before try to use commonparams . q
+added checks for illegal characters in header values and structured validation method to ensure compliance with header formatting rules and improve error handling
+fix gr - 24924 : remove unnecessary padding before hybrid array base
+addressed code review feedback , specifically provide tight encapsulation for ' setcontainscomment ' and mark the ' astcommentcontainer ' interface a experimental .
+log warn when fetchstyle . join be use with lazy and add migration guide entry for fetch all property
+add abstract class to keep dry
+hive - 25017 : fix response in getlatestcommittedcompaction ( yu - wen lai , review by karen coppage )
+camel - 11355 : timer consumer should be suspendable so it can shutdown graceful in a good way .
+tracera : tracebuilder : do not remove process block from worklist , just skip them .
+updated the null check for providers in ProviderManager to use CollectionUtils to improve readability and avoid potential NullPointerExceptions
+simplified the check for PostgresDatabase instance to streamline the code for clarity and reduce unnecessary complexity
+added new SQL queries and modified filtering logic to support local index limits to enable more efficient data retrieval and limiting functionality in the scanner
+better error message when try to add a collection with the same name than a previously drop one
+fix bad math in move the cursor when the window size change .
+removed the static final string USE _ RETRIES from HttpShardHandlerFactory to eliminate unused variable and improve code clarity
+update java version parser for java 10 , 11 or later
+[ flink - 23560 ] [ task ] fix performance regression by unnecessary throughput calcuations
+add noop test to avoid maven surefire failure
+added null check for properties before retrieving value by key to prevent potential NullPointerException when properties is null
+remove 1.6 ism , let it compile with jdk 1.5
+updated error message to indicate that setting up base URLs with the same component versions will cause stack upgrade to fail instead of rolling upgrade to clarify the impact of URL configuration on the stack upgrade process
+fix miss remove listener ( should fix # 280 - not reproducible yet )
+bugfix # 446 , add g1 perm space to the list of known perm space name
+removed and re - added import statements in NearbyController . java and refactored the loadAttractionsFromLocationToPlaces method to streamline imports and improve code readability
+pdfbox - 5149 : make class public again , add generic type a propose by emmeran seehuber
+updated conditions in BaseSwipeUpHandlerV2 to filter home activity type to enhance task handling logic by excluding home activities from certain operations
+rename ` DefaultEdgeClientFilter ` to ` EdgeAddHeaderClientFilter ` and update related properties and methods to improve clarity and specificity of the filter ' s functionality regarding adding headers
+ensure getnetworkcountryiso & getsimcountryiso return lowercase only , to match the actual apis .
+feat ( freezev2 ) : remove unfreeze amount from transaction detail
+conf scheduling : publish violation be per instance , not per minute ( thanks musa )
+use fileutils . copydirectory , which work on a directory source file , instead of files . copy , which do n ' t .
+refactor multiple Assert classes in the codebase to improve consistency and maintainability of assertion operations
+javadocs : add miss @ see link ; correct broken link url ; standardize formatting / capitalization / punctuation
+refactor update logic to use addMultiFieldOperation and implement new test cases to improve code clarity and ensure functionality for multiple field updates in MongoDB
+updated UUID assignment logic in MockHubService to use a variable instead of generating a new UUID every time to ensure consistent UUID usage across multiple calls to enhance traceability
+added hover event handling methods in InputConsumer and OverviewInputConsumer classes to support hover events for better user interaction and responsiveness
+added a conditional sleep mechanism based on server configurations and bootstrap setting in CoreContainer . java to ensure proper initialization delay when running in a multi - server ZooKeeper environment without specified configuration directory
+camel - 8976 : add maxheaderssize option to configure the total number of byte the http header must be for the server to accept .
+[ flink - 19635 ] [ hbase ] set the hbase client retry num to default value for fix unstable test hbaseconnectoritcase
+fix another glitch to improve ninja usability in google appengine environment
+[ gr - 25791 ] avoid transient failure cause by the graph cache be purge .
+updated database query commands to retrieve all tables instead of customer count to enable broader data retrieval for improved analysis
+added logic to populate currency metadata from Kraken assets to ensure accurate representation of asset scales in the currency metadata
+added a toString ( ) method to the AnyOf class and created a corresponding unit test to provide a descriptive string representation of the AnyOf conditions for better debugging and clarity
+remove empty dimension from email subject ( # 1426 )
+fix validation of measurement name in influxdbpublisher ( address # 22238 )
+allow null to be pass to stepdefs with optional capture group . close # 90 .
+update ipv6 annotation and filter invalid ipv6 ( # 11266 )
+quote column name in dump if need , to be consistent across other command output
+added methods to wrap System properties in WrapSystem . java and modified string processing behavior in StrUtils . java to enhance functionality and improve code readability related to property management and string manipulation
+add additional updaterequest constructor to allow custom update url to be use
+fix javadoc warning and error ( # 2040 )
+added experimental format warning to ` RequestHandlerUtils ` , ` DataImportHandler ` , and ` ReplicationHandler ` to inform users that the response format is experimental and subject to change
+updated logging format and added a helper method for better list formatting to improve log readability and handle different list sizes more effectively
+fix table row height after font scaling
+[ issue # 4847 ] optimize defaultbrokerheartbeatmanager # onbrokerheartbeat mehtod code logic ( # 4848 )
+( hadoop ) fix cif describesplits ( ) not handle 0 size estimate
+simplify check for ' test ' annotation in junittestsshouldincludeassertrule . issue # 1365
+implement equal and hashcode on ruleterminalnodelefttuple ( # 4578 )
+added stage ID rearrangement functionality to TezCompiler to ensure stages are arranged correctly based on configuration settings
+move messagingservicembean to . net a workaround for tpstats . patch by nirmal ranganathan ; review by jbellis for cassandra - 1533
+8078826 : add diagnostic info for java / lang / runtime / exec / lotsofoutput . java fails intermittently
+added imports and modified class definitions in various Java files to enhance functionality and improve code organization for better documentation and usability
+polish ` ` add support for anonymousreadonly in ldapproperties ' '
+6983984 : fix typo in databasemetadata . getpseudocolumns ( ) javadocs
+fix nonsensical @ runwith in exampleechopipelinetest
+added a new method ` finishMocking ( Throwable failure ) ` to ` MockitoSession ` and implemented it in ` DefaultMockitoSession ` to enhance mocking functionality and improve error handling during mocking sessions
+propagate extra deps for go _ test in order to use buildtargets in srcs
+rename and refactor buffer and handler variables in SPDYAsyncConnection for better clarity and organization to improve code readability and maintainability by clearly distinguishing between read and write buffers and their associated handlers
+fix blockliquidwrapper place a static fluid where it should place a flow one ( # 3893 )
+fix background location bug cause by this android bug http : / / code . google . com / p / android / issues / detail ? id = 81812
+add comment to explain the cleanup
+[ flink - 2982 ] [ cli ] fix to show streaming plan via info option .
+correct item hash in craftingmanager . fix # 255
+fix issue in linux vm . provide more info to debug travis
+remove unnecessary condition to check for cr character in the comment formatting of the tabsandindentsvisitor .
+added a new regex pattern to filter out temporary PostgreSQL lines to enhance filtering capability to exclude unwanted temporary data in the output
+chore ( bazel ) : update workspace file for rules _ gapic , gax _ java , generator _ java version ( # 418 )
+modify data type handling in ` DataTypeFactory ` and ` UnknownType ` to better accommodate specific data type names to ensure accurate recognition of data types and improve code robustness
+disable other histogram metric when send wavefront histogram ( # 1337 )
+updated ` ShenyuClientRegisterSpringCloudServiceImpl ` and ` DivideUpstreamUtils ` to modify how upstreams are handled and add warmup and timestamp parameters to enhance the functionality and maintain state information for better control of upstream operations
+add a method overload ( add in api level 19 ) to shadowsensormanager for registerlistener :
+jetty - 9 avoid ssl close issue with bad request response
+camel - 9766 : camel - itest - karaf to get work on karaf 4 . use a script to run the test reliable .
+added conditional printing for line count and modified result set traversal logic to improve clarity of output for empty results and enhance efficiency of result set handling
+pdfbox - 2941 : show error dialog box for unchecked exception too
+added tests for setting HDR capabilities in the ShadowDisplay class and updated the corresponding method in ShadowDisplay . java to ensure HDR capabilities are only set for supported Android versions and validate expected behavior
+added a finally block to ensure classLoader is set to null to guarantee proper resource cleanup and prevent memory leaks
+hive - 17097 . fix semijoinhint parsing in semanticanalyzer ( rajesh balamohan , review by gopal v , deepak jaiswal )
+added a default constructor to the Message class to ensure proper instantiation of Message objects
+downgrade warning to low _ priority for gui class .
+updated PhoenixDecimalObjectInspector to use PrimitiveTypeInfo and improved BigDecimal handling to enhance type safety and ensure accurate decimal precision in operations
+port fix bug 39572 . improvement to compressionfilter provide by eric hedstr ö m . also clean up unused import and method .
+clean - up / improve naming . no functional change .
+dogfood now contain simplifystartswith .
+fixed possible npe in threadleaktest when thread be already stop
+sec - 138 : make exception output to common logging , not system console .
+updated package and logger name in DmozParser . java to reflect new classification to improve clarity by aligning DmozParser with the tools package
+updated import statements in RegisteredServiceChainOperatorTypes and ChainingRegisteredServiceDelegatedAuthenticationPolicy to reflect changes in class names to improve clarity and maintain consistency in naming conventions
+bug 8204 : mgt server need to pass down iso info before migration , if the vm have iso attach
+[ java ] restore the original behavior around the signal handling by not delegate to the previously register handler .
+java8 bug ? disambiquate ( arrayutils | stringutils ) . isempty by not use static import
+[ # 305 ] adjust axonautoconfigurationwithspringcloudtest to autowire an spring boot app more clean
+applied javadoc patch for colorrgba thanks to jonathan . pikalek
+remove uninitialize ( ) code and resetinitializedplanningentities ( the latter should be do through a custom phase or reinitializevariableentityfilter )
+added build time information to the ArtifactInfo and related classes to ensure accurate tracking of artifact build times for better cache management
+updated field retrieval and size calculation in GroupByOperator . java to improve accuracy in calculating fixed row size and enhance performance with new field handling logic
+fix the wallet unit test by allow null block in wallet . receive ( ) again .
+added support for CNC cryptocurrency alongside FTC in the trading system to provide users with additional trading options by integrating Chinacoin ( CNC ) into the application
+updated skewAllowance configurations across several classes and refined its retrieval logic to ensure consistent skew allowance handling and improve flexibility based on registered service settings
+modified song sorting and field settings in SongListActivity and Utils classes to enhance song listing functionality by adding sorting options based on song name
+refactor ` readBodyToBytesIfNecessary ` method to handle request bodies more effectively to improve the handling of request bodies to ensure proper type conversion and avoid potential null issues
+fix legacy block wrapper with new nbt api ( # 2361 )
+replaced snapshot retrieval logic to use SnapshotRef instead of Optional to improve clarity and handle null checks more explicitly for branch tags
+updated the method to use Collections . singletonList instead of newArrayList for setting the external groups whitelist to improve code clarity and efficiency by using a more appropriate collection initializer
+ray trace demo : correctly query the shader for the ssbo binding point
+add debug log and fix test case
+do n ' t generate uwf _ field _ not _ initialized _ in _ constructor warning for field assume to be reflective
+modified the DatabaseException message to include connection status to enhance error reporting by indicating if the connection is closed during SQL execution
+added a new method ` testRequiredBody ` to ` SpringmvcClient ` to perform various tests on user data to ensure proper handling of user data in interactions with the microservice and validate expected responses
+[ zeppelin - 4726 ] use entry . user & entry . password instead of user . entry and password . entry for credential injection
+added a fourth item to the menuItems array and registered a key stroke for the Enter key with the META mask to enhance the menu functionality and provide a keyboard shortcut for easier access
+updated debug output format and assertions in TestCoreParser . java to improve clarity of debug messages and ensure accurate test assertions
+performance improvement : int - compare be usually cheap than array - comparison , so compare the int field first to fail more quickly if possible .
+modified the visibility of the PopulatorContextStackItem class from public to package - private to restrict access and improve encapsulation within the package
+updated document count retrieval in MoreLikeThis and added a new test case in TestMoreLikeThis to ensure accurate document count handling and verify MoreLikeThis functionality with various input scenarios
+refactor lambda function formatting for readability in QuestManager . java to improve code clarity and maintainability
+[ hotfix ] let networkbufferpooltest extend testlogger and make testioexception static class
+merged two query append operations for expiry into one statement to improve query efficiency and readability
+add miss unsafegetlong substitution ; minor grammar fix ( a / an )
+replaced " ARAST " with " EET " for the timezone of " Asia / Amman " across multiple language files to update the timezone designation to reflect the correct time zone abbreviation
+hhh - 9724 - more complete ` ` temp table ' ' coverage and allow dialect to influence which strategy be use
+hhh - 12472 - wildfly ( ironjacamar ) - entitymanager # find with roll - back - only lead to exception rather than return null
+improve routine for determination of download file suffix , so it give up instead of produce infeasible file name .
+fix menu bar in non aqua look and feel for macos
+ca view : fix integration of piecewise function ( add test )
+changed the access modifier of ` STATE _ SCREENSHOT _ CAPTURED ` and ` switchToScreenshot ` methods from private to protected in ` BaseSwipeUpHandlerV2 ` , and implemented a new ` switchToScreenshot ` method in ` FallbackSwipeHandler ` to allow subclass access and enhance the screenshot functionality based on the running state
+add a new pattern to the ` modWhiteListPattern ` in ` HiveConf . java ` and implement a test for whitelisted configuration parameters to ensure that the system correctly prevents modifications of non - whitelisted parameters at runtime
+fix : remove uneccessary mark - as - illegal - class ... this be mostly to trigger a rebuild
+fix invalid heal target for non - sharded team ( # 8728 )
+[ java ] fix a cookie test to not use a magic constant a a host name
+dat - 1753 support for notnull constraint with novalidate ( wip )
+update various classes related to security token services to improve code organization and maintainability in handling security tokens
+removed unnecessary instance variables and updated separators to static constants in CompositeIdRouter . java to improve code clarity and enforce constancy for separator values
+ensures that postgresql work with blob type bytea and oid ( large object ) ( # 3381 )
+update cache condition checks and formatting in DefaultServlet . java to improve cache management logic and maintain consistent code style
+fix koppor / jabref # 521 - allow to drag & drop select bib entry to other library tab ( # 8982 )
+refactor description creation and update assertions in tests for consistency to ensure scenarios are accurately represented in step descriptions and improve test validation
+core - 3296 fix npe when miss manifest entry
+modified access modifiers of methods in TimeUtils to package - private to enhance encapsulation by restricting access to methods not intended for public use
+initialized properties for direct method handle usage and updated class name handling in ` ReflectionMHTests ` to ensure compatibility with Java versions and improve clarity in security frame checks
+updated file name checks for image formats to include leading spaces before file extensions to ensure proper recognition of file names that may contain leading spaces in image format validations
+fix nativeimagedebuglineinfo . ownertype ( ) to get original from substs
+added ` getIcon ( ) ` method implementations and updated default classDisplayed in DataTableTopComponent to enhance icon management and set the default display of nodes for improved user experience
+updated the logic for obtaining the substring of the request name to handle cases where the delimiter is not found to improve robustness by ensuring the method returns the full name if the delimiter is absent
+modified the FindAndReplace class to handle dollar signs correctly in replacements to ensure proper escaping of dollar signs when regex is not used to prevent unintended behavior
+change smackdebugger to support connection ( not xmppconnection ) .
+modified the SchemaExtractionProcessor class for better schema extraction functionality to enhance data processing efficiency in the application
+added a method ` copyDir ` to facilitate directory copying with specified options while removing the old ` copyContents ` method to enhance modularity and reuse of directory copying logic across different components
+avro - 1807 : java / json : throw for unsupported object rather than ignore .
+replace ` buildAbiFromClasses ( ) ` and ` buildAbiFromSource ( ) ` with ` requireRule ( ) ` for class and source ABIs to ensure accurate dependency resolution using library targets
+refactor height calculations in SelectBox . java to ensure correct item height accounting and padding application
+added normalization for database and table names using HiveStringUtils to ensure consistent formatting of identifiers in the ObjectStore
+act - 1062 : patch from nico to avoid problem on oracle if multiple activiti engine schema be visible to the database user
+removed API client logout call in HomeFragment . java to manage logout behavior locally instead of relying on the API client
+[ hotfix ] fix the logical error for the test relate to task metadata
+[ netbeans - 277 ] fix a nullpointerexception issue with fastimportaction ( # 373 )
+updated lifecycle management checks in ` ContainerLifeCycle . java ` and test assertions in ` ContainerLifeCycleTest . java ` to improve accuracy in bean lifecycle management and ensure test validity
+rename iexecutionattributesdialect to iexecutionattributedialect for good naming consistence
+ninja fix : fix unit test that be break during cassandra - 15303 .
+miss commit for ggb - 744 remove java . util . calendar from freehep , add ` ` geogebra ' ' to creator string
+[ iotdb - 6041 ] pipe : npe when handle partial insertion use disruptorqueue in extractor stage ( # 10424 )
+remove session2token . this class be unused and unnecessary
+server : clean up the duplicate volume when the destination manage volume creation fail on migrate volume operation ( # 4730 )
+added a new SystemShortcut called Install to handle app installations to facilitate installation of instant apps and improve user experience
+added a constructor to LdapAuthenticationProvider that initializes it with an LdapAuthenticator and a NullAuthoritiesPopulator to simplify the instantiation process by using a default authorities populator that returns no roles
+fix codenameone - core and java - runtime so that they use java 1.5 source and target .
+replaced ` buildOrThrow ( ) ` with ` build ( ) ` in ShadowCamera . java to improve clarity and enforce safer operations during object construction
+lucene - 7605 : use codec - specific impl of live doc when sorting .
+jmespathextractor write error log entry if jmespath filter return empty result
+added new imports and a check for currentUser ' s authorities in AuthorizeTag . java to enhance functionality by ensuring proper handling of empty authority lists
+updated assertEquals calls to improve argument order consistency in unit tests to enhance readability and maintainability of test assertions
+correct the error message when try create vm snapshot with memory on a vgpu instance .
+updated configuration retrieval to include both class - level and method - level annotations to ensure that configurations from subclasses and methods are properly merged for accurate testing setups
+replaced SelectChannelConnector with SocketConnector in JettySolrRunner . java to update to a more suitable connector type for improved performance
+hive - 2319 . calling alter _ table after change partition comment throw an exception ( sohan jain via pauly )
+added a new static flag ENABLE _ ICON _ IN _ TEXT _ HEADER to FeatureFlags to allow developers to toggle the display of icons in the text header for debugging purposes
+fix a syntax error in the condition for checking if a component is active to ensure proper evaluation of the configuration state in the simulation
+replaced ` SharedBlockingCallback ` with ` Callback . Completable ` in ` StandardDeployer ` and ` StandardUndeployer ` , updated method calls , and modified error handling in ` ContextHandlerCollection ` and ` SerializedExecutor ` to improve code clarity and functionality by utilizing more modern callback mechanisms and enhancing error handling approaches
+added WorkspaceListener to PreviewControllerImpl for handling workspace events to enable the update of the graph preview when the workspace is selected
+updated ReflectionFactory and ReflectUtil to check for anonymous classes using ReflectUtil and modified string containment check for class names to enhance class handling logic and improve accuracy in identifying class names
+fix checkstyle issue in entity / ai / transporthelper . java ( # 691 )
+correct issue with unit test under window introduce with linux fix .
+modified server initialization and logging sequence in AmbariServer . java to improve clarity of startup logs and ensure proper order of server and manager initialization
+added null checks and improved null handling for forNode ' s initialization and modification nodes to enhance robustness by ensuring nodes are not null before proceeding with operations
+modified the ` run ` method to accept a ` FileSystem ` parameter and enhanced HDFS client configuration handling to improve flexibility and ensure proper user privileges during file system operations
+added a check to ensure the background manager is only attached if it is not already attached to improve performance and prevent potential errors from multiple attachments
+set the current tab to index 1 in AllAppsTabbed and Launcher classes to ensure consistent behavior in the application ' s tab interface
+added null check for URL in BaseDataSource and a test for invalid PostgreSQL URL in SimpleDataSourceTest to ensure proper error handling for invalid URLs when initializing the data source
+added JRE - specific tests for the PebbleModule class to ensure compatibility with Java versions 8 to 12
+quick & dirty fix to avoid that ' create folder ' dialog keep the name of the last created dialog in the input field
+added functionality to toggle bar border visibility in multiple chart activities to enhance user interactivity by allowing the dynamic display of bar borders
+updated OkCoinExchange to point to the new Okex API endpoints to ensure compatibility with the latest Okex services
+fix broken testcases due to shift penalty support
+replace FileChannel with SeekableByteChannel for file operations to improve compatibility and flexibility while reading files
+refactor ` getFlattenFieldTransferPair ` to include ` FieldReference ` and modernize related transfer logic to enhance flexibility and maintainability in handling flatten field transfers
+replaced instances of ` MockHandler ` with ` MockHandlerImpl ` across multiple files to improve clarity and consistency in the implementation of the mock handler
+[ gr - 40335 ] enable parsing of serialization - config . json that do not include proxy class
+trigger heap dump when heap exceed a limit
+8151123 : collectors . summingdouble / averagingdouble unnecessarily call mapper twice
+[ log4j2 - 1664 ] improve osgi unit test .
+remove unnecessary bb allocatetion ; follow up for cassandra - 8979
+modify rendering intent handling in ICC _ Profile and ColorConvertOp classes , and add an InvalidRenderIntentTest class to improve robustness of rendering intent processing and provide a test for validation
+close meter registry early in the shutdown process
+fix config center property log level ( # 12555 )
+allow d2i _ x509 _ bio and friend to not set an error ( # 552 )
+fix binary operator match problem ( # 12821 )
+dismiss editor popup windows whenever editor lose focus ( # 494 )
+fix bz 65047 include user info if access log valve ca n ' t open log file
+updated file references and scaling values in multiple Java classes to improve model loading and rendering accuracy in the graphics engine
+removed the InterruptedException from the createOrThrow method signature to simplify the method and avoid unnecessary exception handling
+added @ Deprecated annotations to UpgradeResponse . java to indicate that the functionality is outdated and should not be used
+added declaration generation option and output directory support in the JSweet transpiler to enable users to generate TypeScript declaration files alongside JavaScript files for better interoperability
+use high fetch timeout for kinesis ( # 12214 )
+add html suffix to worker page dump so chrome can render them correctly
+updated the maximum thread limit for the Hive Metastore Server from 100000 to 1000 to improve resource management and prevent potential server overload
+change the return type of onTaskSnapshotChanged method from void to boolean and add a return statement to enable the method to indicate success or failure of the snapshot change handling
+change parameter name in setShadowRadius method from mMaxShadowRadius to shadowRadius to improve readability by using a more descriptive parameter name
+resolved - issue int - 574 : chain element should support aggregator mid chain as well a handler extend abstractreplyproducingmessagehandler
+modified loop limit variable from ` limit ` to ` end ` and added a failure condition to ensure the loop iterates correctly and handle potential errors appropriately
+[ gr - 4984 ] fix of bad condition for source interactivness in eval .
+modified conditional check for previous cached file path to handle null cases more gracefully to ensure correct logic is applied when no previous cached file path exists
+added DisplayController instance to WindowManagerProxy parameters in LauncherPreviewRenderer to improve the rendering logic by utilizing display management features
+8182402 : tooltip for desktop button be in english when non - english locale be set
+replaced ` getToolkit ( ) ` with ` getDefaultToolkit ( ) ` to retrieve the screen size to improve code clarity and ensure consistency in toolkit usage
+tika 2262 : remove unneeded return type change to list < ? extend recognisedobject >
+test : added test ` fetchresults ` with factory expression and groupby & have clause
+[ fix ] may now always edit a freeformfinset ' s p [ 0 ] . again .
+updated version number in DependencyBank from 1.1 . 2 to 1.2 . 0 to reflect new features and improvements in the latest release
+correct a typo in the runtimeError message and add a method call to spendAllGas to enhance clarity in error reporting and ensure gas is spent appropriately
+improve describe error readability of elementsshouldsatisfy ( # 2012 )
+deprecate com . jme3 . anim . weights - see issue # 1520 ( # 1523 )
+[ gr - 9442 ] intrinsify old and new unsafe method on jdk 9 and later .
+added a @ Hint annotation and a new test for module visibility in Android binary integration tests to ensure that blacklisted modules are properly handled based on their visibility status
+fix issue where we be unnecessarily center page vertically ( bug : 5521605 )
+fix a race condition during migration finalization on master node . also fixes # 1317 .
+[ konnected ] adding base url to config to allow for manually add thing ( # 13251 )
+fix attribute release policy for ws - federation service ( # 4841 )
+modified test table creation and query processing to support specified database and table names to enhance functionality and improve clarity when working with non - ASCII table names
+added a new test case for parsing complex SQL expressions with nested CASE statements to enhance test coverage for SQL parsing functionality
+added mouse support for starting copy mode in ConsoleActivity to enhance functionality to allow copying text using mouse input
+updated XML output handling by utilizing DOM and improved method signatures for writing XML to enhance code maintainability and improve error handling during XML generation
+camel - 8592 fixed the npe in abstractlistaggregationstrategy if empty list
+move createexceptionmessage from echangehelper to camelexchangeexception to avoid dependency from api to util
+move basicconfigurator from c . q . logback to c . q . logback . classic where it belong
+fixed erroneous assertion : a value number in a slot can change
+remove extra line that cause compilation error
+added a new static method ` invokeMethod ` to ` ObjectInvokeHelper ` class to facilitate method invocation with a flag for additional processing
+refactor several classes related to BoxAndWhisker and Histogram datasets to improve code structure and maintainability for statistical analysis functionalities
+[ hotfix ] migrate readablewritableconfigurationtest to junit5 and assertj
+modified equality checks from ` = = ` to ` . equals ( ) ` for proper string comparison to ensure accurate string equality evaluation to avoid potential null pointer exceptions
+changed the visibility of the singleton instance and constructor in IndexFileNameFilter to private to enforce singleton design pattern by restricting instantiation access
+update remain unit test to use more accurate + concise assertion
+update skiprange test base on improved parallelization
+updated TypeAdapter ' s nullSafe method to improve readability and maintainability to enhance clarity of the null safety implementation for better code quality
+updated the expected size in the BundledDistributionTest from 12 to 13 to correct the test to reflect the actual element count
+fix # 97 : add metadata reader for read exif data ( # 2581 )
+fix unknown unit handle for cloudwatch 2 . x ( # 1646 )
+rhpam - 1875 fix for json marshalling / unmarshalling of pmml ( # 2258 )
+add more info to log that this can be an expected case .
+added a check to return early if the bubble bar is not visible to enhance performance by avoiding unnecessary processing when the bubble bar is hidden
+[ gr - 18860 ] recompile conservatiavely when branch target estimation be wrong
+# 646 move setting of initpending to false only after initialize the jdk log manager
+cntd work on ticket catalog . remove trace of metadata and switch to definition
+updated SSL connection parameters and assertions in TestSSL . java for cleaner syntax and formatting to improve readability and maintainability of the code while ensuring proper SSL configuration
+[ flink - 25860 ] [ network ] move read buffer allocation and output file creation to setup method for sort - shuffle result partition to avoid block the main thread
+[ beam - 569 ] define maxnumrecords default value to long . max _ value in jmsio
+added support for an additional parameter ' type ' in plugin handle queries and updated related classes accordingly to enhance the filtering capability of the plugin handle retrieval process
+updated span creation methods to ensure spans are started correctly to improve traceability and span lifecycle management in the tracing logic
+added new drawable configuration properties to IOSApplicationConfiguration and updated IOSGraphics to utilize them to enhance flexibility and customization for graphics rendering in iOS applications
+refactor login methods into a reusable attemptLogin function and implement user lockout logic after multiple failed attempts to improve code reuse and enhance security by enforcing account lockout after repeated unsuccessful login attempts
+[ pytorch ] make jni comptible with pytorch 1.11 . 0 ( # 2263 )
+removed the thread interruption check from the while loop and replaced it with a lock name acquisition loop to ensure that the lock name is retrieved properly without interruptions
+implemented changes in ' mmm ' and ' ppp ' for ShadowPicker in Java files to enhance functionality and maintain consistency across the codebase
+[ scb - 837 ] make http2 production ready : modify http2 option and add env config for http2
+added ability to generate function selector / signature for struct that include an array
+updated method calls to include a boolean parameter for fetching CSS properties to ensure accurate retrieval of CSS properties considering inheritance
+added overloaded constructors in CopyStep to support java . nio . file . Path parameters to enhance flexibility in creating CopyStep instances with Path objects
+fixed - thread wait for rsemaphore permit acquisition unable to acquire them if permit add . # 3225
+camel - 4787 : fix issue with unit of work may re - wrap route context processor at runtime , cause an ever grow processor path
+added FlavorParser to handle parsing flavor strings and updated BuildTargetParser to use it to improve code maintainability and readability by centralizing flavor string parsing logic
+change witness address list type from String to ByteString to improve data handling and efficiency when storing witness addresses
+modify result printing to only display when resultsMeta is not empty to improve output clarity by preventing empty result logs
+8150780 : repeat offer and remove on concurrentlinkedqueue lead to an outofmemoryerror
+allow override special token flag in encode and decode method ( # 1855 )
+[ hotfix ] [ runtime ] improve slot profile computation in taskmanagerservices
+[ iotdb - 4469 ] add data size while load enire chunk ( # 7389 )
+added session storage context constants and actions to manage Duo Security session state to enhance session management for better integration with Duo Security functionality
+add testcase to show problem with xsd validation of jsp document
+added a default constructor to TypeAdapter , updated the ignore comment in Java17RecordTest , and clarified the deprecation warning in ReflectionAccessTest to ensure compatibility with future implementations and provide clarity on the reasons for ignored tests and warnings
+rename suspendedevent . kill ( ) to suspendedevent . preparekill ( ) and perform the kill lazily .
+refactor AntPathRequestMatcher class for improved functionality to enhance path matching performance and maintainability
+ds - 3755 split method to cut down on a number of change in the pr
+fix httpoutput . close ( ) hang forever when client send tcp rst and gzip be enable
+reset flag after each test as well to avoid side effect
+normalize utf8 and strip unknown char for good cross - os checksum comparison
+refactor command handling to improve readability and avoid repetition to enhance code maintainability and reduce potential errors in command execution
+fix warning due to miss @ override or miss @ params in javadoc . in basicprofilerstate and baseappstate
+replace typecasting of objectToSave with proper casting to DBObject in MongoTemplate . java to ensure correct parsing of JSON strings into DBObject format
+added logic to handle multiple remote addresses in the RequestUtils class and updated the corresponding unit tests to ensure the application correctly processes and utilizes the first remote address from a comma - separated list
+changed the return type of the ` getJobArgs ` method from ` String ` to ` ObjectBuilder ` and updated related method signatures to utilize the ` JsonBuilder ` features for building JSON objects instead of returning a simple string
+8158525 : update a few java / net test to use the loopback address instead of the host address
+refactor glyph layout for better whitespace handling and streamline code structure to improve code readability and maintainability by simplifying the glyph processing logic
+[ flink - 28853 ] [ pulsar ] implement pause pulsar split in case of watermark drift
+added support for retrieving the hive script operator ID from the environment to enable better management of script operator identifiers in Hive
+solr - 13156 : support facet . sort for facet . field = { ! terms = foo , bar } field
+added action for toggle if a single step size should be use or if it should be separate for xy and z .
+filemenufilter : properly filter lock / unlock depend on lock status
+hbase - 25662 fix spotbugs warning in roundrobintableinputformat ( # 3050 )
+issue # 85 - make client conform to zipkin standard of 0 or 1
+pdfbox - 2576 : use closequietly ( ) and remove unused variable , a suggest by martin schr ö der
+updated methods in GwtGraphics and GwtApplication to support fullscreen functionality and screen resizing to enhance user experience by ensuring proper handling of fullscreen mode and screen resolution
+updated WebfingerIssuerService to use URI type for issuers and changed parameter name from " login " to " identifier " to improve code clarity and align with WebFinger standards
+test : add test case for soulapachedubboclientconfiguration . ( # 871 )
+[ fix ] issue 870 , 873 , skinloader look up png on internal storage instead of use resolver .
+Added trace logging for remaining attributes in ChainingAttributeReleasePolicy and changed warning logs to info logs in OidcDefaultJsonWebKeystoreCacheLoader to Improve logging clarity and reduce log severity for non - critical information
+fix stick lock with lockinterruptibly ( # 4010 )
+updated package declaration in Compiler . java to ensure proper namespace usage for Java language components
+fix for [ 1926409 ] incorrect redundant nullcheck warning
+fix build after pull from dev
+added a maximum cached statements property for the execution scheduler to enhance database connection performance by controlling statement caching
+[ hotfix ] [ configuration ] improve configuration set method for a more fluent api
+added error handling in the checkErr method of AutoScalingHandler to ensure that errors in command operations are properly captured and reported
+combine and apply modifications to CombinedDataset . java to improve data handling and processing efficiency
+updated variable name from ' buf ' to ' b ' in InflateIn _ DeflateOut . java to improve code clarity by shortening variable name
+add check for bc provider , use reflection to avoid security restriction
+fix ca n ' t cancel entityportalenterevent ( # 348 )
+added a new test method for validating page margins with long text transformation to ensure that the page margins handling is functioning correctly with long text inputs
+added a null check for vContext before setting the file key and updating the vectorization contexts to prevent potential NullPointerExceptions when vContext is not initialized
+fix wialon protocol decoder ( fix # 698 )
+hbase - 24767 change default to false for hbase - 15519 per - user metric set hbase . regionserver . user . metrics . enabled default to false ; i . e . off . ( # 2132 )
+add an isEmpty ( ) method to JsonObject and a corresponding test case in JsonObjectTest to enable checking if the JsonObject contains no members for easier validation and usability
+added and modified boolean flags related to user presence and visibility , and updated the receiver unregistration logic to improve receiver management by ensuring it only unregisters when attached
+updated the package for several Java classes related to asynchronous file and HTTP handling to improve organization and maintainability of the codebase
+add miss params in pipelinebase . zadd ( # 1671 )
+address error prone complaints about test . ( # 3061 )
+result depend on timing so group this with the performance test
+version : do n ' t crash on target graph with ` test ` parameter
+fix timezoneprovider . withtimezone . gettimezoneoffsetutc ( ) for very large year in some time zone
+patch from trejkaz from bug # 43116 - fix for escher handling of embeded ole2 document
+updated the initialization of the ` column ` variable from ` 0 ` to ` 1 ` to ensure consistent starting index handling in the JSON parsing logic
+expand findtypes to support subpackage wildcard matching . ( fixes # 1466 )
+updated trailer and thumbnail handling in BaseItemDetailsFragment to enhance user experience by supporting multiple trailers and adjusting thumbnail size
+added ` removeGlyphInfoFromCache ` method and refactored long value pointer cleaning in ` CStrike ` and ` CStrikeDisposer ` to ensure glyph information is removed from the cache before freeing the native struct pointer for better memory management
+fix # 791 : process instance not end after end terminate event with terminateall ( cfr . http : / / activiti . atlassian . net / browse / act - 4137 )
+camel - 5615 : fix camel - soap may marshal invalid xml with no tag name in the body .
+updated the endpoint check in SimpleHttpClientTests from " http : / / www . apereo . org / scottb . html " to " https : / / www . abc1234 . org " to improve test verification for endpoint validity by using a different URL
+added command line argument - d / - prdef for reset all preference to default value .
+hbase - 21652 refactor thriftserver make thrift2 server inherit from thrift1 server ( addendum )
+remove deprecate channel ( # 14030 )
+use hamcrest assertion instead of junit in examples / integrations / micrometer / mp - backport main ( # 1749 ) ( # 6246 )
+removed redundant stop ( ) method invocation on expansionHelper in TweetActivity . java to streamline code by eliminating unnecessary duplication
+added null check and early return in PartitionPanel and implemented equals and hashCode methods in PartitionFactory to improve null safety and ensure correct object comparison and hashing for PartImpl instances
+fix deploy from iso with custom disk offering ( # 6441 )
+add a switch to control suggested apps showing ( # 3803 )
+[ geos - 10884 ] ogc api feature should return a 400 when bbox - crs contains invalid content
+added validation methods to check for non - negative parameters and incorporated them into existing checks to ensure that parameter values meet specified requirements to avoid runtime errors
+deprecate long dead interface that move to fml . remvoe next mc version .
+added random x and y coordinate initialization in NodeDataImpl to position nodes within a specified range for better spatial distribution
+renamed the method ` validateRefreshToken ` to ` validateRefreshToken _ happycase ` and added a new test method for refresh token validation to improve clarity of test cases and ensure comprehensive coverage of refresh token validation scenarios
+refactor Javac invocation handling and streamline variable declarations in JavacStep . java to improve code readability and maintainability by consolidating variable initialization within the try - with - resources statement
+updated the version number from 0.9 . 1 to 0.9 . 2 to reflect the latest changes and improvements in the codebase
+fix the fallback logic for shortcut icon when icon be miss
+add miss hashcode method ( for parity with equal )
+lucene - 1784 : make weight impls for booleanquery & disjunctionmaxquery protect to permit expert subclassing
+added a boolean flag to manage proxy response code handling to improve control over NTLM proxy behavior in the connection process
+[ aarch64 ] fix aarch64move . stack2reg for float .
+bug 9059 : host detail would account for stopped vm ' s as well - basically they will take into account the reserved _ capacity from op _ host _ capacity table
+added a null check for maxScore in JSONResponseWriter and enhanced the query in TestDistributedSearch to ensure valid score calculations and improve sorting functionality in search results
+updated audio recorder sample rate from 22050 to 44100 to improve audio quality for recordings
+update calculation of newOriginX in RocketFigure . java to ensure correct positioning of the figure based on subject bounds and scaling
+updated null check for dataSource and initialized intervals with a default value to enhance robustness by handling empty data source cases and avoid potential null pointer exceptions
+customproperty : added property ` ` original type ' ' and support for empty property value
+added a static method to create an Index from a Table and data map to facilitate the creation of Index instances with provided data
+style : repair code style issue in org . assertj . core . internal . dates ( # 2763 )
+updated compatibility handling in ` SchemaCompatibility . java ` and improved test cases in ` TestSchemaCompatibility . java ` to enhance schema compatibility verification and ensure accurate test assertions
+datajpa - 277 - specification execution with sort now use left join where necessary .
+added synchronization to the spans list in TestSpanHandler to ensure thread safety when accessing and modifying the spans list
+solves ww - 3547 - textprovider . gettext ( string , list < object > ) change to gettext ( string , list < ? > )
+ambari - 15218 . suppress error message when try to get defaultrealm in non kerberized environment . ( pallavkul via gaurav nagar )
+only our entity version may be store in our storage layer . remove todo .
+updated error messages to reflect service status rejections instead of startup indications to improve clarity in error handling and message reporting related to service availability
+resolve # 3866 correctly by add the launch image to robovm , and moe
+removed and re - added imports for ArrayList and List , and updated the merge scheduler in the TestSearcherManager class to ensure the use of ConcurrentMergeScheduler for better performance during index merging
+added a check for ` rc ` before accessing ` SessionState ` in ` QTestUtil . java ` , and replaced a direct iteration over a list with a safer check for null and empty in ` GenericUDTFInline . java ` to avoid potential ` NullPointerException ` and ensure proper handling of empty lists
+refactor MapIterable , FJIterate , and ParallelIterate class files to improve code organization and maintainability
+ticket # 2971 : fix one bug - this work only if we clear the browser ' s cache
+hhh - 8378 cleanup during bundle # stop . add shutdown unit test .
+fix timeout calculation when skip unusable connection from pool
+use maven to build voice component xml file . to be test with hmm - based voice
+fix : ignore directory on file drag and drop
+cell # row ( ) now return void to remove nasty api gotcha .
+[ 1340 ] added check for duplicate configuration port . ( # 1401 )
+added a null mask option and modified WebSocket connection initialization to use a conditional mask generator to enhance flexibility in WebSocket masking behavior based on the null mask setting
+updated the return type and signature of the genUDTFPlan method to return a Pair object instead of a single RelNode to enhance method functionality by providing additional output information
+include schedule stats of bucket table to nodeselectionstats
+add it to cover a regression on dependencymanagement injection from parent - poms of a dependency ' s pom .
+added a boolean variable ` hasOwnerPtr ` and modified the owner pointer check logic in ` CPlatformWindow . java ` to clarify ownership check and improve code readability
+added clock functionality and fade animations to PlaybackOverlayFragment to enhance user interface with dynamic time display and visual effects
+remove a bunch of redundant markdirty and updatecomparator call , the former causing network spam and the latter just be unnecessary
+catch security exception so this class can be use from an applet ;
+sodoku example : fix race condition that cause npe
+replaced the DefaultInetAddressAdapter with a new TypeAdapter for InetAddress and updated related references to simplify the serialization and deserialization process for InetAddress handling
+add methods for accessing single values in the Series class and enforce single value constraints with exceptions to ensure that users get expected results while handling null or multiple values appropriately
+changed audio options from no time stretch to time stretch to enable audio time stretching for better synchronization
+fix georelationutils . pointinpolygon to include point that fall on the boundary
+orchestration : fix diskoffering for vr rootdisk ( # 6853 )
+fixed cleanup problem in the hazelcasttest ; the hazelcastinstances be not shutdown
+add some extra check on getinstance ( ) trigger nosuchalgorithmexception
+added filters for printing operation logs in QFileClient . java to enhance log messages for better traceability of operations
+ensure type argument be available for introduction advice bean definition ( # 5763 )
+fix initial reconnection issue with ipv4 sip provider have ipv6 dns record .
+replaced manual arithmetic addition with a utility method for capped addition to handle potential overflow more gracefully and improve code readability
+refactor ImageOutputStream handling to use a try - with - resources statement to ensure proper resource management and avoid potential resource leaks
+replaced calls to ` TvApp . getApplication ( ) . showSearch ` with direct ` Intent ` instantiation and ` startActivity ` in multiple fragments to streamline search functionality and improve code clarity by removing unnecessary application method calls
+updated constructor and method signatures for better clarity in MutableIndexColumn and related classes to improve code readability and maintainability by explicitly indicating parameter types
+http : / / issues . apache . org / jira / browse / amq - 4034 - osgi web console , lay down foundation for config admin configuration
+added an Autowired PersonRepository to the RepositoryIndexCreationIntegrationTests to enable dependency injection for repository access during integration tests
+narrow down uiserver . stop ( ) to declare throw interruptedexception ; fix typo in test
+add more block to cactusblock placement validation ( # 301 )
+fix hit area , implement drag event for theme selection
+[ java ] use a dedicated subclass to pad hot field from the bottom and separate them the rest of the field .
+fix issue with text alignment in text field on io . http : / / github . com / codenameone / codenameone / issues / 2091
+throw an unchecked exception instead of a checked exception ( less hassle for call method )
+modify query generation logic to handle distinct queries for group columns to improve accuracy of query results and maintain consistency in handling distinct and aggregate operations
+show close fuzzy match method when registernatives jni function fails
+sonar : fix squid : commentedoutcodeline ` ` this block of commented - out line of code should be removed . ` `
+add null check for children before iterating over its elements in PartitionPruner . java to avoid potential NullPointerException when children is null
+added tokenPosition and currentPosition fields to MessagePackParser and implemented location retrieval logic to enhance the parser ' s functionality by correctly tracking and returning the positions of tokens and current parsing state
+added locale management functionality to ensure tests run with a consistent locale setting to maintain test consistency and avoid locale - related issues during test execution
+remove redundant if statement to streamline size calculation to improve code clarity and maintainability
+[ test # 1569 ] add metric reporter test for ut # 1569 ( # 1585 )
+camel - 5969 , camel - 5972 fixed the build error in ci
+added equals ( ) and hashCode ( ) methods to the Rectangle class to ensure correct behavior of object comparison and usage in collections
+do not use the same sink name in all test in streamkafkaptest ( # 24579 )
+updated the strength validation logic and improved the use of BigInteger constants in the DSAParameterGenerator to enhance code clarity and ensure correct strength values for parameter generation
+added support for using fully qualified domain names ( FQDN ) for the AM host when submitting work to LLAP to enhance hostname resolution reliability for better work submission handling
+change assert to eventually on client oome test . fix # 11650
+bug 51332 - fix internal id of shape generate by hssfpatriarch when there be more than 1023 draw object
+added a new test method to validate distinct post titles retrieval to ensure that the querying functionality behaves as expected when fetching unique entries
+renamed multiple driver and task classes to improve consistency in naming to enhance code readability and maintainability
+fix ( osgi ) : remove extensionadapter reference from managedkubernetesclient
+updated subtitle text in DetailsDescriptionPresenter to use a new utility method for displaying information to enhance subtitle formatting by including additional metadata about the media item
+[ scb - 2654 ] migrate handler - publickey - auth module to junit5 ( # 3249 )
+do n ' t let an exception in generate the summary html prevent output .
+lucene - 4529 : call default reset in termshash until we find the cause of the issue
+8273513 : make java . io . filterinputstream specification more precise about override
+updated API level check and introduced a new ` WindowSessionDelegateU ` class for handling TIRAMISU - specific window session behavior to improve compatibility and functionality for devices running on TIRAMISU and maintain backward compatibility with S _ V2
+ww - 1950 urlhelper . buildurl do not output port even if forceaddschemehostandport turn on ( testcase include )
+added support for MSSQLDatabase in the foreign key constraint handling to ensure correct behavior for ON DELETE RESTRICT clause in MSSQL
+hbase - 27020 fix spotless warn for master branch ( # 4417 )
+remove debug message , fix filter not pull from other pipe .
+remove duplicate rule which lead to double score
+[ flink - 30679 ] [ hive ] fix indexoutofboundsexception for hive lookup join when column pushdown to hive lookup table source # 21731
+clarify and correct allow multi - threading for some player method
+replaced string concatenation for schema name with CatalogAndSchema customization to improve schema handling to ensure compatibility with different database configurations
+updated color handling in SpriteBatch and SpriteCache , replaced ProgressiveJPEGTest with AlphaTest , and adjusted the drawing method in AlphaTest to optimize alpha blending and ensure correct rendering based on the new test setup
+fixed - spring data connection in multi mode cause thread stuck # 4128
+fix # 8933 : only add the base statistic core if it have n ' t already be add
+fix overview cmd launch wrong task in landscape
+updated MorfologikFilter to load dictionaries dynamically and introduced a new method for resource handling to improve flexibility in dictionary management and enhance error handling during resource loading
+updated string resource key from ` lbl _ stars ` to ` lbl _ community _ rating ` in ` GridFragment . java ` to improve clarity by using a more descriptive label for community ratings
+added visibility logic for header view in CustomListRowPresenter to ensure header view is displayed only when applicable for ListRow items
+fix cassandra - stress hang issue when an error during cluster connection happens
+refactor HttpClient to improve readability and performance to enhance code maintainability and optimize network requests
+replace case sensitivity check with an instance check for DB2Database to ensure correct behavior specific to DB2Database instances
+fix # 562 - add ( optional ) support for jackson serialisation of jsr310 date
+hive - 16400 : fix the mdc reference to use slf4j rather than log4j ( aihua xu , review by yongzhi chen & naveen gangam )
+updated TypeBearer references to Type in PhiTypeResolver . java to ensure compatibility with new type system implementation
+updated the braces and indentation in the CoinbaseTransactionStatusDeserializer class to improve code readability and maintain consistent formatting
+added a method to retrieve and resolve build target lists from configuration , including alias resolution to improve build target management by allowing forced targets to be specified in the configuration
+[ java ] : improve warmup semantics for ping pong latency test .
+replaced instances of ContentProvider with ContentResolver in OCFile class to use the more specific ContentResolver for content access in the application
+fix # 1445 node size change during gexf import
+[ hotfix ] [ runtime ] add checknotnull for slotowner ctor parameter in testinglogicalslot
+add removecallstosystemgc recipe ( fixes # 1664 )
+[ ci ] remove unnecessary super call
+added a new implementation of setUIID method in ScaleImageLabel class to ensure that the icon is preserved when the UIID is changed
+updated variable names and entry handling logic in FeedUpdateService . java to improve code clarity and ensure correct entry is used for status updates and persistence
+8009843 : sjavac should accept - cp a synonym for - classpath
+update presets to match late change in javacpp
+fix break isinitialized check from maybejoinring ( # 4679 )
+updated Test7196045 . java file to improve functionality and ensure code accuracy
+halved sample use for the screen space lightshaft effect while retain almost the same quality ( tweak and limited sample step size ) .
+allow oidc configuration to indicate state predefined ( # 1114 )
+fix : optimize unique constraint handle for platform that do support them on nullable column ( # 1095 )
+disable the remote user suggestion when the capability do not allow federate sharing
+added an override method ` needsDocValues ` that always returns true in ` TestBBoxStrategy . java ` to ensure that document values are always required for the bounding box strategy
+[ java ] improve javadoc and remove dependency of javadoc - links .
+added ` intForEach ` method to ` Int2ObjectHashMap ` for iterating with an ` IntObjConsumer ` to enhance functionality for performing actions on each entry in the map
+fix scoreboard save bug cause by our fix of vanilla map save .
+changed return type of count methods from ` Long ` to ` long ` to improve performance by avoiding unnecessary boxing operations
+fix logic of create mtree snapshot ( # 1452 )
+fix vectorutil . dotproductscore normalization ( # 1073 )
+added a constant for IRREVERSIBLE _ THRESHOLD and methods to manage the latest confirmed block number to improve clarity and functionality in managing blockchain state updates
+replaced the setLocale ( ) method in GpsMainActivity and MainPreferenceActivity with a new implementation in the Systems class to streamline locale setting functionality and centralize the locale management logic
+add tighter first run check for migration cling . ( bug 12626290 )
+refactor assertion and exception handling in BasicAclEntryAfterInvocationCollectionFilteringProvider to improve code readability and maintainability
+lucene - 7135 : only use os _ arch if we could n ' t access sun . arch . data . model
+added a check to verify if the current thread is the same as the one that initiated the delete operation to ensure that the thread handling the delete operation is the intended one to avoid potential concurrency issues
+changed the access modifier of the closeDatabase method from private to protected to allow subclasses to access and override the method
+update imports and usage of BaseItemPerson and PersonType from api - client to sdk to enhance compatibility with the new SDK structure
+added code to set attributes from the SVG element to the new document to ensure the new document retains the attributes of the imported SVG for proper rendering
+simplified the warning log by removing the inputrcUrl variable to streamline logging to focus on the error without unnecessary context
+updated the handling of the " WaitForResult " flag in the Android implementation to allow dynamic control of waiting behavior based on the intent ' s extras
+replaced prepopulation boolean parameter with a ` Supplier ` for sentinel objects in multiple queue classes to enhance flexibility in sentinel object creation and eliminate the redundant prepopulation logic
+added support for widget description display in WidgetCell . java to enhance user interface by showing additional widget information when available
+added validation to limit the maximum registered attribute count to ensure that the application does not exceed the defined limit of attributes for stability
+predicatetest move into . impl package to match with production code
+camel - 7465 defaultfilterstrategy should take an account of case insensitive with thanks to seiji
+updated variable names and added logic for better handling of inline layout and string wrapping to improve the readability and functionality of the layout handling process
+also use standard character avatar for sharees instead of grey icon ( just for iteration 1 , soon tobe replaces by the new detail & share implementation )
+added new methods to check if a class is from the Android SDK and modified how instrumentation is determined to enhance code clarity and ensure proper instrumentation of Android classes
+added a condition to return the size of columns minus one if the association ' s insert destination is before the source to ensure correct column indexing based on insertion logic
+fix ` cmdmodifiertest # testmemorylimitmodified ` in cgroup2 environment . ( # 4375 )
+replace instances of ` CxxDeps . of ( ) ` with ` CxxDeps . EMPTY _ INSTANCE ` and update the ` AbstractCxxDeps ` class to use a singleton instance to streamline code and improve performance by avoiding unnecessary object creation
+added a null check for the rule and threw a HumanReadableException for invalid dependencies to improve error handling by providing clearer feedback when a source under test is not found
+fix cross proxy detection to support 1.10 . 2
+update # parseserver with late smack version which include a fix .
+updated timeout values in TimeoutTest . java from 100 milliseconds to 500 milliseconds and increased sleep duration from 1000 to 5000 milliseconds to allow more time for tests to complete and prevent premature timeouts
+added AssistContentRequester to TaskOverlayFactoryGo for better content management to enhance task overlay functionality by properly handling assist content requests
+update the method for creating a readable witness address and change the account check condition to enhance the encoding process and ensure the correct validation of witness accounts
+refactor DefaultMethodRegressionTests to improve clarity and organization to enhance maintainability and readability of the test code
+refactor WorkloadManagerMxBean class for improved clarity to enhance maintainability and readability of the code
+fix ` kafkaoutadapterparsertests ` race condition
+added a call to close the loader in DesktopGeneratorController to ensure proper resource cleanup after operations are completed
+added unit tests for various rollback and no - rollback scenarios in fault - tolerant processing to ensure correct handling of exceptions under different conditions in batch processing
+[ beam - 12996 ] improve error logging in configbuilder ( # 15646 )
+add extra property to the tuner , since tuner right now do n ' t take tunerconfig property ( # 7621 )
+added logic to track in - progress instances during segment addition to ensure that segments are not added while their corresponding instances are still being processed
+added a check to return null if the component is touchable but disabled to ensure that disabled components do not receive touch events
+( easy ) pch ( 5 / 10 ) : copy ` multicell _ precompiled _ header ` from apple to general cxx dir
+if cache config be not exist , throw a retryable exception so that request can be retry
+improve node module management ( try to fix issue # 58 )
+Added ManagedObject and ManagedOperation annotations to MBeanContainer and Destroyable classes to Enhance management and operational capabilities for MBeans in the component
+change the condition from ` if ( settings . inAppBrowser ) ` to ` if ( false ) ` in LongClickableSpan . java to disable in - app browser functionality temporarily for testing purposes
+[ espmilight ] add color channel ability to trigger white led ( # 11047 )
+updated the logic for reification checks to accommodate reverse candidate types to ensure correct warning generation based on the type being validated
+point selection command now emit the coordinate and / / size now have more information .
+camel - 10697 - workaround kafka - 1894 by call the wakeup method
+remove example from schema , a per spec
+[ java ] : join on agent runner thread to ensure happens - before edge before run onclose ( ) method .
+[ te ] datasource - ignore date column dimension by default ( # 2590 )
+removed redundant condition for checking shards in FacetComponent . java to simplify the code for better readability and maintainability
+rust : use cxxplatforms . getparsetimedeps ( ) to get all the deps
+added ' name ' attribute with getter and setter methods to multiple authentication properties classes to standardize the authentication properties and enable name identification for configuration purposes
+make dump option work when idealgraphvisualizer be not run . print a warning message that connection be not possible instead of exit the vm .
+refactor ScanRanges usage in BaseQueryPlan and introduce small scan threshold logic in QueryServices to improve query optimization for small point lookups based on user - defined thresholds
+updated the ` filterToStringCreator ` method to include ` routeId ` in the output to enhance logging for better traceability of retry configuration per route
+replaced calls to ` redisplay ( ) ` with ` callWidget ( REDISPLAY ) ` and adjusted arguments of ` callWidget ( ) ` to improve consistency and simplify widget calling logic
+updated ` onOverviewShown ` method calls and added delay handling for visual updates to improve user experience by ensuring UI elements appear at the appropriate times
+refactor null checks for globalMinPackedValue and globalMaxPackedValue to improve readability to simplify error handling logic when packed values are null while maintaining the same functionality
+updated the ` publish ` method call to use the ` updateLastState ` variable to provide dynamic state handling based on the last known state
+updated string concatenation syntax for SKEWED _ STRING _ LIST _ VALUES in MetastoreDirectSqlUtils . java to ensure correct formatting of SQL output
+added a null element to the beginning of the exp list to initialize the list in a specific state for further processing
+condition . text and exacttext be case insensitive , introduced condition . textcasesensitive and condition . exacttextcasesensitive
+replaced ' do ' with ' while ( true ) ' to improve code clarity to enhances loop structure for better readability and maintainability
+# 2782 # 2783 - forward only fetchsize ( ) for mysql and mariadb be integer . min _ value and 1 respectively
+camel - 8289 do n ' t send out error message to the client if the connection be close .
+pdfbox - 4892 : set individual initial arraylist size , a suggest by valerybokov
+updated the initialization of mWindowRadius to use initialWindowRadius based on support for rounded corners to enhance consistency in handling window radius based on device capabilities
+replaced ShapeDrawable with a View for the background and adjusted layout parameters to improve flexibility and responsiveness of the background display
+added initialization of upstreamCheckService in UpstreamCheckServiceTest . java to improve test setup for better isolation and functionality of upstream check service tests
+issue # 453 change logging of set session maxinactiveinterval to debug from warn
+removed error logging and exception throwing in ZooKeeperHiveLockManager to allow successful retrieval of locks without interrupting the flow
+[ hotfix ] [ doc ] fix incorrectly spell ` ` the ' ' a ` ` teh ' '
+prevent repeat mipmap generation in filetexturearraydata ( # 6611 )
+change defaultmaskingformatter to preserve quote in keyvalue data ( # 6061 )
+list : added ability to select ' nothing ' , and ability to disable item selection ( + bug / defect fix )
+removed the check for zero value count in the first field vector to simplify the logic and improve performance when processing empty vectors
+fix property expansion for small expansion and add support back in for ' / ' expansion a per spec
+replaced ` Set < Query > ` with ` List < Query > ` for ` flatQueries ` and ` expandQueries ` to improve query handling by allowing duplicate entries and maintaining order
+update TLSRestrictions class to enhance security protocols to improve compliance with current security standards
+keep workaround to make sure it work with kafka 0.8
+updated assertNodeStateProvider method to include an ignorableNodeValues parameter to allow removal of specified node values during state assertions for improved clarity in tests
+delete stale lock file on rocksdb startup . fix # 420
+hbase - 2392 upgrade to zookeeper 3.3 . 0
+added a new method ` getResponse ` and modified exception handling in ` RestClient . java ` to enhance response handling and ensure proper closing of the connection to avoid resource leaks
+fix metadata push mode in ingestionutils ( # 8802 )
+[ # 6579 ] bug report : allaccesscontroluitests failure in production server due to wrong password ( # 6580 )
+added null check for itemId in EnhancedBrowseFragment and StdBrowseFragment to prevent potential NullPointerException when comparing itemId with last deleted item ID
+make test less evil to sidestep oome
+use jts bytearrayinstream class instead of our own ( new version of jts have our class , but improve )
+resolved - issue int - 144 : begin implementation of a testing framework for integration component interaction
+added a check for direct substates in the AbstractStateMachine class to prevent transitions between states that are direct substates of each other
+improve error message for assertthat ( multimapa ) . isequalto ( multimapb ) ;
+added joinoperation marker to the postjoinoperation to reduce false alarm log while joining / merging
+added a PostgreSQL test method to validate data insertion and execution to ensure functionality of database operations and verify output against expected results
+amq - 5035 - fix intermittent failure due to async close
+[ calcite - 836 ] add miss table summary for javadoc error
+changed lifetime , idle time , and max wait time properties from integers to duration strings with @ DurationCapable annotations to improve clarity and consistency in configuring time - related properties
+migrates sip over to neomedia . ( work in progress ) . parse and handle incomfing sdp .
+refactor methods related to filter and domain handling in FacetProcessor to enhance clarity and improve filter application logic
+hive - 16692 . llap : keep alive connection in shuffle handler should not be close until entire data be flush out . ( rajesh balamohan , review by siddharth seth )
+replaced magic number - 1 with a named constant QUICKSTEP _ ROTATION _ UNINITIALIZED for clarity to improve code readability and maintainability by using descriptive constants
+fix wrong log in xpath builder , and add more debug logging to xquery builder .
+- issue 56 : fix compilation and test error that be occur on ubuntu platform .
+[ go ] fix grammar around escape character
+- avoid npe if atlas property be not set and throw gdx exception with error message instead
+camel - 13850 : remove resolvepropertyplaceholders on defaultcomponent a this be already support via camel main , spring boot and other mean . this avoid reflection overhead on bootstrap .
+: fire : refactor : remove unit test of kafka and add db close ( )
+refactored string line splitting logic to use a List for improved flexibility to enhance code readability and prevent potential issues with empty lines
+int - 1951 , int - 1981 clean up the test and change the template . mf to reflect the low version of spring - ws to be 2.0 . 0
+make sqlbindings null - friendly , deprecate null - hostile constructor and getbindings
+added a check for the Java Virtual Machine name and modified the vendor check condition to ensure compatibility with OpenJDK environments
+[ java ] add back keepalive that be remove by accident
+[ fix ] old loader for md5 and obj file , also use shaderprogram # xxx _ attribute name for vertex attribute now .
+camel - 5508 : optimize to eager lookup property component if in use . avoids re - lookup at runtime , such a when property placeholder be not use etc .
+replaced a null check for the account capsule with a check on the account store ' s existence to improve code clarity and avoid potential null pointer exceptions
+update version number to reflect future development .
+8042803 : types . wildlowerbound and cvarlowerbound should call unannotatedtype ( )
+fix time flush memtable and time close tsfile test ( # 4839 )
+updated imports and class loading references to align with the new " ee10 " package structure to support transition to the EE10 architecture and maintain compatibility with the new component organization
+added a wait time of 2500 milliseconds before starting the video processing to allow for necessary initialization before playback begins
+hive - 23214 get rid of skipcorrupt a part of orc read pipeline ( panos garefalakis via ashutosh chauhan )
+minor : remove some dead code in java accessor ut
+add framemap getter to lirgenerator . add compilemethod overload with input graph parameter .
+enable dynamodb test . disable electrofence to experiment with travis ci
+make boat not fall thru ice when place them ( # 765 )
+updated the toString method to provide a more informative string representation to improve readability and debugging by including class name and hash code
+inline getter since it ' s only use once by this class
+added new static methods to BDDAssertions for assertion on Path and AssertProvider to enhance assertion capabilities and improve code readability
+issue # 5224 - update forwardedrequestcustomizertest expectation
+fix # 2174 : warn for multiple value in kubeconfig variable
+implemented file upload status handling in UploadListActivity and added OCFile creation utility in FileStorageUtils to manage file upload processes more effectively and facilitate the retrieval of file metadata
+added the ProviderLoader and ProviderLoaderListener classes to manage the asynchronous installation of a cryptographic provider to enhance modularity and improve error handling during provider installation in the TerminalManager
+updated import statements and header definitions to use TraceMessageHeaders instead of Span to align with the new messaging tracing structure in the application for better consistency
+modified the instantiation of SelectFromDatabaseChangeLogStatement to use ColumnConfig for selecting all columns to improve flexibility and maintainability of the column selection process
+hhh - 14744 : hhh - 14744 : refactor contextual information for schemamanagementtool to be more easily extend by hibernate reactive
+fixed possible division by zero in internalpartitionserviceimpl . getmemberpartitionsmap ( ) . small cleanup of internalpartitionserviceimpl test class .
+ambari - 4527 . roll restart not work due to ntp change server clock . ( swagle )
+updated InlineBox initialization and improved conditional statement formatting in BoxBuilder . java to enhance code readability and maintainability
+fix checkstyle issue in util / statisticmap . java ( # 737 )
+updated the return value of getStagedRectSlideEnd from 383 to 500 to accommodate new design requirements for the staging process
+🍉 🍉 🍉 watermelon have deploy . prepare yourself for new ukrainian translation for v7 release ( # 7885 )
+modified the condition for checking if an entity is in a plot area from " AND " to " OR " to allow road items to be killed even if the entity is not in a plot area when the feature is enabled
+fix touchexplorationstatechangelistener trigger logic for sdk < o
+pdfbox - 5328 : fix subtable 12 that it can have several entry with same gid , add test
+tidy up : use getname ( ) / setname ( ) instead of property access
+update the big file test to use poifsfilesystem . create ( file ) , and tweak javadocs
+added imports and changed plot area retrieval logic in the code to ensure proper handling of plot areas and improve the reliability of plot retrieval functionality
+updated version match regex from " 0 . [ 0 - 9 ] +. [ 0 - 9 ] +. * " to " [ 0 - 9 ] +. [ 0 - 9 ] +. [ 0 - 9 ] +. * " to ensure compatibility with versioning that does not require a leading zero
+updated validation check to require count to be at least 1 instead of 0 to prevent invalid indices when accessing the pickleEvents list
+make kafka client id more unique . fix # 446
+fix error handling in javac if there be some other failure ( eg bad parameter )
+ggb - 937 dropdowns : make sure only necessary repaints on mousemove
+camel - 5733 fixed the c error of springbatchproducer
+added a new method ` isAnimationFinished ` to check if the animation has completed to provide a way to determine the end state of an animation based on elapsed time
+updated imports and added a test for custom favicon handling with line breaks to improve test coverage for branding functionality and ensure correct favicon rendering
+added a null check for ` otherUrl ` in ` TimeLineCursorAdapter . java ` and modified the string in ` HomeFragment . java ` to improve robustness of URL handling and enhance user feedback during refreshing
+ticket # 3957 : allow space again , but work around the result problem in another way
+refactor ObjectHashSet class implementation to improve performance and maintainability of the code
+updated null check logic and simplified array comparison in DataUtilities . java to enhance code clarity and correctness when comparing arrays , including handling null values
+fix item deletion in creative menu for item that be the same id / meta but differnet nbt ' s . close # 479
+fix npe with async jersey resource ( # 2911 )
+[ io header map ] fix typo in build setting for user include
+improve logging when send email fails .
+rename ` resetTaskItemView ` to ` resetToEmptyUi ` and update its implementation to use ` EMPTY _ LABEL ` to improve clarity of method purpose and ensure consistent state reset for UI components
+added unit tests for the ` getPartitionsByNames ` method in the ` TestHiveMetaStoreClientApiArgumentsChecker ` class to ensure correct functionality of partition retrieval with varying batch sizes
+added a closing brace in FileListListAdapter . java to fix a syntax error related to unbalanced brackets
+codacy : avoid use implementation type like ' arraylist ' ; use the interface instead
+updated the index used in removeViewInLayout to correctly remove the second last child view to fix off - by - one error causing the wrong view to be removed
+fix broken osgi test due to websocket - util - server
+switch to use query parameter for s3 get now that we use a block cache in the browser .
+fix # 347 add forgoten updateanimation ( ) by @ djaler
+[ flink - 13043 ] [ library / cep ] fix the bug of parse dewey number from string
+updated the handling of categorySet by creating a new string and modifying its format to improve the readability and usability of the category string output
+updated assertion messages in WebSocketClientTest for clarity to provide a more concise and accurate description of the close code error
+fix remainder of fail test and a related todo spot in the test as well .
+hhh - 15505 fix bytecode enhancement on entity whose field be define both in mapped superclass and concrete entity
+pdfbox - 4222 : ignore all page label if there be a bad entry ( similar to adobe reader )
+add a new test class TestPorterStemFilter for testing the PorterStemFilter functionality to ensure the correctness of the PorterStemFilter implementation using predefined test data
+refactor postBatchMutate method to postBatchMutateIndispensably and add success parameter to ensure index updates are written only if the miniBatchOp was successfully processed
+corrected the package name from ' exlore ' to ' explore ' in multiple test files to fix a typo to ensure consistency and correct referencing in the codebase
+fix a concurrentmodificationexception when closing multiple chat tabs in one click .
+force sys classloading from all binding , resolve # 17
+updated untracked files command in HgCmdLineInterface and modified associated tests for accuracy to ensure correct retrieval of untracked files and enhance test reliability
+camel - 2978 : fix camel - netty eat up memory due use a new timer instead of a global share . thanks to sean for reporting .
+made the direction and color fields final in DirectionalLight , PointLight , and SpotLight classes , and changed intensity to range in PointLight and SpotLight to ensure immutability for direction and color , and implement linear fall - off for light intensity based on range
+added width and height calculations using Math . max to X11GraphicsConfig . java and WGLGraphicsConfig . java to ensure minimum dimensions of 1 for graphical configurations to avoid rendering issues
+added ` toString ( ) ` methods to ` DelegatingSecurityContextCallable ` and ` DelegatingSecurityContextRunnable ` classes to improve debugging by allowing proper string representation of the objects

@@ -1,0 +1,1000 @@
+Refactor SocketAppender initialization for better configurability.
+Refactored BasicAuthPlugin to simplify header handling and prevent browser basic auth popup
+Simplify msgLengthOffset usage to improve code readability in ManyToOneRingBuffer
+Handle null VM detail values by defaulting to cluster overcommit ratios.
+Add support for anti-alias flag in ShadowPaint constructor and update related tests for accuracy.
+Update dialog title for better localization and clarity
+Handle missing bug reports and Eclipse-specific compilation cases in DetectorsTest.
+Enhance nonce validation and fix authentication scheme parsing; add digestAuth test without scheme
+Add RemoteInputListener to handle connection events and improve connection management.
+Fix incorrect stripe index assignment to prevent potential misread in ORC data
+Add filter for enabled state to ensure only active HomeConnect handlers are processed
+Add null check for `bs` in `AuthorizeAdminServlet` to prevent potential NullPointerException.
+Unified date/time formatting tests to eliminate Java version conditionals.
+Add DAG information as JSON for better context logging in debug mode.
+Calculate and combine headerTime and tagTime for accurate heap dump timestamp.
+Refactored upload count retrieval to use MediaWikiApi, removing RxJava2Tasks dependency.
+Removed unnecessary MVStore checks in MVTable to simplify locking logic
+Ensure offset is within valid range and correct max message size calculation.
+Fix issue where folder info marked as open but no associated folder, ensuring state consistency.
+Add test to ensure PGProperty names are sorted in ascending order
+Remove unused constant HOVER_MESSAGE_EVALUATION_POINTS_GIVEN for code cleanup.
+Refactor uninstall target handling by replacing Object with ItemInfo to improve type safety and simplify logic.
+Allow multiple valid HTTP method error messages to account for ordering differences.
+Refactor NearbyActivity to use distinct tags for map and list fragments for improved clarity and maintenance.
+Rename parameter 'status' to 'sessionStatus' for improved clarity and consistency
+Add configuration to skip sending emails when no anomalies are found
+Add test to verify DeserializationSchema's open method is called during state restoration.
+Refactor DataManager to remove unused methods getUser and getGeofence
+Add constructor to BlockingResponseListener to allow customization of max response length
+Simplified memberBroadcastsReceived method to improve readability and maintainability.
+Improve snapshot sending process with proper logging and ensure reader closure in case of exceptions.
+Remove extra slashes in URLs for consistency in error messages
+Add test cases for ConfigMetadataProvider to enhance coverage and ensure reliability.
+Refactor imports in ListFragment and fix parameter naming inconsistencies in SnoozeActivity for improved clarity and functionality.
+Refactor directory stream filters and path resolution logic for clarity and maintainability.
+Improve JdbcTestDataSet to enhance test reliability and maintainability
+Handle ClassNotFoundException in lookupType calls and introduce lookupTypeHelper to simplify error handling.
+Refactor Docker image name validation to improve clarity and reusability.
+Unified error messages for login failure to "wrong credentials" for consistency.
+Added autofocus attribute to improve form usability and focus management.
+Add tests for SAML properties validation across identity zones
+Fix version comparison logic and update tests to handle edge cases for consistent ordering
+Adjust sheet layout modes and dimensions; add default padding and margin properties in UIManager.
+Move `ParallelUniverse` to `android.internal` package to improve encapsulation and align with internal usage conventions
+Simplify method handle initialization and invocation for LocalCacheFactory and NodeFactory.
+Updated fill pattern method to use SOLID_FOREGROUND for better compatibility
+Add support for rendering self-loops in graph previews.
+Refactored TVM Solidity version parameter from 0.5.10 to 0.59 for consistency and clarity in configuration and usage.
+Rename `addManaged` to `manage` for consistency with method naming conventions
+Reset drag handle indicator translation during all apps transition
+Removed verbose log headers for consistent logging format across viewers
+Update filter pushdown configuration description for clarity
+Skip test on OSX due to build server self-identification issues.
+Add Jetty ALPN bundles to TestJettyOSGiAnnotationParser for improved compatibility and debugging.
+Wrap job retry execution in a command and improve optimistic locking handling in updateProcessInstanceLockTime
+Update transaction method to handle null values to prevent potential NPE
+Update GenruleBuildable to exclude execution details from rule keys for improved artifact caching accuracy
+Refactored Firefox launcher to use AsyncExecute for improved cross-platform command handling.
+Replace `putIfAbsent` with explicit check to ensure thread-safe column family mapping.
+Remove redundant SuppressWarnings annotations and make fields transient for serialization safety.
+Ensure derived columns and indexes are added for non-mapped views on older client versions.
+Update student attributes with Google ID during instructor account creation
+Update import path for TestCellReference to use the correct package in SS module
+Add hardness check for LensPiston blocks to prevent breaking unbreakable blocks
+Add LongPointerPressTest3049 to demonstrate handling of long pointer press events.
+Refactored inlining logic for better clarity and improved decision handling
+Simplified null checks and streamlined object initialization logic for better readability and efficiency.
+Fix indentation check to allow deeply nested list blocks and add test coverage
+Refactor OptionalAssert to extend AbstractOptionalAssert for improved reusability and abstraction
+Ignore WebfluxNotIncludedTests until issue #1070 in Spring Cloud Gateway is resolved.
+Fix saveMessage method to remove unnecessary toJsString call and update namespace usage.
+Fix formatting issue in RouteStartupOrderLastTest file
+Add video format check to websubs condition in RemotePlayHandler to prevent invalid handling
+Disable TLS algorithm restrictions for compatibility with custom hostname verification
+Enhance storage pool validation to handle local and zone-scoped pools
+Improve cache logging to include cache entry details and enhance readability
+Add option to skip dependency model updates after managing dependencies
+Add support for validating IntentSender requests with specific request codes in ShadowActivity tests
+Refactor rendering pipeline to use unified overlay graphics creation and improve FBO handling
+Synchronize access to controllerListeners to prevent concurrency issues in Hydrawise handlers.
+Add @BeforeClass to skip tests on Java 9 due to EasyMock incompatibility (SOLR-9893)
+Use YEAR_OF_ERA to handle BC dates correctly and replace manual formatting with a consistent formatter.
+Add null check for connection before disconnecting to prevent potential NPE
+Fix typo by adding missing column reference `cur_ws_commit_id` in query string.
+Refactor BufferedInputFilter to use ByteBuffer for improved memory efficiency and exception handling
+Add `toSync` utility for converting `CompletableFuture` to synchronous calls with tests
+Refactor compiler factories to use ActionGraphBuilder for improved rule resolution
+Add test to verify file upload via hidden input field
+Refactor table creation logic by removing redundant try-catch block
+Return default Maven directory if the specified file does not exist.
+Hide algebra label if new label starts with HIDDEN_PREFIX.
+Fix null handling in metadata initialization and correct argument order in metadata tests
+Replace `setFlags` with `addFlag` for better flexibility in flag management.
+Prevent reordering when the cached entity is already sorted by ID
+Improve error message in verify(mock) to clarify missing method call
+Add null check for backupFolder to prevent potential NullPointerException
+Handle IllegalArgumentException for void.class array instantiation in test loop
+Annotate `toolType` with `@AddToRuleKey` in ClangCompiler and GccCompiler to ensure it is included in rule key calculation.
+Refactor timeout logic to use constant for better readability and maintainability
+Override `isSampled` method to always return true for consistent sampling behavior
+Removed @Ignore annotations for tests requiring MongoDB server
+Refactor assertion imports and message format for clarity and consistency in ConsumeUncompressedCompressedMessageTest.
+Replace check for table name prefix with isArtificial() method for clarity and correctness
+Refactor file type checks to use isDir() for consistency and readability.
+Refactored MongoSessionManager attribute handling to prevent unnecessary session clearing when attributes are already present.
+Adapt surface size handling to use layout dimensions instead of fixed size.
+Fix potential race condition by reassigning _stopping to a local variable before use
+Fix formatting issue in HuobiStreamingService constructor parameters.
+Replace StopWatch usage with timestamp-based calculation to improve performance and reduce dependency.
+Refactored error handling in subscriptions to improve readability and maintainability.
+Refactor WebSocketTest assertion to provide clearer error message on unexpected exceptions
+Refactor AllAppsTransitionController to implement OnLayoutChangeListener directly for cleaner code and reduced redundancy.
+Refactor variable names for consistency and improved readability across classes.
+Add support for default output channel in XPathRouterParser and corresponding tests.
+Refactor cacheSeconds to support ISO-8601 durations using @DurationCapable annotation.
+Update OpenAPI specification version from 3.0.0-rc1 to 3.0.0 in serialization tests
+Removed unused append buffer method call to streamline ByteBufferPool functionality
+Skip tests if alt-rt.jar is detected to prevent unreliable results.
+Standardize usernames in test cases and SQL queries to ensure consistency and avoid case-sensitivity issues.
+Refactor flight recorder options to improve flexibility and add support for debugging features in newer Java versions.
+Add null check for data before calling imageDropHappened to prevent potential null pointer exception
+Add content validation to HttpParser and test chunked PUT handling in ProxyServletTest
+Fix AtmosEndpoint behavior to handle edge cases and improve reliability
+Support additional target methods ("printf" and "print") in Java2TypeScriptAdapter logic for improved compatibility.
+Add test to validate metaspace capacity increment without wrap-around on 32-bit platforms
+Add package-info.java to provide package-level documentation and annotations
+Remove unused conditional logic to simplify timestamp calculation in SamplingStatCalculator
+Add test to verify error handler advice functionality with route definitions.
+Improve ICC profile chunk handling by replacing exceptions with warnings and adding test coverage
+Improve item behavior consistency and performance by refining reequip logic, replacing mutable lists with immutable ones, and updating sea level checks.
+Skip binding Config and Environment classes to prevent redundant registrations.
+Refactored WebappLoader and ContextRuleSet to simplify loader creation and use container's parent class loader.
+Add support for loading and merging additional nameupdater properties files to extend nameMap.
+Fix initialization issue by ensuring `started` is set to true in EllipsoidRegionSelector
+Switch URLs to HTTPS where possible and implement fallback to HTTP for improved security and reliability.
+Add validation for sortBy property in GetFeature to ensure only valid attributes are used
+Fix null check in grantor assignment to avoid potential errors
+Optimize image comparison logic using compatible images to handle transparency accurately.
+Add null check for sidedDelegate to prevent improper FML installation errors.
+Refactor DataUtilities and ReTypeFeatureReader for improved readability and maintainability
+Increase lock duration and replace immediate assertions with eventual assertions to improve test stability.
+Add utility methods for whole word tokenization and token joining in StringUtil class
+Refactor error handling in CoyoteAdapter to use sendError for consistency and clarity.
+Refactored command parsing and highlighting logic to improve clarity and handle edge cases for empty commands.
+Update version to 1.0.1-SNAPSHOT and mark version date as pending
+Fix incorrect buffer position calculation by including dimension size
+Add support for testing drag-and-drop readiness in Shell using TestProtocol integration.
+Add Java 7 specific traffic class tests with assumptions to ensure compatibility.
+Add support for PSK-AES256-GCM-SHA384 with TLSv1.2 in TestCipher.
+Update NearbyMapFragment to use getLongDescription() for displaying place details
+Add @JsonProperty annotation to serialize the "value" field in ScimGroupMember
+Support schema scoping for function names in HQL queries (GH-3099)
+Fix typo in null-check message: changed "d is null" to "s is null"
+Add missing Parser implementation to handle input parsing logic
+Refactored offsetStreamIndex method to support index starting at one and improved track selection logic
+Fix byte decoding order in MagicDetector and add missing mime type tests in TestMimeTypes.
+Removed override of getMonotonicity to rely on default implementation in SqlOperatorTable
+Add equals, hashCode, and toString methods to OneTimeTokenAccount for better object comparison and logging.
+Prevent assistant launch during fling gesture when already launched
+Add Solaris-specific handling for short DSA keys to address known OS bug.
+Disable search label by default in ListFragment to improve initial UI state
+Lock volume during snapshot creation to prevent race conditions and handle null volume cases.
+Refactor ServiceConnection implementation and improve unbinding logic to ensure proper resource cleanup.
+Replace direct exception check with assertInstanceOf for improved clarity and reliability in TLS tests.
+Remove redundant `equals` method implementation as it violates standard equality contract.
+Log error when bindItems fails due to a null value to aid debugging.
+Refactored metadata group ID usage for dynamic retrieval to improve maintainability and accuracy
+Refactor cache size adjustment logic to improve readability and log shrink time for debugging purposes
+Update CryptoFacilities API to v3 and enhance account info structure with new fields
+Add `empty()` method to check if collection size is zero
+Add tests for empty dictionary pages and annotate related cases (DRILL-8023, DRILL-8416).
+Refactor SerumStreamingService to handle market data type validation and enhance error handling for subscription types
+Add config option to enable or disable charging animation in mana pools.
+Improve AeronCluster connection handling by refining timeout logic and adding retry mechanism to prevent premature failures.
+Log interrupted exceptions for better debugging and issue tracking.
+Refactor DefaultServletTest to use assumeTrue for filesystem compatibility checks
+Reorder style injections to ensure consistent application order.
+Refactor file handling to use FileResource for improved type safety and validation
+Replace direct field access with getter methods in BlockWorldVector for better encapsulation
+Make CacheEntry fields final to ensure immutability and address potential concurrency issues.
+Escape special characters in resource configuration literals to prevent regex injection.
+Normalize KRB5 cache file paths and improve error handling for empty credential cache scenarios.
+Rename dbPath constant to match the test class name for clarity
+Refactor peer sufficiency checks to align with Synchronizer logic and improve configurability
+No changes detected in the code.
+Prevent expansion of "AreEqual" expressions for GeoSegment to ensure correct operation handling
+Clear pending rendering operations when minimized to prevent memory bloat.
+Refactor deadline check logic to improve readability and avoid redundant sleep calls.
+Optimize CoalescedWriteBehindQueue to update existing entries instead of overwriting and add test for write delay functionality.
+Clear icon in GroupTreeCellRenderer to reduce visual clutter.
+Rename test methods to reflect strict and non-strict match modes accurately.
+Refactor ShutdownMonitor to improve test structure and ensure proper resource cleanup
+Optimize chunk rewriting logic to improve efficiency and handle idle states effectively.
+Refactor field serialization to improve readability and reuse type extraction logic.
+Refactor ComponentClosingUtils for improved timeout handling and package reorganization
+Handle volume cleanup gracefully during VM error state transition and fix typo in CloudRuntimeException message.
+Fix incorrect method call to ensure IPv6 CIDR is retrieved properly
+Refactor authentication provider configurer to improve clarity and consistency.
+Increase leader retry timeout to 30s for halfdeletedcollection2 shards to improve test stability
+Refactored error messages and logging for consistency and improved debugging.
+Fix incorrect image positioning by adjusting x and y offsets to negative values
+Fix typo in SolrTestCaseJ4 to compare field sizes of different documents correctly
+Refactor high-cardinality check into helper method for improved readability and error handling
+Add cause exception to StreamTaskException to improve debugging clarity
+Refactored hashtag expansion logic for clarity and added comprehensive test cases
+Fix formatting inconsistency in MessagePack's read method for improved readability
+Add Mapper annotation to define mappable interfaces in iBatis framework
+Add support for conditional FHIR comments and prevent encoding empty extension lists
+Fix group split regex and enhance artifact handling logic for external metadata and dependency resolution
+Add alias for "node_popup_scripting" to improve menu entry navigation
+Optimize actions view alpha animation and update scroll behavior for non-tablet devices.
+Refactor `getOut` call to use type-safe method for clarity and safety
+Remove unnecessary `throws IOException` declarations from test methods for cleaner code
+Remove deprecated classes AbstractDelegatedVerb and FailureContext to clean up unused code.
+Refactor GzipHandlerTest to use final constants and add micro content testing.
+Refactor backpressure handling and add test for repeat and distinct unbounded behavior
+Improve logging and streamline component lifecycle handling in SpeedmentImpl
+Add servlet to load DSpace OAI configuration during initialization.
+Optimize StoreScanner row matching logic and update test parameters to improve debugging and batch handling.
+Add JMX enable/disable toggle in tests for better configurability
+Use constant CANONICAL_PACKAGE_SEPARATOR to standardize package path separators across the codebase.
+Add support for printing YARN application info and kill command in Spark job monitoring.
+Support MariaDB connections by checking for "maria" in database name detection logic
+Standardize log messages and fix incorrect startTime comparison logic in SplitLogManager
+Add example to demonstrate the usage of `executeAndReturnString` in `BrowserComponent`.
+Add example showcasing invokespecial, invokeinterface, and invokedynamic usage in Java.
+Refactor `EvictingBoundedList` for improved clarity and maintainability.
+Refactor turn costs logic to use EncodingManager's needsTurnCostsSupport for improved readability and maintainability.
+Add validation for selection index and null check for backgroundDisabled style
+Throw UnsupportedOperationException if method descriptor is null to ensure robustness.
+Refactored hotseat cell size calculation to use border spacing for consistent layout spacing
+Simplified partition value extraction logic by replacing manual string manipulation with values.get().
+Add version-aware serialization logic to support backward compatibility.
+Update index directory reference to use getNewIndexDir for consistency with updated core configuration
+Fix logical error in DisplayModeTest to ensure proper equality check
+Handle non-BMP Unicode characters in UnicodeToLatexFormatter and add support for mathematical italic epsilon.
+Handle ISO control characters in metadata values by replacing them with spaces to ensure data consistency.
+Store and reuse lastFrame state to improve frame navigation logic and handle null or empty values gracefully.
+Enhance UI with clear button functionality, improved file handling, and consistent border styling.
+Refactor baseUrl construction using UrlUtils to simplify code and handle default ports correctly.
+Refactor SoftAssertionsTest to improve readability and align error messages with new date/time format.
+Refactored adaptOrders to support order reversal and optimized limit order storage with array implementation.
+Handle null or invalid vartype nodes in PrettyPrinter and add Java11 var support.
+Refactor tests: remove unused imports and fix sendKeys null input handling.
+Use non-default configuration in HiveConf to avoid unintended overrides.
+Update WidgetGroup to use draw() instead of drawChildren() for consistency with parent class method.
+Add FileSplitStreamingWithChoiceTest to validate file splitting with streaming and conditional routing
+Refactor code to replace Globals usage with getCatalinaBase() for improved modularity and maintainability
+Add support for locale-specific datetime patterns for "jmm" skeleton in ShadowICU (e.g., US, UK, ptBR).
+Expand color mapping in PlotSquared to support additional color codes
+Add ZuulProperties to TraceRestClientRibbonCommandFactory for enhanced configuration support
+Ensure consistent timezone handling in FontParsersTest to avoid test flakiness.
+Add support for configurable build time in BuildInfoMojo with a default to the current timestamp.
+Fix incorrect xDist calculation to ensure absolute distance measurement
+Removed obsolete GUIRWTester class as it is no longer in use or maintained.
+Remove nullable annotations and null checks for format strings to ensure stricter input validation.
+Format error message to include placeholder for invalid processing time value.
+Refactor Thymeleaf template parsers to use markup package for improved organization and clarity
+Improve XPathTest to handle elements with attributes during evaluation
+Add @Nullable annotation to indicate nullable return type.
+Handle DynamicInvokeExpr during call-graph construction and log unresolved cases.
+Update email addresses in tests to use example.com domain for better standardization
+Fix URI comparison logic and adjust bad encoding test response to match expected behavior
+Add getColumnDataType method to support retrieving column data types in ResultSet hierarchy
+Change abstract methods to default with unsupported operation exception to improve interface flexibility
+Refactor HSSFPictureData for improved readability and maintainability.
+Refactor Statistics to use java.time.Instant and Duration for improved time calculation readability and precision.
+Add version detection for MediaInfoLib and enable legacy options for versions above 18.5
+Remove reflection-based proxy creation for IdeaDependency to simplify code and improve maintainability.
+Introduce SerialHeap to support serial garbage collection in Hotspot.
+Remove redundant `@SuppressWarnings("serial")` annotations in Gson Types.
+Refactor mouse event handling to include mouse position for improved precision
+Handle null values in query parameters to prevent NPE and add test for findByFirstNameIgnoreCase with null input.
+Introduce MultisetTypeInfo for enhanced support of multiset data structures in Flink's type system.
+Add validation for issuer uniqueness in XOAuthProviderConfigurator to handle missing or duplicate providers
+Handle delimiters and digits in CMapParser to improve parsing accuracy and add test for edge cases.
+Introduce service connection in ContactsBackupJob for better lifecycle management of operations.
+Improve type inference handling for nested generics and constraints
+Add support for checking configuration visibility in account hidden logic.
+Log inconsistency in display bounds to debug inconsistent display states (b/198965093)
+Fix schema removal to use schema key directly and add test to ensure proper schema lifecycle management
+Refactored passive login flow to handle async operations with listeners
+Add Box2DTest integration to Android and GDXTester for expanded testing support
+Refactor logging and mutation handling for improved debugging clarity and consistent formatting.
+Increase default buffer request timeout from 5ms to 5min to improve stability in high-latency environments.
+Add default generator headers in SpeechSettings for consistent metadata tracking
+Add help button with action listener for OpenOffice integration documentation
+Set TCP_NODELAY as a child option to align with Netty best practices.
+Refactor Binance API methods and classes to improve type safety and remove unused imports
+Add transient class reference to improve performance and avoid redundant class loading.
+Refactor connection handling to improve readability and error management
+Add null handling conversion and integration tests for Querydsl sorting logic
+Add null-checks for actor in ParallelAction and SequenceAction to prevent potential null pointer exceptions.
+Fix formatting inconsistencies and redundant code in CtTypeTest for improved readability
+Add synchronization to sfWriters operations to ensure thread safety during close and clear actions.
+Add interface implementation and unit tests for Issue888 to ensure correct method overriding
+Add support for revoking existing agent certificates and add corresponding unit tests
+Prevent body write for no-body response codes and add regression test for 304 status handling.
+Improve error handling for script engine initialization and execution to provide clearer exceptions and support for Java 6+
+Add support for HikariCP as a connection pooler in Hive Metastore.
+Replace mDevice.pressHome() calls with mLauncher.pressHome() for better abstraction.
+Add file lock and unlock functionality with UI updates and remote sync handling.
+Add missing implementation for Version class.
+Clear endpoint cache after updating keyspace replication strategy to ensure consistency
+Refactor thread state waiting logic to improve readability and consistency in Locks.
+Refactor Skylark rule context to streamline attribute handling and dependency resolution.
+Extract common storage functionality into a new Storage interface to improve code reusability and maintainability.
+Handle null view gracefully in PlanExecutor and simplify expected row creation in CreateViewStatementTest.
+Handle Throwable instead of Exception in segment generation to catch all errors.
+Use `getQueryString()` as primary source for query, fallback to `params.get()` if null
+Validate header keys and values to ensure compliance with CRLF standards and prevent illegal characters.
+Refactor instance size calculation to use arrayBaseOffset for improved alignment and consistency
+Refactor comment container hierarchy for better abstraction and mark as experimental.
+Add warning log for inconsistent fetch mode join with lazy to improve debugging
+Refactor filters to extend AbstractSpecFilter for improved consistency and maintainability
+Add database and table name validation for compaction transactions
+Add Suspendable support to TimerConsumer and implement graceful shutdown test
+Avoid duplicate traces by checking if the block is already processed before adding to traces.
+Ensure null checks for providers in ProviderManager and add tests to validate behavior.
+Simplify Postgres version check logic in InsertOrUpdateGeneratorPostgres.
+Support local index limits in server-side scan and query execution
+Add validation to prevent adding collections with conflicting types
+Fix cursor position calculations and screen base updates to ensure accurate rendering
+Remove unused constant `USE_RETRIES` to clean up codebase.
+Fix regex in JavaVersion to support extended version formats and add corresponding test case
+Skip tasks with no input gates to prevent unnecessary execution.
+Add a missing test method placeholder in TestReceivingMessageSourceParserTests.
+Handle potential NPE by checking if properties are null before accessing key.
+Refactor exception handling to use initCause for better error chaining.
+Update error message to clarify stack upgrade failure instead of rolling upgrade failure
+Refactor TxConfidenceListener to prevent duplicate listener registration and improve clarity.
+Add G1 Perm Gen constant to improve readability and maintainability of JmxSupport
+Refactor NearbyController imports and remove unused loadAttractionsFromLocationToPlaces method for improved clarity and maintainability.
+Make `cloneForNewDocument` method generic to improve type safety and add suppress warnings annotation.
+Exclude home activity tasks from swipe-up gesture handling logic.
+Refactor DefaultEdgeClientFilter to EdgeAddHeaderClientFilter and update property keys for clarity and maintainability
+Ensure network and SIM country ISO codes are returned in lowercase to maintain consistency.
+Fix incorrect unfreeze amount assignment in UnfreezeBalanceV2Actuator.
+Update penalty descriptions to use 'per match' instead of 'per minute' for consistency
+Refactor copyModel method to use FileUtils.copyDirectory for improved readability and directory support.
+Refactor assertion classes for improved consistency and maintainability
+Ensure proper formatting in Observable.java to align with coding standards.
+Refactored $pushAll operations to support multiple fields and added tests for validation
+Ensure UUID is initialized before setting hubChangeLog ID to avoid null assignment
+Add hover event handling to InputConsumer and its proxies for improved motion event processing.
+Add delay when multiple ZK servers are running to ensure proper initialization (fix bootstrap_conf handling).
+Refactor configuration property maxHeadersSize to maxHeaderSize for consistency.
+Increase HBASE_CLIENT_RETRIES_NUMBER to enhance retry behavior during testing.
+Use `File` constructor for path resolution to improve compatibility across operating systems.
+Refactor EncodedGraphCacheTest to improve reliability and readability by consolidating retry logic and ensuring compiler is not null.
+Updated query commands and configurations to improve test coverage and align with schema requirements
+Adapt Kraken asset codes to currencies with metadata mapping.
+Add toString implementation for AnyOf and corresponding test to improve readability and test coverage
+Refactor alert email subject construction to improve readability and maintainability
+Improve InfluxDBPublisher validation to prevent publishing metrics with blank settings.
+Refactor doTransform methods to downcast for improved clarity and null safety
+Expand IPv6 address filters to include unique local addresses.
+Quote column names in DataTextFormatter to ensure proper handling of special characters and reserved words.
+Enhance system property handling and string utilities; improve method name resolution logic.
+Add constructor to UpdateRequest for initializing with a URL and POST method
+Refactor EnumSerialization declaration for cleaner and more concise enum definition
+Removed experimental format warning from response handlers
+Format module values for better readability in debug logs.
+Adjust row height dynamically based on default label font size for consistent UI scaling.
+Refactor BrokerHeartbeat logic to use Optional for null safety and improve readability.
+Fix incorrect handling of null rows and ensure splitCount calculation is accurate in CqlInputFormat
+Simplify JUnit test rule validation logic by removing redundant string check
+Add equals and hashCode implementations to RuleTerminalNodeLeftTuple for proper equality checks based on rule names
+Add StageIDsRearranger to TezCompiler for stage ID optimization based on configuration settings.
+Updated MBean registration path to match the new MessagingService namespace.
+Refactor memory check to log detailed usage and ensure accurate comparison
+Add missing Javadoc imports and implement hashCode for LabelAndValue.
+Refactored LDAP configuration to improve readability and ensure anonymous read-only behavior is properly tested.
+Fix DatabaseMetaData implementation to improve compatibility with JDBC standards
+Fix visibility of EchoInputDoFn and remove unnecessary warning suppression.
+Introduce finishMocking(Throwable) to handle validation with or without failures.
+Refactor GoTestDescription to simplify dependency handling and add integration tests for genrule sources
+Refactor SPDYAsyncConnection to separate read and write buffers, improving clarity and thread safety.
+Change BlockLiquid to use flowing block instead of static block for consistency
+Refactor background location listener handling to use URI instead of intent extras for improved reliability.
+Fix NPE in `AprEndpoint` by adding null check for socket properties
+Support streaming plans in JSON plan generation in CliFrontend.
+Optimize crafting logic for efficiency and readability by refining bitwise operations and using computeIfAbsent.
+Refactored test utilities and assertions for improved clarity and error reporting in various test cases
+Simplify newline and carriage return checks in TabsAndIndentsVisitor logic.
+Add filter pattern to exclude temporary PostgreSQL tables from processing.
+Add `ignoreNullValues` flag to `ProtoRestSerializer.toBody` calls to improve null handling in Policies API.
+Handle special cases for INTERVAL, NCLOB, and NVARCHAR data types in DataTypeFactory, UnknownType, and ColumnSnapshotGenerator.
+Add conditional checks to avoid redundant histogram registration and optimize metric collection.
+Enhance upstream builder with warmup and timestamp, and update SpringCloud selector handle serialization.
+Add support for maxLatency parameter in registerListener implementation
+Handle `SocketException` gracefully in SSL tests to log and prevent test failures.
+Handle null check for Ignite instance, modify logger scope, and add versioned Ignite features installation.
+Handle empty result set and update end-of-result detection logic in AbstractClient
+Updated exception handling in PDFDebugger to fix incorrect flow for UnsupportedFlavorException
+Add support for setting display HDR capabilities on Android N+ while ensuring compatibility checks for lower versions.
+Release classLoader reference in finally block to prevent memory leaks.
+Improve error messages in SemanticAnalyzer to provide more context and fix numeric target alias check
+Add default constructor to Message class for easier instantiation
+Adjust bug priority based on whether the class is GUI-related or implements Serializable directly.
+Enhance PhoenixDecimalObjectInspector to support precision and scale enforcement for Hive decimals
+Handle already committed responses by bypassing GZIP stream initialization to prevent errors.
+Refactor variable names for clarity and consistency in authentication logic
+Refactor directory path and name checks to improve readability and maintainability.
+Handle null ThreadGroup to prevent NPE in thread details logging
+Add logging for denied method invocations and ensure security interceptor is properly initialized.
+Move DmozParser from crawl to tools package for better categorization.
+Remove unused @ToString import from ChainingRegisteredServiceDelegatedAuthenticationPolicy
+Handle ISO volumes during VM migration to ensure correct disk attachments.
+Replace SignalHandler usage with modern signal handling for improved reliability and maintainability.
+Refactor imports to use static methods from ArrayUtils directly
+Replace `@ContextConfiguration` with `@SpringBootTest` and simplify configuration by using `@EnableAutoConfiguration` with exclusions.
+Fix redundant @Override annotations in ColorRGBA comments for clarity.
+Remove deprecated resetInitializedPlanningEntities logic to simplify planning entity management.
+Add build time metadata to ArtifactCache to improve tracking and debugging of artifact lifecycles.
+Fix aggregation field handling and row size calculation logic in GroupByOperator
+Add null check for block before calling addBlockAppearance to prevent potential NPE
+Add support for CNC/BTC trading pair and update related references.
+Introduce per-service skew allowance configuration for improved SAML response handling.
+Add sort by "SortName" to SongListActivity and Utils for consistent item ordering.
+Removed unused `readBodyToBytesIfNecessary` method and related imports to clean up code.
+Refactor BaseBlock subclasses to extend LegacyBaseBlockWrapper for improved NBT handling
+Improve error handling for tag validation in Iceberg branch creation.
+Replace newArrayList with singletonList for better performance and readability
+Refactor SSBO binding logic to dynamically query resource index and binding point
+Improve validation for requirePasswordChange and enhance logging for unsupported IDP operations.
+Remove assumed reflective fields from notInitializedInConstructors to ensure accurate initialization tracking
+Handle closed connection case when throwing DatabaseException to provide clearer error messages.
+Add test cases for required request body validation in SpringMVC client.
+Corrected regex patterns in CredentialInjector to align with updated user and password formatting conventions.
+Add "Item4" to menuItems array and include META+ENTER keybinding
+Improve logging and assert handling in TestCoreParser for clearer debugging
+Fix comparison logic in SimpleNode to correctly compare IDs and children arrays.
+Make PopulatorContextStackItem package-private to limit visibility and improve encapsulation
+Use `getDocCount` to handle per-field document counts and add test for small sample corpus
+Refactor quest condition parsing for improved readability and maintainability.
+Extend NetworkBufferPoolTest with TestLogger and make TestIOException static for better test logging and memory efficiency
+Combine expiry query conditions into a single append call for cleaner code.
+Add macro substitution for unsafeGetLong to support conditional memory access optimization
+Update Asia/Amman timezone from ARAST to EET for accuracy
+Update ID in DeprecationLogger to 90000011 for consistency.
+Handle JDBCException in SessionImpl to return null on rollback-only transactions.
+Refactor file name handling logic to improve suffix validation and ensure proper extension assignment.
+Enable macOS screen menu bar compatibility in updateUI method
+Add tests for piecewise function integration to verify correct handling of conditional expressions and integration results.
+Make `STATE_SCREENSHOT_CAPTURED` and `switchToScreenshot` protected for better extensibility.
+Add test to validate runtime modification whitelist functionality in HiveConf
+Fix issue with invalid class entries by ensuring correct mapping of entryName to value
+Update `findClosest` target calculation to use player's team instead of `Team.sharded`
+Use domainHelper to dynamically set cookie domain instead of hardcoding
+Improve nullable validation handling for better compatibility with column constraints
+Refactor security token service components to improve modularity and maintainability.
+Refactor CompositeIdRouter for better readability and make separator constants static
+Optimize PostgreSQL blob handling with snapshot caching to improve performance and add blob size validation test
+Fix caching logic and cleanup DefaultServlet code for improved readability and behavior consistency.
+Implement drag-and-drop support for importing BibTeX files and entries between tabs.
+Update test descriptions to include scenario names and step details for improved clarity and validation
+Use `StringUtils.isNotEmpty` for null-safe version and build time checks.
+Restrict visibility of TimeUtils methods to package-private and relocate TimeUtilsTest to utils package for better encapsulation.
+Refactor class name checks to support new security frame logic in JDK 18+.
+Fix file extension check to correctly match ".jpg" and ".jpeg" formats.
+Handle `HostedMethod` case explicitly in `NativeImageDebugInfoProvider` to improve method name resolution.
+Add icons to context menus in DataTableTopComponent, EdgeDataTable, and NodeDataTable for better visual distinction.
+Handle edge case where request name does not contain a period to avoid StringIndexOutOfBoundsException.
+Handle dollar signs correctly in replacements when regex is false
+Refactor connection handling to support generic Connection interface and improve null safety.
+Refactor `SchemaExtractionProcessor` to improve code readability and maintainability.
+Refactored directory copy logic into reusable IO.copyDir method for improved clarity and maintainability.
+Add exception for unknown datum class to improve error reporting in JacksonUtils
+Refactor ABI build logic to use requireRule for consistency and clarity
+Simplified height calculation by removing redundant padding adjustments in SelectBox.
+Normalize database and table names using HiveStringUtils to ensure consistency.
+Handle schema initialization for Oracle databases and adjust metadata query logic.
+Skip actual logout to prevent redundant operation as it is handled internally
+Standardize testing setups and avoid flaky or misleading test behaviors.
+Handle null check for candidates before filtering to prevent NullPointerException
+Fix lifecycle management checks and update test assertions for consistency
+Rename IExecutionAttributesDialect to IExecutionAttributeDialect for consistency with naming conventions.
+Clear unsafe metadata to ensure consistent state during tests
+Handle null localization object to prevent potential NullPointerExceptions.
+Add null check for measurements and introduce DisruptorQueueExceptionHandler to improve error handling and robustness.
+Removed unused Session2Token class to clean up the codebase
+Add debug logging and cleanup for failed destination volume creation in VolumeServiceImpl
+Add "Install" system shortcut to support web UI and instant apps.
+Add NullAuthoritiesPopulator to LdapAuthenticationProvider to handle missing authorities gracefully
+Fallback to default retrolambda version if not found in dependencies to address Android build issues
+Replace `buildOrThrow()` with `build()` to avoid unnecessary exceptions.
+Replace FixedBitSet with codec's liveDocsFormat to improve liveDocs sorting efficiency.
+Handle null results in JMESPath extraction to prevent unexpected behavior
+Refactor imports and add null/empty check for user authorities in AuthorizeTag.
+Standardize argument order and update configurations for consistency and improved readability.
+Fix typo in error message: corrected "VGU" to "vGPU" for clarity.
+Refactor config merging logic to include subclass annotations and improve test coverage
+Replace SelectChannelConnector with SocketConnector for improved compatibility
+Ensure partial equality check for partition keys to handle cases with renamed or altered keys
+Add feature flag to enable icon display in text headers
+Fix missing closing parenthesis in isComponentActive condition check
+Replace SharedBlockingCallback with Callback.Completable for improved non-blocking execution and update handler mapping to use getter methods for better encapsulation.
+Add workspace listener to PreviewControllerImpl to update graph on workspace selection
+Prevent inflation for VM anonymous classes to avoid unnecessary overhead.
+Refactor TransportHelper for improved readability and maintainability.
+Fix incorrect file URL format by removing redundant slashes.
+Reordered startup sequence to initialize ActionManager before starting servers for improved logging clarity.
+Fix null check and logic for forEach initialization and postfix cases
+Refactored HDFS client handling to improve configurability, ensure resource closure, and enhance security integration
+Check if backgroundManager is already attached before attaching to prevent redundant operations.
+Fix layout inconsistencies and set default tab to enhance user experience and alignment.
+Validate Postgres URL to prevent misconfiguration and add test for invalid URL handling
+Add JRE version constraints for PebbleModuleTest to ensure compatibility with Java 8 through 12.
+Refactor directory creation to use EditNameDialog for improved user input handling
+Add toggle to switch bar borders on and off for multiple chart types.
+Update OkCoin API endpoints to OkEx for correct host and SSL URI configuration
+Refactor AcceptedForagerTest to replace duplicate StepScope initialization with createStepScope helper method
+Replace FileChannel with SeekableByteChannel for better compatibility and add tests for file read/write consistency.
+Refactor flatten logic to enhance type safety and support field references
+Rename MockHandler to MockHandlerImpl for clarity and consistency across the codebase
+Fix proxy serialization registration logic to handle missing keys safely
+Set heap limit to 250MB for debug devices to improve memory usage tracking
+Refactor lambda expressions to improve readability and maintainability in Collectors.
+Refactor nested if conditions and add `shouldRethrow` logic to improve code readability and handling.
+Handle null top-level deletions gracefully by reordering checks to prevent unnecessary serialization attempts.
+Fix handling of rendering intent and header indices to prevent invalid values and ensure robust color conversion
+Add MeterRegistryLifecycle bean to ensure proper lifecycle management of MeterRegistry instances
+Change log level from WARN to INFO for missing config item to reduce noise
+Add tests to ensure CertificateFactory handles empty and invalid byte streams properly
+Handle ambiguous binary operators in SimpleTokenizer and add unit test for validation.
+Move ensureWindowsDismissed logic from onTabUnselected to onFocusChanged for better lifecycle handling
+Include username in access log open failure message for better debugging
+Adjust model scaling and animation timing; fix null check in submesh name parsing.
+Remove unnecessary InterruptedException from createOrThrow method signature
+Mark `UpgradeResponse` as deprecated to indicate it is no longer recommended for use.
+Add support for generating and specifying output directory for TypeScript declaration files (d.ts).
+Add test for Kinesis fetch timeout to validate default timeout behavior in StreamConfig.
+Append ".html" to timestamp for generating correct file paths
+Reduce default maximum threads in Hive metastore server from 100000 to 1000 for better resource management.
+Change onTaskSnapshotChanged return type to boolean to indicate processing status
+Update shadow radius to use dynamic value instead of fixed maximum.
+Add test for chain nesting and aggregation to validate message flow and output
+Fix loop boundary variable name and add failure condition to improve test clarity
+Update condition to check for interactive source instead of internal
+Fix null check condition to avoid potential NPE in keytab file path comparison
+Add DisplayController dependency to LauncherPreviewRenderer for improved display handling
+Remove redundant tooltip text logic for root directories in file chooser UI.
+Refactor to use Toolkit.getDefaultToolkit() for screen size retrieval.
+Refactor return types in TensorflowRESTCaptioner and TensorflowRESTRecogniser for consistency and clarity.
+Add helper methods for entity management and improve query tests.
+Remove unused dragIndex logic and debug print statement in FreeformFinSetConfig
+Update moeVersion to 1.2.0 for compatibility with the latest features and fixes.
+Fix typo in runtime error message and ensure all gas is spent before execution ends
+Improve error message formatting with newline characters for better readability
+Mark Weights class as @Deprecated to indicate planned removal or replacement.
+Refactored unsafe plugin registration for better maintainability and Java version-specific handling.
+Add tests and annotations to ensure blacklisted modules are not visible in modular builds.
+Set mCenterPagesVertically to false to align pages consistently.
+Fix redundant line causing duplicate doneProcessing() call
+Refactored Konnected module to use consistent base URL terminology and improve code readability.
+Refactor WSFederationClaimsReleasePolicy to support multi-valued attributes and improve test coverage.
+Add support for specifying the database in query processing to enhance flexibility and handle non-ASCII table names.
+Add test cases to validate parsing and deparsing of nested CASE expressions inside brackets.
+Add mouse support for initiating copy mode with primary button click.
+Refactor XML test output generation to use DOM API for improved structure and maintainability.
+Fix NPE by checking if exchange is not null in AbstractListAggregationStrategy and add CustomListAggregationStrategyEmptySplitTest for testing empty lists
+Refactor exception message creation logic to centralize handling and improve maintainability.
+Refactor package structure to align BasicConfigurator with classic module usage
+Ensure PHI_NODE flag check before value number equality to prevent invalid assumptions.
+Remove unused import of SharedStringSource from TestXSSFRichTextString to improve code cleanliness
+Add overload for invokeMethod to simplify usage with default parameters
+Refactor statistical and histogram dataset classes for improved consistency and maintainability.
+Migrate tests to JUnit 5 for improved compatibility and modern test framework support.
+Refactor equality checks and class definitions for better readability and correctness.
+Make `IndexFileNameFilter` constructor and singleton private to enforce encapsulation.
+Refactor IfStatementTest to use graph-based assertions for improved clarity and maintainability.
+Updated to use `getTableHeaderRow` instead of `getPutOnlyTableHeaderRow` for broader table metadata support.
+Refactored TypeAdapter nullSafe implementation for improved readability and usability.
+Update test assertion to reflect expected size change from 12 to 13
+Add EXIF metadata extraction to validate image files during upload
+Change default StandardUnit from UNKNOWN_TO_SDK_VERSION to NONE and add test for unknown units
+Ensure parameter values match expected types in ApplyPmmlModelCommand to prevent runtime errors.
+Improve logging message to clarify expected cases for repeated CounterCurrencyTransferStartedMessage
+Add a check to return early if BubbleBar is not visible to improve performance and avoid unnecessary processing
+Handle BranchTargetOutOfBoundsException during code emission by resetting label ranges and retrying emission.
+Ensure thread safety during JDK log manager initialization to avoid potential race conditions.
+Refactored ticket registry to streamline metadata lookup and improve logging for ticket definitions
+Fix SSL connection parameter formatting and update assumptions for OpenSSL to ensure compatibility and prevent flaky test errors.
+Add thread safety to file writer initialization and ensure buffer pool is properly initialized.
+Add default null arguments to Read and Write constructors to improve flexibility and handle edge cases.
+Add support for querying plugin handles by type and improve data handling with new fields (type, sort).
+Add span start to DefaultSpanCreator and adjust SleuthAdvisorConfig to avoid redundant span start
+Add configurable color, depth, stencil, and multisample formats to IOSApplicationConfiguration for flexible rendering options.
+Refactored login flow and added account lockout test to enhance security against brute force attacks.
+Add checks for unsupported operations in real() and complex() methods to improve error handling.
+Refactored synchronization loop to prevent null lockName and ensure thread state consistency
+Implement ShadowPicker functionality for enhanced feature support
+Refactor HTTP/2 client configuration for better customization and alignment with dynamic properties.
+Add support for DynamicArray in type checks and improve type handling in SolidityFunctionWrapper.
+Add default values to CSS property getters to handle missing properties
+Add support for Path-based constructors in CopyStep and update tests accordingly.
+Add publish command to RedissonSemaphore and enhance test for acquire after add permits
+Refactor navigation and route context processing logic for improved clarity and functionality in tests.
+Extract Flavor parsing logic into FlavorParser to improve reusability and testability
+Refactor WitnessScheduleStore to use ByteString for improved handling of binary data.
+Add null check for resultsMeta before printing to prevent empty output logs.
+Fix potential memory leak in ConcurrentLinkedQueue by enhancing item removal logic and adding test coverage.
+Add support for optional special tokens in encoding and decoding methods
+Optimize resource profile initialization by replacing loop with Collections.nCopies.
+Refactor chunk data handling to ensure aligned data size is updated correctly
+Add session storage context key to DuoSecurity webflow for improved session management
+Add schema validation test for JSP documents to ensure correct XML parsing
+Add Java 17 compatibility annotations and placeholders for future record support
+Refactor kill logic to improve clarity and introduce kill preparation handling
+Fix AntPathRequestMatcher implementation to address matching inconsistencies
+Refactored createResourcePolicy method to simplify parameters and improve readability.
+Add null check for _deflaterEntry and replace print statements with assertions in BlockingTest
+Add @AfterEach annotation in ReactorCoreAutoConfigurationTests for cleanup after each test
+Normalize input strings to NFC and remove unknown unicode char (65533) to ensure consistent checksums
+Refactor command handling logic and fix typos in variable names for improved readability and functionality.
+Add @Override annotations and make keyListener final to improve code clarity and ensure compliance with overridden methods.
+Refactor MongoTemplate to parse JSON into DBObject for improved type safety and add test for JSON string saving.
+Handle multiple remote addresses in RequestUtils to ensure correct IP extraction.
+Refactor getJobArgs to return ObjectBuilder for improved JSON handling
+Refactor hostname resolution and proxy usage for improved reliability and clarity.
+Fix GlyphLayout whitespace handling and add BitmapFontTest for colored text rendering.
+Add pauseOrResumeSplits method to manage split state transitions in Pulsar source readers.
+Add environment variable for script operator ID to improve script tracking
+Refactor `getListedTermCounts` to support stream-based processing and sorting options.
+Add "Use Separate Step Size" menu action to toggle Z-axis step size setting
+Refactor file menu filtering logic to improve code clarity and handle user-specific file locking actions
+Refactor input split processing and update table split formatting for clarity and efficiency.
+Standardize sampled header values to "0" and "1" for consistency.
+Use IOUtils.closeQuietly to simplify subDoc closure and ensure safety against null pointers.
+Implement fullscreen mode and improve display handling in GWT backend.
+Refactor WebfingerIssuerService to use URI instead of String for resource normalization and caching.
+Add test for SoulApacheDubboClientConfiguration to verify DubboConfig properties.
+Refactored file resolution logic in SkinLoader to improve path handling and consistency
+Update logging levels in OidcDefaultJsonWebKeystoreCacheLoader and add trace logging in ChainingAttributeReleasePolicy for better diagnostics
+Use lockInterruptibly to handle potential thread interruptions gracefully
+No code changes; adjusted formatting only.
+Fix incorrect handling of redundant branches in JSR subroutines and add exception table checks.
+Refactor ManifestFetcher and error handling for better clarity and HTTP data source usage.
+Add configuration for maximum cached statements per connection to improve database connection management
+Unify return types from WritableConfig to Configuration for consistency across implementations.
+Remove unused checkErr method from AutoScalingHandler to simplify codebase.
+Optimize CombinedDataset to improve performance and maintainability.
+Fix variable name inconsistency to improve readability in InflateIn_DeflateOut.
+Remove cryptography restrictions to ensure compatibility with unrestricted encryption environments and add fallback for missing BouncyCastle provider.
+Fix null check for event cancellation before teleporting entity to Nether
+Add test for validating long text transformation with page margins
+Add null check for vContext to avoid unnecessary reinitialization in vectorization process
+Convert speed from km/h to knots in WialonProtocolDecoder.
+Set default metric user configuration to false and add checks to respect the setting in tests.
+Add isEmpty method to JsonObject and corresponding unit tests for improved usability and verification
+Ensure receiver is unregistered only when attached to prevent crashes
+Refactor network I/O classes for consistency and future extensibility
+Add support for zadd parameters to enhance command flexibility.
+Refactor code for clarity, enforce UTF-8 encoding, and resolve unused variable warnings.
+Rename `TestAsyncMessages` to `TestAsyncMessagesPerformance` to better reflect the test's purpose and scope.
+Refactor VersionedTargetGraphBuilder to handle optional nodes and improve test parameter support in VersionPropagatorBuilder.
+Replace named constants with inline literals for better readability.
+Fix EscherBlipRecord size calculation and add TestOLE2Embedding for validating OLE2 embedded files.
+Fix column initialization to start at 1 for consistency
+Refactor type matching logic to use regex patterns instead of JavaType for improved flexibility and readability
+Add trailer playback support and adjust thumbnail height to enhance user experience.
+Add removeGlyphInfoFromCache calls to clean up cached glyph info before freeing pointers
+Refactor termination behavior and enhance process instance history recording.
+Handle empty xmlType.name() by using @XmlRootElement annotation as a fallback for QName generation.
+Update invalid endpoint in SimpleHttpClientTests for test clarity.
+Add option to reset all preferences to default values and handle potential exceptions.
+Refactor ThriftServer and related classes to improve extensibility by increasing method and field visibility
+Removed deprecated manual fan speed channel and related handling logic
+Refactor assertions to use Hamcrest for improved readability and consistency
+Remove redundant null check for expansionHelper before stopping it
+Add equals and hashCode methods to PartImpl for correct object comparison and prevent index out-of-bounds in PartitionPanel
+Add default root disk size to custom parameters if missing to ensure consistent VM creation
+Ensure prediction visibility considers user preferences for suggested apps in drawer.
+Handle invalid CRS in BBOX parsing and improve error reporting
+Add parameter validation and ensure compliance with cryptographic constraints in LibrustzcashParam
+Mark IThrowableEntity as deprecated; moved to FML's IThrowableEntity registry for better organization.
+Generate random coordinates for node initialization within the range [-500, 500].
+Add tests for refresh token validation to handle missing scopes and happy case scenarios.
+Refactor JavacStep to use try-with-resources for safer invocation handling
+Bump version from 0.9.1 to 0.9.2 for release updates and bug fixes.
+Check for deep shortcuts in LoaderCursor to handle specific item type conditions
+Add hashCode implementation to TimeGranularitySpec for consistent hashing behavior
+Change visibility of inner classes and fields to protected for extended access in subclasses.
+Enable proxy response code handling for NTLM proxy transparency adjustments
+Refactor AArch64 assembly code to improve readability and optimize scratch register usage
+Refactor memory calculation logic to use CapacityDAO for improved efficiency and accuracy.
+Fix null check for maxScore in JSONResponseWriter and add test for distributed search query with score
+Update audio recorder sample rate from 22050 Hz to 44100 Hz for better audio quality
+Fix incorrect calculation of newOriginX to properly adjust for subjectBounds scaling
+Improve null and empty check for dataSource and set default interval to avoid errors in DruidQueryBasedInputFormat.
+Add support for ORIGINAL_TYPE property and fix pattern compilation to handle nested quotes
+Add factory method to Index for streamlined instance creation
+Simplified boolean expression for period check to improve code clarity.
+Add index tracking to SchemaCompatibility for improved error location logging and update tests to verify incompatibility messages.
+Add support for identifying entity paths and handling associations in query utilities.
+Synchronize access to spans to ensure thread safety and avoid iterator pitfalls.
+Updated method signatures to use wildcard `?` in generic lists for improved flexibility and type safety
+Refine exception handling and logging to differentiate InvocationTargetException and provide clearer log messages.
+Fix OAuth2AccessTokenEntity formatting for improved readability and maintainability
+Update service status messaging and add null checks to improve clarity and robustness.
+Add default iPad launch images for iOS and iOS-MOE projects.
+Set merge scheduler to ConcurrentMergeScheduler in TestSearcherManager for improved concurrency handling.
+Fix null and empty list handling in QTestUtil and GenericUDTFInline to ensure safe iteration
+Add missing implementations for MapIterable, FJIterate, and ParallelIterate to ensure consistency and functionality.
+Avoid duplicate `preventDefault()` calls to improve code clarity and maintainability.
+Refactored service registration and cleanup logic in HibernateBundleActivator; improved test coverage for OSGi lifecycle.
+Fix timeout calculation to use connectionTimeout explicitly instead of decrementing directly
+Refactored VoiceCompiler to use non-packaged resources directory for component file generation.
+Improve file path handling and validation to ensure cross-platform compatibility and robustness.
+Change `row` method return type to void to align with updated table API usage.
+Ensure unique port assignments to prevent configuration clashes.
+Add null mask generation option to WebSocketClient to enhance control over mask generation strategy.
+Refactor genUDTFPlan to return Pair<RelNode, RowResolver> for improved output handling and type clarity.
+Add node selection stats to track preferred and non-preferred node selections.
+Add Person class with name property and getter/setter methods.
+Fix NPE by ensuring owner pointer validity before accessing bounds.
+Add clock display with periodic updates and fade animations to PlaybackOverlayFragment.
+Removed redundant method calls to improve code maintainability and performance.
+Handle security exception when loading SegmentReader class to improve error handling
+Use SwingUtilities.invokeLater to ensure UI updates occur on the Event Dispatch Thread
+Refactored InetAddress adapter implementation to streamline type adapter hierarchy and improve maintainability
+Add single-value accessors with validation to Series and corresponding tests
+Enable audio time stretch in VideoManager options for better sync handling.
+Fix boundary condition handling in GeoRelationUtils and GeoUtils; add test for whole map validation
+Use correct disk offering ID to fetch DiskOffering instead of service offering ID.
+Add @Before and @After annotations to ensure Hazelcast instances are cleaned up between tests.
+Add tests to validate unsupported AES cipher modes to ensure proper error handling.
+Add filters for printing operations logs to improve traceability
+Add support for generic type injection and AOP introduction with new parent-child interface hierarchy.
+Initialize currentConnectionAddress with proxySocketAddress if null to ensure proper configuration.
+Replace manual arithmetic exception handling with MathUtils.cappedAdd for clarity and consistency
+Use try-with-resources for ImageOutputStream and ensure file deletion via Files API.
+Refactor search functionality to replace TvApp.showSearch() with direct Intent usage.
+Refactor and standardize method signatures and logging for improved readability and maintainability.
+Introduce OSGi-based configuration management for improved modularity and support in ActiveMQ web console.
+Add autowired PersonRepository for use in RepositoryIndexCreationIntegrationTests
+Change stop method signature to throw InterruptedException and fix log message formatting.
+Update valid block list for cactus placement to improve gameplay logic
+Refactor mouse handling logic to improve readability and add mouse drag support
+Introduce RHS padding classes to improve memory layout and alignment for multicast and channel endpoint implementations.
+Add alignment and verticalAlignment parameters to editStringAt to support enhanced text positioning.
+Refactor StatTokSentAnnotator constructor to improve null checks and remove redundant exception handling
+Fix handling of distinct queries and group-by expressions in query generation to ensure correct logic
+Expose stringSimilarity and FUZZY_MATCH_THRESHOLD for reuse and enhance error reporting with fuzzy matching for JNI linkage.
+Fix incorrect comment format in JSyntaxTextArea languageProperties initialization
+Add null check for children in PartitionPruner to prevent NullPointerException.
+Add token position tracking and location handling in MessagePackParser to improve JSON processing and testing.
+Ensure default locale is restored after tests to prevent interference with other tests
+Remove redundant launcher size calculation logic to simplify code.
+Add unit tests for `MetricsReporter` to validate metric registration and operations
+Remove unused import and redundant type parameterization in OsgiServiceRegistry.
+Add equals and hashCode methods to Rectangle for proper comparison and hashing
+Use random sink list names to avoid collisions in tests and ensure isolation
+Refactor DSAParameterGenerator to improve code readability and ensure correct validation of prime sizes.
+Use FQDN for AM host in LLAP when configured to improve hostname resolution.
+Use assertTrueEventually to handle asynchronous client shutdown validation
+Refactor shape object ID handling to standardize computation logic and add tests for validation
+Add test for distinct scalar query to verify unique post titles
+Refactor SearchTrav tasks for improved readability and maintainability.
+Removed support for dynamic ExtensionAdapter binding to simplify client adapter management.
+Refactored subtitle text generation to include detailed info row for improved clarity and consistency.
+Migrate JUnit 4 annotations to JUnit 5 for compatibility and improved functionality.
+Handle specific exceptions in generateSummary method to improve error logging and robustness.
+Simplified pool reset method calls by removing redundant parameters
+Remove redundant @Override annotations in FilterInputStream to improve code clarity.
+Support TIRAMISU API with WindowSessionDelegateU for enhanced functionality
+Handle non-standard ports consistently based on the requested scheme and port.
+Add support for MSSQL-specific RESTRICT onDelete constraint in AddForeignKeyConstraintGenerator.
+Refactor store file replacement logic for consistency and ensure no exception is thrown during store file replacement
+Refactor item flow extraction and event handling to enhance modularity and maintainability.
+Refactor logging behavior in HtmlIdentifier to use static field and improve readability
+Refactor Hive lookup schema and query validation to improve consistency and accuracy.
+Ensure thread safety and proper state verification in ExoPlayer operations.
+Use `CatalogAndSchema` to customize schema name handling for database compatibility.
+Adjust alpha blending and screen rendering tests for improved visual accuracy and debugging.
+Use `BatchPromise.getSentPromise()` to ensure batch promises are correctly joined.
+Add baseCore to statisticYearCores if not present to avoid duplicate processing.
+Refactor task launching logic to improve type safety and support task-based actions.
+Refactor MorfologikFilter to improve dictionary handling and resource loading logic.
+Fix label for community rating in sort options to match naming convention
+Set visibility of header view based on ListRow's header item presence.
+Refactor client type switch to include try-finally block ensuring countdown execution
+Fix potential null pointer exception in HttpClient by adding null checks
+Replace case-sensitive checks with DB2Database instance checks to improve compatibility and clarity.
+Add support for JavaTimeModule in Jackson serializer to handle Java 8 date/time types
+Switch from Log4j MDC to SLF4J MDC for consistency across logging frameworks.
+Refactor PhiTypeResolver to use Type instead of TypeBearer for clarity and type safety
+Refactor CoinbaseTransactionStatusDeserializer for improved readability and maintainability
+Add support for resolving aliases in build target lists to enforce buck build targets.
+Optimize idle strategy initialization and trigger garbage collection to improve resource handling.
+Replace ContentProvider with ContentResolver for improved flexibility and fix logging and UI references.
+Refactor checkbox listeners to remove redundant state change checks
+Add null check for slotOwner in TestingLogicalSlot to ensure valid input
+Add recipe to remove System.gc() and Runtime.gc() calls to adhere to JVM best practices
+Removed redundant super() calls across multiple classes for cleaner code.
+Preserve icon state when updating UIID in ScaleImageLabel.
+Refactor variable usage in FeedUpdateService to improve clarity and consistency
+Add support for "-cp" as an alias for "-classpath" in argument parsing.
+Replace `options` with `compiler` in avutil annotation for accurate configuration.
+Fix redundant assignment of initialized variable in StorageService.java
+Fix flaky test issue in Test7196045 by improving stability
+Adjust light shaft parameters to fine-tune density and decay values for improved visual balance
+Add support for configurable state data in OIDC to enhance flexibility in request handling
+Support nullable unique constraints and improve handling of inline unique constraints
+Enable federated sharing checks and improve folder sharing logic in EditShareFragment
+Override needsDocValues to always return true for improved test coverage.
+Refactored BufferAlignmentAgent and related classes for improved clarity and alignment handling logic
+Added `intForEach` method to iterate over entries with a custom consumer.
+Fix scoreboard save data handling to prevent early sharing in global mapStorage
+Change count method return type from Long to long to reduce unnecessary boxing/unboxing.
+Refactor MTree snapshot logic for improved readability and logging accuracy
+Refactor dotProductScore computation for clarity and add comprehensive test cases for edge scenarios.
+Introduce irreversible block threshold to calculate and persist the latest confirmed block number.
+Refactor locale setting logic into reusable Systems utility to improve maintainability.
+Check migration cling only if a new database was created to prevent unnecessary checks.
+Refactor collection iteration and exception messages for better readability and maintainability
+Refactored null check for datamodel to improve code readability and maintainability
+Ensure thread consistency by checking current thread identity before proceeding
+Make `closeDatabase` method protected to allow subclasses to override behavior.
+Migrate to Jellyfin SDK model for improved compatibility and maintainability.
+Copy attributes from source SVG element to new document for consistency.
+Simplify log warning by removing redundant inputrcUrl parameter
+Handle "WaitForResult" intent extra to correctly set waitingForResult flag.
+Refactor PriorityQueue to use Supplier for sentinel objects, improving flexibility and removing unnecessary overrides.
+Add widget description support for improved accessibility on Android S+ devices
+Enforce attribute registration limit to prevent exceeding maximum count.
+Refactor `PredicatesTest` package and imports to align with updated predicate implementation structure.
+Add case-insensitive header filtering support to DefaultHeaderFilterStrategy
+Improve line-breaking logic to handle unbreakable strings and prevent alignment issues
+Optimize ShareUserListAdapter to use named avatars with fallback handling for encoding errors
+Refactored instrumentation logic to simplify class checks and improve maintainability
+Handle association to insert destination before source in column calculation.
+Refactor memory limit file path resolution to support cgroup v2 detection.
+Introduce EMPTY_INSTANCE in CxxDeps to reduce object creation for empty dependencies
+Throw exception with detailed message when rule is null to improve error clarity.
+Refactor proxy initialization to use a version map for cleaner code and better maintainability.
+Fix atIndex initialization logic to handle negative values correctly
+Increase test timeout duration to reduce flakiness in slow environments
+Refactor TaskOverlayFactoryGo to initialize AssistContentRequester and pass it to TaskOverlayGo.
+Fix witness address encoding and account check logic in VoteWitnessProcessor
+Fix DefaultMethodRegressionTests to ensure consistent behavior across default methods
+Add missing JMX annotations to WorkloadManagerMxBean for proper monitoring support
+Update exception type to KafkaException for broader compatibility
+Ensure container loader is closed to release resources properly
+Add comprehensive tests for fault-tolerant exception handling scenarios and implement clear() in ExceptionThrowingTaskletStub
+Enhance config error message to include unexpected value and support multiple runner types
+Add support for extraProperties in TableConfigTuner methods to enable flexible configuration handling.
+Prevent duplicate segment addition by checking in-progress instances.
+Prevent interaction with disabled touchable elements by returning null
+Add test for building using precompiled headers across cells to ensure multicell compatibility
+Throw RetryableHazelcastException if cache config is not yet created to handle missing configuration gracefully.
+Refactor npm module installation check to use ProcessUtil for improved reliability and code maintainability.
+Add @ManagedObject and @ManagedOperation annotations to improve Jetty component management.
+Disable inAppBrowser setting for LongClickableSpan.
+Refactored string comparisons to use constant-first style for null safety and readability.
+Fix incorrect type check logic in reifiable warning and add tests for type casting edge cases
+Improve position and region messages for clarity and consistency in WorldEditListener.
+Add shutdown handling for KafkaFetchRecords tasks to ensure proper cleanup on executor termination.
+Remove unused default method `examples()` from `Schema` to clean up the codebase.
+Fix infinite loop in agent termination logic by breaking on thread inactivity and retrying on timeout
+Exclude time column from dimensions to ensure correct aggregation filtering.
+Fix logical operator alignment for clearer condition readability in FacetComponent
+Use `CxxPlatforms.getParseTimeDeps` to simplify dependency handling in Rust descriptions.
+Add `name` property with getter and setter methods to authentication properties classes for consistency and future extensibility
+Improve CFGPrinter logging and handle null printer cases to enhance debugging and stability
+Add small scan threshold for point lookups to optimize query performance
+Add routeId to RetryGatewayFilterFactory to improve traceability of retry configurations
+Replace redisplay calls with callWidget for consistency and improved readability.
+Refactor onOverviewShown logic to streamline DiscoveryBounce handling and remove redundant overrides
+Refactor null checks for globalMinPackedValue and globalMaxPackedValue; add test for deleting all point docs.
+Add updateLastState parameter to publish method to enhance state management flexibility
+Fix incorrect syntax in skewed string list query to ensure proper SQL execution
+Prevent NullPointerException by removing unnecessary addition of null to the list
+Introduces new `Condition` implementations to improve flexibility in text matching for Selenium WebElements.
+Fix infinite loop issue by replacing do-while with while(true)
+Introduce forward-only fetch size configuration to improve database query efficiency
+Handle ClosedChannelException gracefully to prevent unnecessary 404 responses.
+Initialize ArrayList with specified size to improve performance.
+Refactor window radius initialization to respect rounded corner support settings.
+Refactored task view background and orientation handling for improved layout consistency and readability.
+Initialize UpstreamCheckService in test to ensure proper configuration setup
+Refactor logging conditions to debug immortal sessions only when debugging is enabled
+Return locks instead of throwing LockException to handle missing ZooKeeper children gracefully.
+Refactor and clean up code across multiple components for consistency and maintainability.
+Fix mipmap generation condition to account for custom data usage.
+Refined masking formatter to simplify syntax and improve key-value formatting consistency.
+Add support for selectable lists and improve null-checks for item selection logic.
+Fix null field vector issue in LlapArrowBatchRecordReader to prevent incorrect handling of empty batches
+Add file separator expansion support and improve debugging logs in PolicyContext.
+Replace HashSet with ArrayList for consistent query order handling.
+Add TLS restriction validation to enhance security compliance.
+Ensure producer close operation executes asynchronously to prevent blocking.
+Add support for ignoring specific node values in assertNodeStateProvider to enhance test flexibility.
+Remove stale lock file to prevent potential conflicts in workspace
+Refactor MiniZooKeeperCluster and TestHQuorumPeer to support InetSocketAddress for client ports.
+Add logging for connection opening and refactor response handling in RestClient.
+Use `toArray` for segmentTarURIStrs to avoid potential string conversion issues.
+Fix incorrect password usage in AllAccessControlUiTests loginStudent calls
+Add null check for mCurrentItem.getItemId() to prevent potential NullPointerException.
+Reduce the minimum number of strings in TestSpecialOperations to improve test stability.
+Simplify WKBAttributeIO by removing custom ByteArrayInStream and hexToBytes implementation.
+Rename method `messageWithHeaderEntry` to `messageWithHeaderKey` for better clarity and consistency
+Prevent invalid transitions by checking direct substate relationships
+Enhance MultimapSubject to handle ListMultimap and SetMultimap with appropriate equality checks
+Add JoinOperation interface to PostJoinOperation for consistency in system operations
+Add test for PostgreSQL data issue 258 to verify schema dumping with OIDs
+Handle JMSException in destroyDurableSubscriber to verify inactive reason and avoid test failure.
+Fix NullPointerException in AvaticaDatabaseMetaData by adding null checks
+Refactor MongoDB connection pool properties to use DurationCapable for better readability and flexibility
+Replace null MediaFormatFactory call with MediaService factory to ensure proper audio format creation
+Refactor filter handling logic to improve clarity and ensure correct application of domain changes.
+Add timeout handling flag to enable or disable TimeoutHandler dynamically
+Standardize QUICKSTEP_ROTATION_UNINITIALIZED constant usage for clarity and consistency in rotation handling.
+Refactored logging messages for clarity and consistency in XPathBuilder and added detailed debug logs in XQueryBuilder
+Refactor resource loading to use DataResource for improved readability and maintainability
+Add test for escaped backslash handling in GoTokenizer to prevent regressions
+Ensure 'atlas' property exists in map properties and streamline atlas handling logic in AtlasTmxMapLoader.
+Removed resolvePropertyPlaceholders logic and helper class for simplification and to reduce maintenance overhead.
+Remove redundant Kafka test logic and ensure proper LevelDB resource cleanup in BlockchainTest
+Refactor line processing in CoreMarkdownNodeRenderer to use List for improved flexibility and fix test expectations
+Remove unused import of MessagingGatewaySupport from WebServiceInboundGatewayParserTests
+Refactor SQL bindings to use mutable lists for better flexibility and deprecate ImmutableList methods.
+Add OpenJDK check to VM validation logic to improve compatibility.
+Enable HTTP keep-alive for ReactorClient to improve connection efficiency.
+Use predefined shader attributes to ensure compatibility across rendering pipelines.
+Refactor properties component initialization to simplify logic and improve readability
+Fix null check for account retrieval in UnfreezeBalanceActuator
+Update XMPPServer version to 3.8.1 Alpha for pre-release testing purposes
+Use unannotatedType() consistently to handle type annotations properly and simplify logic
+Adjust seqTsFileSize in test to ensure consistent behavior during timedFlushUnseqMemTable execution
+Add support for EE10 features and update relevant configurations to align with Jakarta EE10 specifications.
+Add delay parameter `waitbeforestart` with a default value of 2500ms for improved synchronization
+Removed skipCorrupt parameter and related logic from OrcEncodedDataConsumer and its usage for cleaner code and consistency.
+Refactor AccessorsTest to reorganize imports and migrate test methods for improved readability and maintainability.
+Refactor GraalCompiler to separate graph creation and compilation for improved modularity
+Replace @Ignore with @ConditionalIgnore to enable conditional test execution
+Fix boat position adjustment to account for water blocks
+Improve string representation for Directory and RAMDirectory to enhance debugging clarity.
+Simplified check for experimental options by removing redundant method.
+Add BDDAssertions `then` methods for improved assertion flexibility with Path and custom components.
+Refactor variable names in ForwardedRequestCustomizer for clarity and update test cases with new server port.
+Update Kubernetes config logging to provide guidance on selecting desired file via KUBECONFIG
+Enhance file upload handling with status-specific actions and OCFile integration.
+Refactored crypto provider installation into `ProviderLoader` for modularity and improved error handling in `TerminalManager`
+Update headers to use TraceMessageHeaders for better alignment with messaging instrumentation conventions
+Simplified changelog query statement by using a computed column configuration.
+Refactor PostgreSQL dialects to improve schema command consistency.
+Handle division by zero when calculating partitions per member in InternalPartitionServiceImpl.
+Add checks to ensure scheduler state before starting to prevent redundant operations and improve error handling.
+Fix InlineBox creation to avoid unnecessary toString() call and clarify blockParent condition logic
+Refactor checkArgument calls for better readability and maintainability
+Adjust staged rectangle slide end timing from 383ms to 500ms for consistency
+Localize UI text to support internationalization with dynamic resource bundles.
+Fix null plot check logic by including owned plot validation
+Refactor touch exploration listener handling to improve compatibility across API levels.
+Refactor CmapSubtable to use maxGlyphId and add unit test for character code lookup functionality.
+Replace usage of getPropertyAsString(NAME) with getName() for clarity and consistency.
+Refactor NPOIFSFileSystem usage to use POIFSFileSystem.create for better consistency and readability
+Handle null plot area gracefully by checking and assigning plot2.
+Fix version regex to correctly match all semantic version patterns.
+Ensure count is at least 1 to prevent invalid range errors in Filters logic
+Improve clientId generation logic to include bean type and handle multiple consumer threads
+Fix error handling in JavacCompiler to throw exception with detailed message on failure
+Optimize repaint logic to minimize redundant updates and improve performance.
+Fix formatting in conditional statement for improved readability
+Add isAnimationFinished method to check if animation has completed based on stateTime.
+Add test to verify custom favicon handling with base64 data and line breaks.
+Fix null check for otherUrl and add ellipsis to finding tweetmarker text
+Refactor input sanitization logic to standardize spacing and improve consistency in handling special characters.
+Fix ObjectHashSet implementation to address potential inconsistencies in hash-based operations
+Refactored array comparison logic to improve readability and correctness.
+Fix NBT comparison for item deletion to address enchanted book issues (MC-12770)
+Add tests for asynchronous GET and PUT endpoints in AsyncResourceTest, and refactor JerseyHandler to support custom ResourceConfig
+Refactor header map generation to use user headers instead of flat headers for clarity and consistency.
+Improve logging for email sending errors and handle SendFailedException with detailed recipient information
+Rename resetTaskItemView to resetToEmptyUi for better clarity and UI consistency.
+Add tests for `getPartitionsByNames` to verify single and multiple batch handling.
+Fix missing bracket in FileListListAdapter to ensure proper compilation
+Refactor ArrayList to List for better flexibility and adherence to coding standards.
+Fix index calculation in removeViewInLayout to avoid incorrect child removal
+Simplify hidden package configuration and remove unused Jetty servlet dependency.
+Set correct signature flag in S3Request to prevent unintended signed requests.
+Refactor `initializeComponents` method to remove unused parameters and simplify calls.
+Fix DeweyNumber parsing logic to handle zero splits and add test for invalid input
+Refactor categorySet string formatting to improve readability and maintainability
+Simplify error message text in WebSocketClientTest for clarity.
+Handle null classLoader scenario and adjust tests accordingly
+Remove redundant conditional block in PersistentAttributeTransformer to streamline logic.
+Improve type checks and error logging for page labels in PDNumberTreeNode
+Add unit test for PorterStemFilter using sample data to validate stemming behavior
+Ensure index updates are written only on successful batch mutation to improve consistency.
+Corrected package name from "exlore" to "explore" in batch core support classes.
+Synchronized access to chatPanels to prevent concurrency issues.
+Move `Sys.touch()` initialization to `APIUtil` for centralized management
+Remove untrackedFiles functionality and update test cases to reflect tracked/changed file handling.
+Refactored timer management to ensure thread safety and reuse across components
+Make light properties immutable and add range for linear fall-off calculation.
+Ensure minimum width and height values for target dimensions to prevent rendering issues.
+Add toString implementation in DelegatingSecurityContext to delegate to wrapped object

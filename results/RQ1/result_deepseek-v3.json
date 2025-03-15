@@ -1,0 +1,3327 @@
+[
+    {
+        "msg": "implement plugincomponentlistener in the call history panel , in order to activate plugin component add",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "implement plugincomponentlistener in the call history panel",
+        "why": "activate plugin component add"
+    },
+    {
+        "msg": "take callback to providet and opset during construction so that they could be available for all unresolved contact before registration",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "take callback to providet and opset during construction",
+        "why": "so that they could be available for all unresolved contact before registration"
+    },
+    {
+        "msg": "auto bug report fix",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "before retrieve a service from a reference make sure that the corresponding bundle be not in the stopping state in order to avoid illegalstateexceptions",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "before retrieve a service from a reference make sure that the corresponding bundle be not in the stopping state",
+        "why": "avoid illegalstateexceptions"
+    },
+    {
+        "msg": "improve the logic of extract hive job url in jdbcinterpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add jar to sys.path a do in pyspark shell",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "chat tabbed pane look modify in order to help good distinguish select and unselected tab",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "chat tabbed pane look modify",
+        "why": "help good distinguish select and unselected tab"
+    },
+    {
+        "msg": "add event type in order to allow distinguish action and system message",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add event type",
+        "why": "allow distinguish action and system message"
+    },
+    {
+        "msg": "improve thread safety",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "improve thread safety",
+        "why": "ensure concurrent access to shared resources is handled correctly"
+    },
+    {
+        "msg": "change function name : 'reduce360 ' to 'reduce2pi ' because the number be in radian",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change function name : 'reduce360' to 'reduce2pi'",
+        "why": "the number be in radian"
+    },
+    {
+        "msg": "change hashcode and equal to use all field old format of ork file do not include digest so that be not enough to compare placeholder",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change hashcode and equal to use all field",
+        "why": "old format of ork file do not include digest so that be not enough to compare placeholder"
+    },
+    {
+        "msg": "a bunch of client packet",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "support all sql of flink 1.11",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add a packet listener",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "sip-comm 's directory should start with a dot so that it be hide for unix system",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "sip-comm 's directory should start with a dot",
+        "why": "so that it be hide for unix system"
+    },
+    {
+        "msg": "replaces usage of javax.xml.bind.annotation.adapters.hexbinaryadapter by org.jivesoftware.smack.util.stringutils in order to remain java 1.5 compatible",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "replaces usage of javax.xml.bind.annotation.adapters.hexbinaryadapter by org.jivesoftware.smack.util.stringutils",
+        "why": "to remain java 1.5 compatible"
+    },
+    {
+        "msg": "upgrade to spark 3.0.0",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "implement a mechanism to translate pullbufferdatasource into pushbufferdatasource because portaudio provide a `` pull '' capturedevice and neomedia relies on the `` push '' interface",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "implement a mechanism to translate pullbufferdatasource into pushbufferdatasource",
+        "why": "portaudio provides a \"pull\" capturedevice and neomedia relies on the \"push\" interface"
+    },
+    {
+        "msg": "convert url to file use a uri so that url-encoding be remove",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "convert url to file use a uri",
+        "why": "so that url-encoding be remove"
+    },
+    {
+        "msg": "bug fix : npe",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "remove default avatar for facebook because we do not seem to do it for other protocol and it get call too often",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove default avatar for facebook",
+        "why": "we do not seem to do it for other protocol and it get call too often"
+    },
+    {
+        "msg": "fetch row with newline character break entire table",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "rename vector float class and method",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "wizard control change in order to be use for the account registration wizard",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "wizard control change",
+        "why": "to be used for the account registration wizard"
+    },
+    {
+        "msg": "jupyter conda python package",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "only display note job info for owner",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "set paragraph status to be abort when recovery be disabled",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "set paragraph status to be abort",
+        "why": "when recovery be disabled"
+    },
+    {
+        "msg": "display the description of the notification event in the event page of tool > option.. with space so that they look less geeky",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "delay destroying of menu for macos so that action can be perform",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "delay destroying of menu for macos",
+        "why": "so that action can be performed"
+    },
+    {
+        "msg": "toggledetailsaction always enable",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "improve exception message",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "leakage in jobmanager of flink interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "wip chunk packet",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "a few improvement to sm2signer",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "minor optimization toimpl.gui.main.call wrt map iteration , memory consumption because of field",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "minor optimization to impl.gui.main.call wrt map iteration",
+        "why": "memory consumption because of field"
+    },
+    {
+        "msg": "remove lucene writer lock during shutdown",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "remove lucene writer lock",
+        "why": "during shutdown"
+    },
+    {
+        "msg": "in neomedia , fix notrealizederror thrown because mediadevicesesion do not wait for realize on processor report by emil ivov",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix notrealizederror thrown in neomedia",
+        "why": "because mediadevicesession does not wait for realize on processor report by emil ivov"
+    },
+    {
+        "msg": "move propertychangelistener/event fromconfiguration.event toutil because they 're generic and of interest to other use case",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move propertychangelistener/event from configuration.event to util",
+        "why": "they're generic and of interest to other use cases"
+    },
+    {
+        "msg": "rename test class so that their test be run by maven",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rename test class",
+        "why": "so that their test be run by maven"
+    },
+    {
+        "msg": "enhance the parser so that it can deal with test case from clickhouse repo",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "enhance the parser",
+        "why": "so that it can deal with test case from clickhouse repo"
+    },
+    {
+        "msg": "remote interpreter soft shutdown",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "remote interpreter soft shutdown",
+        "why": "ensure graceful termination of remote processes to prevent resource leaks"
+    },
+    {
+        "msg": "related bug fix",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "ignore dependency if root be the only visible ancestor because of the",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "why: because of the dependency constraint",
+        "why": "Explanation: The commit message contains both the \"what\" (ignoring a dependency under a specific condition) and the \"why\" (due to a dependency constraint), making it a good commit message."
+    },
+    {
+        "msg": "rework welcome page so that it only handle reqs that accept text/html",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rework welcome page",
+        "why": "so that it only handle reqs that accept text/html"
+    },
+    {
+        "msg": "refactors the utility class swingworker to perform thread pooling because it be extensively use during chat",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "refactors the utility class swingworker to perform thread pooling",
+        "why": "it be extensively use during chat"
+    },
+    {
+        "msg": "support flink 1.13",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "change visibility of package private method in abstractmongodbquery",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "patch thing so that we would be able to commit the beginning of our jingle implementation and the xep-0115 support",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "patch thing",
+        "why": "so that we would be able to commit the beginning of our jingle implementation and the xep-0115 support"
+    },
+    {
+        "msg": "add a level of indirection to color-maps , so that they can be specify by the user in the future",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add a level of indirection to color-maps",
+        "why": "so that they can be specified by the user in the future"
+    },
+    {
+        "msg": "spark interpreter use incorrect property name",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "add a default packet extension provider refactors a few more packet extension so that they would extend abstractpacketextension",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "emphasize primary key in html output , so that they be consistent",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "emphasize primary key in html output",
+        "why": "so that they be consistent"
+    },
+    {
+        "msg": "allow alternative generated annotation to be provide",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "changed free for chat status to be over 80 so that our default online status be available",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "changed free for chat status to be over 80",
+        "why": "so that our default online status be available"
+    },
+    {
+        "msg": "wizard control change in order to be use for the account registration wizard",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "wizard control change",
+        "why": "to be used for the account registration wizard"
+    },
+    {
+        "msg": "compile under java 11",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "compile under java 11",
+        "why": "ensure compatibility with java 11 runtime environment"
+    },
+    {
+        "msg": "add source code for achartengine 1.0.0 in order to apply patch to make it work well",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add source code for achartengine 1.0.0",
+        "why": "apply patch to make it work well"
+    },
+    {
+        "msg": "fix for layout with cloud and for summary node first",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support flink command in flink interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename test var , class and add miss ctor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename vectorvalues.scorefunction to searchstrategy",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "partial refactoring of estrequest",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "switch to netty rewrite",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "switch to netty",
+        "why": "rewrite"
+    },
+    {
+        "msg": "bug fix : in nodeview : wrong mouse listener be attach to detailsview",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "deletes contactlistpanel.java.orig because it do not seem to be necessary",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "deletes contactlistpanel.java.orig",
+        "why": "it do not seem to be necessary"
+    },
+    {
+        "msg": "support hdfs jar for flink.execution.jars & flink.udf.jars",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support hdfs jar for flink.execution.jars & flink.udf.jars",
+        "why": "enable Flink to use HDFS jars for execution and UDFs, improving compatibility and flexibility in distributed environments"
+    },
+    {
+        "msg": "rename knn search vector format",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "modifies the stun form in the xmpp wizard so that it would use a share stun server descriptor",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modifies the stun form in the xmpp wizard",
+        "why": "so that it would use a shared stun server descriptor"
+    },
+    {
+        "msg": "explain statement be break in flink interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support to run note in isolated mode in rest api",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied) to ensure better isolation and security when running notes",
+        "why": "Note: The \"why\" is implied in this case, as \"isolated mode\" suggests the purpose is to improve isolation and security. If the \"why\" is not explicitly stated, it can sometimes be inferred from the context."
+    },
+    {
+        "msg": "add $ geointersects",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use spark-2.4 a the default profile",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "when start the application , load the stored account in the background in order to allow the ui to appear as soon a possible",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "load the stored account in the background",
+        "why": "allow the ui to appear as soon as possible"
+    },
+    {
+        "msg": "fix in nodeview.nodechanged",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "modifies the stun form in the xmpp wizard so that it would use a share stun server descriptor",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modifies the stun form in the xmpp wizard",
+        "why": "so that it would use a shared stun server descriptor"
+    },
+    {
+        "msg": "iconcontroller.geticons should not be static",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix in text condition",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "prefer nullable over optional",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "prefer nullable",
+        "why": "over optional"
+    },
+    {
+        "msg": "run spark job a the login user in yarn mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "reduce the shallow and retain runtime size of metacontactimpl because it be not unlikely to have hundred of instance",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "reduce the shallow and retain runtime size of metacontactimpl",
+        "why": "it be not unlikely to have hundred of instance"
+    },
+    {
+        "msg": "support ossnotebookrepo of aliyun",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "support flink 1.10",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove annoy exception when shut down interpreter",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "remove annoy exception",
+        "why": "when shut down interpreter"
+    },
+    {
+        "msg": "add new quickdump command , which be quick because it can be use with -infolevel=minimum , though row order be not guarantee",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add new quickdump command",
+        "why": "it can be used with -infolevel=minimum for quick execution, though row order is not guaranteed"
+    },
+    {
+        "msg": "catch illegalaccesserror because it seem to happen sometimes",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "catch illegalaccesserror",
+        "why": "it seem to happen sometimes"
+    },
+    {
+        "msg": "refactor filtercomposerdialog so that it can be use not only for filtertoolbar model",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "refactor filtercomposerdialog",
+        "why": "so that it can be used not only for filtertoolbar model"
+    },
+    {
+        "msg": "statusselectorbox component generalize in sipcommselectorbox , in order to be use a a common control in other place in the gui",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "statusselectorbox component generalize in sipcommselectorbox",
+        "why": "in order to be used as a common control in other places in the gui"
+    },
+    {
+        "msg": "limit action to editlong because of collision with enter , tab , insert",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "limit action to editlong",
+        "why": "because of collision with enter, tab, insert"
+    },
+    {
+        "msg": "rename triggertester to reducefntester",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "rename triggertester to reducefntester",
+        "why": "reducefntester better reflects the purpose of the module"
+    },
+    {
+        "msg": "add record support to extendedtypefactory.java",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "optimizes sipcommframe and scscrollpane wrt memory consumption , garbage creation and , hopefully , execution speed because they 're frequently use",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "optimizes sipcommframe and scscrollpane wrt memory consumption, garbage creation, and execution speed",
+        "why": "because they're frequently used"
+    },
+    {
+        "msg": "add equal and hashcode method to rtpextension so that they could properly be use a key in a map",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add equal and hashcode method to rtpextension",
+        "why": "so that they could properly be use a key in a map"
+    },
+    {
+        "msg": "bug fix for change side when node be move by script",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "embeddedsolrserver corename optional",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "embeddedsolrserver corename optional",
+        "why": "allows for more flexible configuration of the EmbeddedSolrServer by making the corename parameter optional"
+    },
+    {
+        "msg": "export note json be not pretty print",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove deprecate hibernate api usage",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "remove deprecate hibernate api usage",
+        "why": "ensure compatibility with newer versions and avoid potential issues with deprecated features"
+    },
+    {
+        "msg": "update neo4j driver",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "do not insist on get state change event for call participant when they get create , because we might have miss them",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "do not insist on get state change event for call participant when they get create",
+        "why": "because we might have miss them"
+    },
+    {
+        "msg": "only node text change be relevant",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix default setting of parser",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix for open formula editor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "update + add benchmark tool",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "add some todo comment",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "tl create keystores with pem file",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "change remove to poll",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "change remove to poll",
+        "why": "improve thread safety and avoid potential exceptions in concurrent environments"
+    },
+    {
+        "msg": "more improvement base on the actual jdbc driver",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename to testcountingsource",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove , because of the integration of metacontactlistservice",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove",
+        "why": "because of the integration of metacontactlistservice"
+    },
+    {
+        "msg": "improve kerberos debug message",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "attempt to fix java.util.nosuchelementexception",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "rework bootrun so that it do not subclass javaexec",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rework bootrun",
+        "why": "so that it does not subclass javaexec"
+    },
+    {
+        "msg": "remove useless equipment sync",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "remove useless equipment sync",
+        "why": "to clean up unnecessary code and improve performance"
+    },
+    {
+        "msg": "refactoring of executioncontext",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "`` config '' base option should use a builder pattern , so that we can separate logic for convert option to and from a map",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "`` config '' base option should use a builder pattern",
+        "why": "separate logic for convert option to and from a map"
+    },
+    {
+        "msg": "add miss java_import 's to pyspark bootstrapping",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "wip block update",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "ignore nanos for joda",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "ignore nanos",
+        "why": "for joda"
+    },
+    {
+        "msg": "rename filesstream - > catstream",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename statecontext to stateaccessor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "can not specify the spark image from the interpreter setting",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "create bundleddriveroptions so that database specific configuration can be invoke programatically",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "create bundleddriveroptions",
+        "why": "so that database specific configuration can be invoked programmatically"
+    },
+    {
+        "msg": "attempt to work around ora-01882 in exportoracletest",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "attempt to work around ora-01882",
+        "why": "in exportoracletest"
+    },
+    {
+        "msg": "check the instance type rather than the class name",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "check the instance type",
+        "why": "rather than the class name"
+    },
+    {
+        "msg": "do not show ' & ' in save a. dialog title",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add output type in jupyterkernelclient 's onerror",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix a null pointer exception that occur because of null transport when modify sip account",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix a null pointer exception",
+        "why": "occur because of null transport when modify sip account"
+    },
+    {
+        "msg": "replace code with bigdecimal.round_half_up to roundmode because round_half_up be deprecate",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "replace code with bigdecimal.round_half_up to roundmode",
+        "why": "round_half_up be deprecate"
+    },
+    {
+        "msg": "increase horizontal distance between child so that handle can fit in",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "increase horizontal distance between child",
+        "why": "handle can fit in"
+    },
+    {
+        "msg": "change the wrong class name",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add write and read limit",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix in painting of summary node bracket",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename termfreqpayloaditerator - > inputiterator",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "extract inner class because of compile error",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "extract inner class",
+        "why": "because of compile error"
+    },
+    {
+        "msg": "support flink in k8s mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "basic instance implementation",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied by context, but not explicitly stated)",
+        "why": "Note: The \"why\" is not explicitly stated in the commit message, but it can be inferred from the context of \"basic instance implementation\" that it is likely foundational work. However, for clarity, it would be better to explicitly state the purpose or impact of the implementation."
+    },
+    {
+        "msg": "do not include minus sign in paragraph id",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "parse unhandled iq stanza of type 'request ' to dummy iq class , so that the content can be examine later on",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "parse unhandled iq stanza of type 'request' to dummy iq class",
+        "why": "so that the content can be examined later on"
+    },
+    {
+        "msg": "when create medium stream , send an empty udp packet to target in order to open port in nat/rtp proxy if any",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "send an empty udp packet to target when creating medium stream",
+        "why": "open port in nat/rtp proxy if any"
+    },
+    {
+        "msg": "improve mcm so that it automatically cop with the consumer cancel notification",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "remove duplication in order to remove an inconsistent checking of a field for null",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove duplication",
+        "why": "remove an inconsistent checking of a field for null"
+    },
+    {
+        "msg": "when the installer can not work because the eclipse dir be not writable , you use to get the",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "remove jsr310 compatibility trick",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "make sure context be set before create object so that write handlerids be register properly with context close hook",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make sure context be set before create object",
+        "why": "write handlerids be register properly with context close hook"
+    },
+    {
+        "msg": "bug fix : scroll tool tip up",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "improve the support of hive on kerbose",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "remove jetty websocket libs",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied: to reduce dependencies or improve performance, but not explicitly stated)",
+        "why": "Note: The \"why\" is implied but not explicitly stated in the commit message. If the \"why\" is not clear from the context, it would be better to explicitly state it. However, since the message is concise and the \"why\" can often be inferred in such cases, I have marked it as 1. If stricter criteria are applied, it could be considered 0 with \"miss why.\""
+    },
+    {
+        "msg": "run a note from the commandline",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "refactoring some view class",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add like ignore case operation support",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "add like ignore case operation support",
+        "why": "improve query flexibility and user experience by enabling case-insensitive searches"
+    },
+    {
+        "msg": "throw exception when use flink for scala 2.12",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "allow import note to set new notepath",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "allow import note to set new notepath",
+        "why": "(implied by the context, but not explicitly stated)"
+    },
+    {
+        "msg": "add retry in pooledremoteclient",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use custom object mapper to serialize json in order to avoid null value",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "use custom object mapper to serialize json",
+        "why": "avoid null value"
+    },
+    {
+        "msg": "log level change of flink interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "type generic in coalesce method",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "nan",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "throw distinct error when rtp/avp be reject because of rtp/savp require",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "throw distinct error",
+        "why": "when rtp/avp is rejected because of rtp/savp requirement"
+    },
+    {
+        "msg": "move some class in neomedia in different package because i pollute theimpl.neomedia package too much",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move some class in neomedia in different package",
+        "why": "pollute the impl.neomedia package too much"
+    },
+    {
+        "msg": "bump easymock from 3.0 to 4.3",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add protect method so that index functionality can be overriden by extend the class",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add protect method",
+        "why": "index functionality can be overriden by extending the class"
+    },
+    {
+        "msg": "split the component implementation of jawtrenderer out of it in order to faciliate it porting",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "split the component implementation of jawtrenderer out of it",
+        "why": "facilitate it porting"
+    },
+    {
+        "msg": "add some test for authorization request/response , but for now be comment out because they do not work properly",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add some test for authorization request/response, but for now be comment out",
+        "why": "they do not work properly"
+    },
+    {
+        "msg": "fix node tooltip position for dual screen under window",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "fix node tooltip position for dual screen under window",
+        "why": "ensure tooltip displays correctly on dual-screen setups"
+    },
+    {
+        "msg": "remove ping in keepaliveservice because it exist in libp2p",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove ping in keepaliveservice",
+        "why": "it exist in libp2p"
+    },
+    {
+        "msg": "better representation of string-like data in cassandra interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix thechive bug so that it can now rip gifs",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "do not guess node object type after text input",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "move spark-submit a a separated interpreter module",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "move spark-submit",
+        "why": "to a separated interpreter module"
+    },
+    {
+        "msg": "bug fix in map layout",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "attribute should be at the end of the filter condition list",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename timesource.gettime to gettimens",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "upgrade spark to 3.0.1",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "with java lib",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "wip block entity",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "comment at end of query cause query to be ignore",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "comment at end of query",
+        "why": "cause query to be ignored"
+    },
+    {
+        "msg": "add more logging",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "make sure we catch all sort of exception when retrieve an image so that we do not mess the gui",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make sure we catch all sort of exception when retrieve an image",
+        "why": "so that we do not mess the gui"
+    },
+    {
+        "msg": "add a filter to event sound chooser dialog , in order to select only wav file",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add a filter to event sound chooser dialog",
+        "why": "select only wav file"
+    },
+    {
+        "msg": "put the com url transcoder into the org app so that url be parse out and href 'd",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "optimization & proper itemstack reader",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "keep default.splitqueries in jdbc",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "keep default.splitqueries in jdbc",
+        "why": "(implied by context, but not explicitly stated) maintain compatibility or avoid breaking changes in JDBC behavior"
+    },
+    {
+        "msg": "bug fix paint summary edge",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename two configuration property in order to avoid confusion",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rename two configuration property",
+        "why": "avoid confusion"
+    },
+    {
+        "msg": "improvement of flinkinterpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "polish k8s launcher",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "not return invisible summary node in mapview.getsummaryview",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "not return invisible summary node",
+        "why": "in mapview.getsummaryview"
+    },
+    {
+        "msg": "update util bundle to include some extra package in order to help dns lib to extend it search for dns server",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "update util bundle to include some extra package",
+        "why": "help dns lib to extend its search for dns server"
+    },
+    {
+        "msg": "rename constructor parameter name",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "implement frameprocessingcontrol for swscaler in order to allow it to be instruct by jmf to drop frame",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "implement frameprocessingcontrol for swscaler",
+        "why": "allow it to be instruct by jmf to drop frame"
+    },
+    {
+        "msg": "search only in visible preference path and not in the key because",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "search only in visible preference path",
+        "why": "not in the key because"
+    },
+    {
+        "msg": "move verify certificate dialog in separate service in order to use the certificate service in android",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move verify certificate dialog in separate service",
+        "why": "to use the certificate service in android"
+    },
+    {
+        "msg": "provide the proper dimensiontype in the joingamepacket",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "provide the proper dimensiontype in the joingamepacket",
+        "why": "ensure correct dimension type is used when joining the game"
+    },
+    {
+        "msg": "nan",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "hive job run under anonymous user instead of default.user",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "hive job run under anonymous user",
+        "why": "instead of default.user"
+    },
+    {
+        "msg": "resulttransformers for guava collection",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "fix more possible npes because of miss sof now throw iioexception immediately , if sof be not find",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix more possible npes",
+        "why": "because of miss sof now throw iioexception immediately, if sof be not find"
+    },
+    {
+        "msg": "netclient creation should be defer to connect in clustered eventbus connection holder because those can be concurrently create",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "netclient creation should be defer to connect in clustered eventbus connection holder",
+        "why": "because those can be concurrently create"
+    },
+    {
+        "msg": "rename twodoubles to pointvector",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "add an accountremoved method to the accountregistrationwizard interface in order to notify wizard when an account have be remove",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add an accountremoved method to the accountregistrationwizard interface",
+        "why": "notify wizard when an account have be remove"
+    },
+    {
+        "msg": "rollback part of commit 7779 because sparkle be not load properly",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rollback part of commit 7779",
+        "why": "sparkle be not load properly"
+    },
+    {
+        "msg": "support yarn application mode for flink interpreter",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support yarn application mode",
+        "why": "for flink interpreter"
+    },
+    {
+        "msg": "add a default nightlybuildid so that fresh downloaders do not get an error",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add a default nightlybuildid",
+        "why": "fresh downloaders do not get an error"
+    },
+    {
+        "msg": "bug fix : avoid npe",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "use a different mechanism for handle shutdown in queuingconsumer so that multiple thread consume will all receive the exception",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "use a different mechanism for handle shutdown in queuingconsumer",
+        "why": "so that multiple thread consume will all receive the exception"
+    },
+    {
+        "msg": "port kotlin codegen to 5.0.0",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "port kotlin codegen",
+        "why": "to 5.0.0"
+    },
+    {
+        "msg": "fix npes bug reporter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "refactoring and test",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "tweak the timing so that the ha test pass",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "tweak the timing",
+        "why": "so that the ha test pass"
+    },
+    {
+        "msg": "rename rulesorted to policy",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "split off the annotation so that they can be use standalone without pull in other dependency",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "split off the annotation",
+        "why": "so that they can be used standalone without pulling in other dependency"
+    },
+    {
+        "msg": "cancel paragraph when no sufficient resource for hive job",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "cancel paragraph",
+        "why": "no sufficient resource for hive job"
+    },
+    {
+        "msg": "rename message package to chat and change the structure of class in order to allow conference chat",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rename message package to chat and change the structure of class",
+        "why": "allow conference chat"
+    },
+    {
+        "msg": "automatic bug report bug fix",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "rename a few variable to be more explicit",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "rename a few variables",
+        "why": "to be more explicit"
+    },
+    {
+        "msg": "implement some more packet",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "make the cr-demo even silly in order to demonstrate protocol_error",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make the cr-demo even silly",
+        "why": "demonstrate protocol_error"
+    },
+    {
+        "msg": "unable to register repository with authentication info",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "replace more @ generate stuff",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "download local repo to interpreter node",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "download local repo",
+        "why": "to interpreter node"
+    },
+    {
+        "msg": "fix : make one member variable static",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support flink 1.12",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "polish interpreter class",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "polish interpreter class",
+        "why": "improve code readability and maintainability"
+    },
+    {
+        "msg": "reproducer for eclipselink",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "add instance tick event",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename max-future-ms to maxfuturems",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "optimization + add stats",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "remove internal proprietary api in jupyter module",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove enable / disable action on popup because then they can not be access use shortcut",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove enable / disable action on popup",
+        "why": "they can not be accessed using shortcut"
+    },
+    {
+        "msg": "update the phonenumberi18nserviceimpl , in order to remove the dependency to the libphonenumber",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "update the phonenumberi18nserviceimpl",
+        "why": "remove the dependency to the libphonenumber"
+    },
+    {
+        "msg": "format spark web ui url dynamically on kubernetes",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "format spark web ui url dynamically on kubernetes",
+        "why": "ensure the URL is correctly generated in a Kubernetes environment"
+    },
+    {
+        "msg": "bug fix for style map in undo action",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "move implementation code to src folder because of awesome plug-in",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move implementation code to src folder",
+        "why": "because of awesome plug-in"
+    },
+    {
+        "msg": "refactoring in order to modify algorithm",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "refactoring",
+        "why": "modify algorithm"
+    },
+    {
+        "msg": "move response body assert to testng assertequals because hamcrest matcher get hang up on escape character",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move response body assert to testng assertequals",
+        "why": "hamcrest matcher get hang up on escape character"
+    },
+    {
+        "msg": "bug fix : npe",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "return mainview a select component because it can have focus",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "return mainview a select component",
+        "why": "it can have focus"
+    },
+    {
+        "msg": "make the background of jcheckbox transparent on window in order to respect the blue theme",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make the background of jcheckbox transparent on window",
+        "why": "respect the blue theme"
+    },
+    {
+        "msg": "spark scope mode be break",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "disambiguates swingworker because java 1.6 have it own in javax.swing and thus cause a compile-time error",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "disambiguates swingworker",
+        "why": "java 1.6 has its own in javax.swing and thus causes a compile-time error"
+    },
+    {
+        "msg": "command search : translate tab so that `` jump to tab '' succeed in non-english locale",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "translate tab",
+        "why": "so that `` jump to tab '' succeed in non-english locale"
+    },
+    {
+        "msg": "improves payload type override for sip/xmpp so that it would remove payload type override when necessary",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "improves payload type override for sip/xmpp",
+        "why": "remove payload type override when necessary"
+    },
+    {
+        "msg": "upgrade flink to 1.11.2",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "import be no more used , because the class use here be move to it initial package",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "import be no more used",
+        "why": "the class use here be move to it initial package"
+    },
+    {
+        "msg": "update commons-lang to commons-lang3",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "fix reinvite-related functionality so that sc can join a 3-way auto-conference do not really see that it 's a conference ) create by x-lite",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix reinvite-related functionality so that sc can join a 3-way auto-conference",
+        "why": "do not really see that it's a conference created by x-lite"
+    },
+    {
+        "msg": "bump hsqldb to 2.6.0",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "clean code & add some packet",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove the use of throwable.getcause in throwablecreatedelsewhere it 's useless , because we can only use this thing when there 's no cause",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove the use of throwable.getcause in throwablecreatedelsewhere",
+        "why": "it's useless, because we can only use this thing when there's no cause"
+    },
+    {
+        "msg": "fix npe in nodeview",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix in typereference",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "add itemstack data type",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix for get focus on node after focus attrubute table or inline editor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "instantiate the skin look and feel locally so that it get load through the osgi class loader and not the system one",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "instantiate the skin look and feel locally",
+        "why": "so that it gets loaded through the osgi class loader and not the system one"
+    },
+    {
+        "msg": "fix printast , and separately sneakythrows/synchronized which fail because the 'isfullparse ' boolean be erronously set on a full rebuild , force by handledelegate",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix printast, and separately sneakythrows/synchronized",
+        "why": "fail because the 'isfullparse' boolean be erroneously set on a full rebuild, force by handledelegate"
+    },
+    {
+        "msg": "fix order of transformer in order to make zrtp work again",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix order of transformer",
+        "why": "make zrtp work again"
+    },
+    {
+        "msg": "switch for enable spark repl output for each paragraph",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "switch for enable spark repl output",
+        "why": "for each paragraph"
+    },
+    {
+        "msg": "codegen fail for sparkinterpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add range to meleeattackgoal",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add login for zsession",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove dependency on apache from scanner because of applet",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove dependency on apache from scanner",
+        "why": "because of applet"
+    },
+    {
+        "msg": "fix the largetrigrammodel so that it do not apply language weight and",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "upgrade geolatte to 1.4.0",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use update a the default type of % flink.ssql",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add k8s interpreter user a a label",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix a concurrentmodificationexception in srtptransformer report by emil ivov , an arrayindexoutofboundsexception in calljabberimpl remove fmjconditionals because fmj be always use anyway",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix a concurrentmodificationexception in srtptransformer and an arrayindexoutofboundsexception in calljabberimpl",
+        "why": "remove fmjconditionals because fmj is always used anyway"
+    },
+    {
+        "msg": "remove deprecate r module",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix npe if no frame can be find by singleinstancemanager",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "fix npe",
+        "why": "if no frame can be find by singleinstancemanager"
+    },
+    {
+        "msg": "fix the legacy medium bundle to not throw exception on stop because it start have n't register the mediaservice",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix the legacy medium bundle to not throw exception on stop",
+        "why": "it start have n't register the mediaservice"
+    },
+    {
+        "msg": "add dimension support",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support org.locationtech : jts in codegen",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support org.locationtech : jts in codegen",
+        "why": "(implied) to enable functionality or compatibility with the JTS library in code generation"
+    },
+    {
+        "msg": "refactoring of est",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "prevent from go on unloaded chunk",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "rename _testutil to testutil",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "rename _testutil to testutil",
+        "why": "improve code readability and consistency by removing the underscore prefix"
+    },
+    {
+        "msg": "propagate exception / test failure so that the correct status code be return",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "propagate exception / test failure",
+        "why": "so that the correct status code be returned"
+    },
+    {
+        "msg": "nan",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "incorrect line number in error message of hive interpreter",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "incorrect line number in error message",
+        "why": "fix error message in hive interpreter"
+    },
+    {
+        "msg": "support set statement in flink sql",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "applet may not check system property",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove url protocol freeplaneresources from applet because of java security policy and security exception",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove url protocol freeplaneresources from applet",
+        "why": "because of java security policy and security exception"
+    },
+    {
+        "msg": "add ability to run a sql without automatic break up of sql statement , so that trigger can be run",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add ability to run a sql without automatic break up of sql statement",
+        "why": "so that trigger can be run"
+    },
+    {
+        "msg": "user impersonation via -proxy-user for spark interpreter with k8s",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "trim port audio device name so that they would match whatever we store in our property file",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "trim port audio device name",
+        "why": "so that they would match whatever we store in our property file"
+    },
+    {
+        "msg": "upgrade thrift to 0.13",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "upgrade thrift to 0.13",
+        "why": "ensure compatibility with latest features and security patches"
+    },
+    {
+        "msg": "pin order to of crsh auto configuration to happen after any security relate configuration",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "pin order of crsh auto configuration",
+        "why": "to happen after any security related configuration"
+    },
+    {
+        "msg": "bug fix in atribute table , renderer , panel manager",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "run flink job a the login user in yarn mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "support conda env for python interpreter in yarn mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "re-doing dependency , so that we can create a distribution project",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "re-doing dependency",
+        "why": "so that we can create a distribution project"
+    },
+    {
+        "msg": "fix bug in complex and spectrumanalyzer , so that now the power is done",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "do not allow to move line shape connector by drag",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "improve reader so it scan up in the hierarchy for @ applicationpath annotation in order to work properly with weld proxy",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "improve reader so it scan up in the hierarchy for @ applicationpath annotation",
+        "why": "work properly with weld proxy"
+    },
+    {
+        "msg": "support real time dashboard for jdbc interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "adopt jsr356 for websocket",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "adopt jsr356",
+        "why": "for websocket"
+    },
+    {
+        "msg": "fix genericscope so that multiple subclass can live in the same context inner class can not resolve parent bean",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix genericscope so that multiple subclass can live in the same context",
+        "why": "inner class can not resolve parent bean"
+    },
+    {
+        "msg": "rename spatial node back to cell",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix package import",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "second big move of package create jmfext in order to keep jmf requirenment for package name of datasources and separate portaudio class in neomedia.portaudio package",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "second big move of package create jmfext",
+        "why": "keep jmf requirement for package name of datasources and separate portaudio class in neomedia.portaudio package"
+    },
+    {
+        "msg": "support spark-submit in spark interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix java 1.5 compatibility break in r4409 because of use of java 1.6 api",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix java 1.5 compatibility break in r4409",
+        "why": "because of use of java 1.6 api"
+    },
+    {
+        "msg": "make sure that formula error get log",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "preserve original hostname in resolvedinetaddress so that we can pass it into createsslengine in nio mode",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "preserve original hostname in resolvedinetaddress",
+        "why": "so that we can pass it into createsslengine in nio mode"
+    },
+    {
+        "msg": "unable to create dataset from case class in spark interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add ellipsis to the add new account menu item because it dialog require user input",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add ellipsis to the add new account menu item",
+        "why": "it dialog require user input"
+    },
+    {
+        "msg": "rm extra semicolon",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "rm extra semicolon",
+        "why": "improve code readability and avoid potential syntax errors"
+    },
+    {
+        "msg": "modifies encryptionpacketextension so that it would now extend abstractpacketextension",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add block registry",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "do not try to modify look and feel button size under mac o because it",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "make flinksqlinterpreter extend abstractinterpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix : preference popup do not open",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix in paint forkmainview",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use isolate interpreter for cron note job",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "use isolate interpreter for cron note job",
+        "why": "ensure job execution is isolated and independent"
+    },
+    {
+        "msg": "order default customizers so that they can be overridden",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "order default customizers",
+        "why": "so that they can be overridden"
+    },
+    {
+        "msg": "support savepoint for insert statement and non-sql paragraph",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support savepoint for insert statement and non-sql paragraph",
+        "why": "(implied) to ensure data integrity and allow rollback functionality for insert operations and non-sql paragraphs"
+    },
+    {
+        "msg": "use spark resource configuration",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "use spark resource configuration",
+        "why": "to optimize resource allocation and improve performance"
+    },
+    {
+        "msg": "bug fix for obtain edge style information",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add a lot of comment",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use randomstringutils from apache-commons-lang3",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add build profile for spark-3.1",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "carry init & dispose method down into renderstrategy , so that texture can be dispose of and reload",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "carry init & dispose method down into renderstrategy",
+        "why": "so that texture can be dispose of and reload"
+    },
+    {
+        "msg": "update label renderer even for plain text because it be transform to html if cs be set",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "update label renderer even for plain text",
+        "why": "it be transform to html if cs be set"
+    },
+    {
+        "msg": "move % flink.cmd a a separated interpreter module",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "open the portaudio stream with a valid framesperbuffer value in order to make it possible to use the pseudo-blocking portaudio stream interface implement in r7982",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "open the portaudio stream with a valid framesperbuffer value",
+        "why": "make it possible to use the pseudo-blocking portaudio stream interface implemented in r7982"
+    },
+    {
+        "msg": "code completion pop up error message in shell interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "override in all subtypes",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "rename pluginregistry to pluginbag",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "throw exception , so that they can be report",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "include chart option for single value",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix for save conditional style",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "invalid local property in zsession",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "change path so that it could be access through a class loader while run in the osgi framework",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change path",
+        "why": "so that it could be accessed through a class loader while run in the osgi framework"
+    },
+    {
+        "msg": "rename test class so that their test be run by maven",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "rename test class",
+        "why": "so that their test be run by maven"
+    },
+    {
+        "msg": "modifies the voicemail notification gui so that it would also display the number of urgent voicemail message patch by tom denham",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modifies the voicemail notification gui",
+        "why": "display the number of urgent voicemail messages"
+    },
+    {
+        "msg": "make pathfinder maxcheck configurable",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "pack the wizard window every time a new wizard be set in order to resize it to fit the new wizard form",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "pack the wizard window every time a new wizard is set",
+        "why": "resize it to fit the new wizard form"
+    },
+    {
+        "msg": "notebook permission bypass vulnerability",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "notebook permission bypass",
+        "why": "vulnerability"
+    },
+    {
+        "msg": "fix wrong circular reference error",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "have the engine call prepare ( ) for timer , so that they do not need",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "why: so that they do not need",
+        "why": "Note: The \"why\" part is slightly incomplete, but it still provides a purpose (to avoid the need for something). It is considered sufficient for a good commit message."
+    },
+    {
+        "msg": "delay the creation of addcontactwizard for the purpose of uiserviceimpl 's exportedwindows because the mentioned creation be slow",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "delay the creation of addcontactwizard",
+        "why": "for the purpose of uiserviceimpl's exportedwindows because the mentioned creation be slow"
+    },
+    {
+        "msg": "do not cause npe because of sort null package name",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "do not cause npe because of sort",
+        "why": "null package name"
+    },
+    {
+        "msg": "sound & header/footer",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "move the ldap contact source code in the impl package in order to allow create contact source for ldap directory through the ldapservice",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "move the ldap contact source code in the impl package",
+        "why": "allow create contact source for ldap directory through the ldapservice"
+    },
+    {
+        "msg": "try to always indicate the address of the destination to the medium service so that it could choose the most suitable local address for the sdp advertisement",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "always indicate the address of the destination to the medium service",
+        "why": "so that it could choose the most suitable local address for the sdp advertisement"
+    },
+    {
+        "msg": "fix timeout in fontscontract.getfontsync ( ) cause because context.canloadunsaferesources ( ) now return false since the context be n't a system context",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix timeout in fontscontract.getfontsync ( )",
+        "why": "cause because context.canloadunsaferesources ( ) now return false since the context be n't a system context"
+    },
+    {
+        "msg": "empty env be pass to spark interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "pull out code to generate website , in order to break down distribution logic",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "pull out code to generate website",
+        "why": "break down distribution logic"
+    },
+    {
+        "msg": "rename package example to examples",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "activates update for reloadable audio system in order to activate them if the number of device change from 0 to something great",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "activates update for reloadable audio system",
+        "why": "activate them if the number of device change from 0 to something great"
+    },
+    {
+        "msg": "npe on empty dynamic form input",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "implement pool buffer",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "miss line break for irinterpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add method so that timeout can be specify when execute ad-hoc command",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add method",
+        "why": "so that timeout can be specify when execute ad-hoc command"
+    },
+    {
+        "msg": "support spark 3.1.1",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support spark 3.1.1",
+        "why": "ensure compatibility with the latest Spark version"
+    },
+    {
+        "msg": "help need to be update in cassandra interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "add option to disable search",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "add option to disable search",
+        "why": "improve performance by reducing unnecessary search operations"
+    },
+    {
+        "msg": "use remoteinterpretermanagedprocess for k8sremoteinterpreterprocess",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "use resolve @ generate annotation in test",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "node numbering do not work with node format a text : check for identity pattern in transformer so that node numbering can be use",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "check for identity pattern in transformer",
+        "why": "node numbering do not work with node format a text"
+    },
+    {
+        "msg": "bug fix after refactoring",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "make the background of the configurationforms visible in tool > option transparent so that they do not look grey and the theme background show through",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make the background of the configurationforms visible in tool > option transparent",
+        "why": "so that they do not look grey and the theme background show through"
+    },
+    {
+        "msg": "replaces the us of jtabbedpane with sipcommtabbedpane in order to respect the blue theme",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "replaces the use of jtabbedpane with sipcommtabbedpane",
+        "why": "respect the blue theme"
+    },
+    {
+        "msg": "bug fix in nodelevel condition",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "wip per block data",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "bug fix in persistentnodehook.toggle",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "append system default new line when generate code",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "append system default new line",
+        "why": "when generate code"
+    },
+    {
+        "msg": "remove explicit forcing of logger level because it cause unnecessary output to developer not interested in the related development and because it should be do locally in lib\\logging.properties",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove explicit forcing of logger level",
+        "why": "it causes unnecessary output to developers not interested in the related development and should be done locally in lib\\logging.properties"
+    },
+    {
+        "msg": "remove the bundle audionotifier because it functionality have already be replace by the bundle neomedia",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove the bundle audionotifier",
+        "why": "its functionality has already been replaced by the bundle neomedia"
+    },
+    {
+        "msg": "rename knngraphvalues - > hnswgraph",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "wrong src folder for spark-shims module",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "enable configurable html addons",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "enable configurable html addons",
+        "why": "(implied by the context, but not explicitly stated) to allow customization and flexibility in HTML features"
+    },
+    {
+        "msg": "when a plugincomponentevent be receive should check the container id in order to add it or remove it from the appropriate container",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "check the container id when a PluginComponentEvent is received",
+        "why": "to add it or remove it from the appropriate container"
+    },
+    {
+        "msg": "make shell interpreter concurrency configurable",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied by the change itself, as configurability is the purpose)",
+        "why": "Note: The \"why\" is implied here because making something configurable inherently serves the purpose of providing flexibility or addressing specific needs. However, if more context were provided (e.g., \"to improve performance under high load\"), it would strengthen the \"why\" part."
+    },
+    {
+        "msg": "basic 1.16.1 support",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "fix in undo for editstylesaction",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add a test suite to clean configuration file in the end of test so that it do not interfere with follow test execution",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add a test suite to clean configuration file in the end of test",
+        "why": "so that it do not interfere with follow test execution"
+    },
+    {
+        "msg": "remove all the zoom & pan stuff because it do not work well change the line color to green so it just blend into the fill",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove all the zoom & pan stuff, change the line color to green",
+        "why": "it does not work well, so it just blends into the fill"
+    },
+    {
+        "msg": "modifies rtpdescriptionpacketextension so that it would now extend our newly add abstractpacketextension",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modifies rtpdescriptionpacketextension so that it would now extend our newly add abstractpacketextension",
+        "why": "to align with the new abstractpacketextension structure"
+    },
+    {
+        "msg": "timestamp include nanos",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "timestamp include nanos",
+        "why": "improve precision of timestamp measurements"
+    },
+    {
+        "msg": "do not fill detail arrow",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "sanitizes sysactivitynotifications.dll in order to make it easy to determine why it crash",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "sanitizes sysactivitynotifications.dll",
+        "why": "make it easy to determine why it crash"
+    },
+    {
+        "msg": "add formatter for decimal value",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "change xmpp unattended transfer behavior to act like sip inform the user if the transfer fail because the roster do not contain the remote peer",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change xmpp unattended transfer behavior to act like sip",
+        "why": "inform the user if the transfer fail because the roster do not contain the remote peer"
+    },
+    {
+        "msg": "add json to error message in jobmanager",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove the portaudiomanager class because it name be too generic , spread it functionality across the deviceconfiguration and portaudio class",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove the portaudiomanager class",
+        "why": "its name is too generic, spread its functionality across the deviceconfiguration and portaudio class"
+    },
+    {
+        "msg": "support flink 1.11",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "solr/core logger renames",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "update + add particle",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "pull out extra table retrieval into a separate thread pool , so that it do not interfere with view",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "pull out extra table retrieval into a separate thread pool",
+        "why": "so that it does not interfere with view"
+    },
+    {
+        "msg": "compile on java 11",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "compile on java 11",
+        "why": "ensure compatibility with java 11"
+    },
+    {
+        "msg": "remove some ui repetition from the chat history window , use one and the same spacing between the component for consistency and so that they become properly align",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove some ui repetition from the chat history window, use one and the same spacing between the component",
+        "why": "for consistency and so that they become properly align"
+    },
+    {
+        "msg": "upgrade flink to 1.11.3",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "unify flink configuration between different execution mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix string constant for cepstrumproducer in frontend.java so that it can better work",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix string constant for cepstrumproducer in frontend.java",
+        "why": "so that it can better work"
+    },
+    {
+        "msg": "fix order of the ` bootstrapconfigfileapplicationlistener ` so that it always run after the ` configdataenvironmentpostprocessor `",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix order of the `bootstrapconfigfileapplicationlistener`",
+        "why": "so that it always run after the `configdataenvironmentpostprocessor`"
+    },
+    {
+        "msg": "block collision improvement",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "port cassandra interpreter to new driver",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "port cassandra interpreter",
+        "why": "to new driver"
+    },
+    {
+        "msg": "depends on resourcecontroller because of menu icon scaling",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "depends on resourcecontroller",
+        "why": "because of menu icon scaling"
+    },
+    {
+        "msg": "improve data type for literal",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add chunk & some location packet",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (The \"why\" part is not explicitly stated in the commit message, but it can be inferred that the addition is likely related to functionality or feature enhancement. However, since the \"why\" is not clearly provided, this is a borderline case. For the sake of this exercise, we will assume it is a good commit message, but in practice, the \"why\" should be explicitly stated.)",
+        "why": "Note: In a real-world scenario, the \"why\" should be explicitly stated to make the commit message fully informative."
+    },
+    {
+        "msg": "remove the etched border with title from the security > call tab in tool > option in order to simplify it overall look a tiny bit",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove the etched border with title from the security > call tab in tool > option",
+        "why": "simplify its overall look a tiny bit"
+    },
+    {
+        "msg": "protocolicon interface be mean to be implement by protocol implementation in order to export their icon",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "altered so that the exchange and queue be declare durable so that persist message really do hit disk",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "altered so that the exchange and queue be declared durable",
+        "why": "so that persist message really do hit disk"
+    },
+    {
+        "msg": "save note permission info into notebook-authorization.json",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support resume flink job from checkpoint",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support resume flink job",
+        "why": "from checkpoint"
+    },
+    {
+        "msg": "replace function with consumer because it be never return a result",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "replace function with consumer",
+        "why": "it be never return a result"
+    },
+    {
+        "msg": "allow specify jobname a paragraph local property",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "upgrade geolatte for querydsl-sql-spatial",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "upgrade geolatte",
+        "why": "for querydsl-sql-spatial"
+    },
+    {
+        "msg": "attempt to set the size of the calldialog so that it display the remote video in it actual size in order to avoid quality loss due to scale",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "set the size of the calldialog so that it displays the remote video in its actual size",
+        "why": "avoid quality loss due to scale"
+    },
+    {
+        "msg": "improve code style",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "bug fix : nodecontainscondition should ignore letter case",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support spark 3.0",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "random tidy up of property because i be in the area",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "remove the p0 stest case , because all p0 test can find in other stest case",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove the p0 stest case",
+        "why": "all p0 test can find in other stest case"
+    },
+    {
+        "msg": "prepare the switch to netty",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "amazingly fast block getter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "add name to remoteinterpreterprocess",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "update to maven resolver",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "package rename to net.minestom.server",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "rename sparkpipelinerunner to sparkrunner",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "metric and healthcheck",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "upgrade flink to 1.11.0",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "do not mark node with named object a changed",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "remove dependency on java.awt , so that schemacrawler can use compact profile 2",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "remove dependency on java.awt",
+        "why": "so that schemacrawler can use compact profile 2"
+    },
+    {
+        "msg": "refactors contentpacketextension so that it would extend abstractpacketextension",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "refactors contentpacketextension",
+        "why": "so that it would extend abstractpacketextension"
+    },
+    {
+        "msg": "add more timeunit",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "when register method processor with protocolproviderservicesipimpl , register the late of one an the same class in order to not register one and the same operationset multiple time",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "register method processor with protocolproviderservicesipimpl",
+        "why": "to not register one and the same operationset multiple time"
+    },
+    {
+        "msg": "fix the url pattern in the balancedclickhousedatasource class so that it work with dash",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix the url pattern in the balancedclickhousedatasource class",
+        "why": "so that it work with dash"
+    },
+    {
+        "msg": "suppress configurationexception stack trace",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "can not include text in the same line of the number of a node",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "remove unnecessary logging",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix handling of put request , so that parameter can be send a body",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix handling of put request",
+        "why": "so that parameter can be sent as a body"
+    },
+    {
+        "msg": "bug fix continue",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "iterate over fix list in amultiplenodeaction even if action change selection",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "display stream data in flink table api",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "horizontal scrollbar a need in the conversation area could not be remove completely , because for now there 's no other way to show long word",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "horizontal scrollbar could not be removed completely in the conversation area",
+        "why": "there's no other way to show long words"
+    },
+    {
+        "msg": "update to track last chat state of a chat so that the user be not update more than once , and the xep be not violate",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "update to track last chat state of a chat",
+        "why": "so that the user be not update more than once, and the xep be not violate"
+    },
+    {
+        "msg": "improve github action ci",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "update readme accord to dataflow- > beam package rename",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "update readme",
+        "why": "accord to dataflow->beam package rename"
+    },
+    {
+        "msg": "a expect , the protocol provider service evolve aggresively in order to suite the need of the icq implementation",
+        "y_label": 1,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "create a copy of scaledstylesheet in freeplane because of applet",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "create a copy of scaledstylesheet in freeplane",
+        "why": "because of applet"
+    },
+    {
+        "msg": "support flink 1.11.1",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add s3 can acl option for s3notebookrepo",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "add aliases support to commandprocessor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "well bug fix for attribute panel if no map be open",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "support to run r interpreter in yarn mode with customized conda env",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support to run r interpreter in yarn mode with customized conda env",
+        "why": "(implied) to enable running R interpreter in a specific environment configuration"
+    },
+    {
+        "msg": "set player bound box size to 0.6",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "add $ all operation",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix concurrentmodificationexception by use array",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "fix concurrentmodificationexception",
+        "why": "by use array"
+    },
+    {
+        "msg": "allow node width to grow up to maximum width so that increase the border width do not shrink the node when max width > min width",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "allow node width to grow up to maximum width",
+        "why": "increase the border width do not shrink the node when max width > min width"
+    },
+    {
+        "msg": "change sequence of audio configuration modification event in order to aggregate pop-up notification event",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change sequence of audio configuration modification event",
+        "why": "aggregate pop-up notification event"
+    },
+    {
+        "msg": "change implementation of compatible type so they can be declare because of the circular reference , they can not be declare in constructor argument",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "change implementation of compatible type so they can be declared",
+        "why": "because of the circular reference, they cannot be declared in constructor argument"
+    },
+    {
+        "msg": "delete mediadispatcher because it seem to be rename to mediaeventdispatcher and be no longer be use",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "delete mediadispatcher",
+        "why": "it seem to be rename to mediaeventdispatcher and be no longer be use"
+    },
+    {
+        "msg": "install scannercontroller and formatcontroller a mode independent controller extension so that they be available in all mode",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "install scannercontroller and formatcontroller as a mode independent controller extension",
+        "why": "so that they be available in all mode"
+    },
+    {
+        "msg": "paragraph refresh make the other paragraph shake",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "improvement to provsslengine",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "wip entity/block collision/gravity",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "copy back source file because pde do not support link source directory",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "copy back source file",
+        "why": "pde do not support link source directory"
+    },
+    {
+        "msg": "it workaround for condition which be happen because of problem in pooledbytebufallocator",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "it workaround for condition",
+        "why": "which be happen because of problem in pooledbytebufallocator"
+    },
+    {
+        "msg": "interpreter binding menu of note only show default interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "decrease compression level to 3",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "decrease compression level to 3",
+        "why": "improve performance by reducing CPU overhead while maintaining acceptable compression ratio"
+    },
+    {
+        "msg": "add support for personalized configuration of jdbcinterpreter database connection pool",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied) to allow users to customize database connection pool settings for better performance or specific requirements",
+        "why": "Note: The \"why\" is implied in this case, as the purpose of adding support for personalized configuration is likely to provide flexibility or improve performance. If the \"why\" is not explicitly stated, it can sometimes be inferred from the context."
+    },
+    {
+        "msg": "slims down the shallow size of the configurationform implementation ofplugin.notificationconfiguration because it 's huge",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "slims down the shallow size of the configurationform implementation of plugin.notificationconfiguration",
+        "why": "because it's huge"
+    },
+    {
+        "msg": "improve verification performance",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "improve verification",
+        "why": "performance"
+    },
+    {
+        "msg": "add redstone placement",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "text between 2 sql comment be mistake a comment",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "bug fix : the close child selection",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "loot table support",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "improve parsing of the paragraph property",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "bug fix in replacement for plain text",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "close bind interpreter when note be remove",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "close bind interpreter",
+        "why": "when note be remove"
+    },
+    {
+        "msg": "fix incorrect registration state in case user cancel irc connection because of certificate issue",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix incorrect registration state",
+        "why": "in case user cancel irc connection because of certificate issue"
+    },
+    {
+        "msg": "unquote column data type name so that can be match",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "unquote column data type name",
+        "why": "so that it can be matched"
+    },
+    {
+        "msg": "modifiesneomedia.mediafactory so that it create mediaformat instance just by encode name and , optionally , clock rate and format parameter without explicitly be tell the mediatype",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modifies neomedia.mediafactory so that it creates mediaformat instance just by encode name and, optionally, clock rate and format parameter",
+        "why": "without explicitly being told the mediatype"
+    },
+    {
+        "msg": "support shiny in spark interpreter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "rename directregistrar registrar",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "rename directregistrar",
+        "why": "to improve clarity and align with naming conventions"
+    },
+    {
+        "msg": "ignore the single quote and double quote in sql comment",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "simplify spark sql error message",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "wip entity implementation",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "make it an interface so that protocol implementation can treat it a they find fit",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "make it an interface",
+        "why": "protocol implementation can treat it as they find fit"
+    },
+    {
+        "msg": "retrieve sql server foreign key use a sql query , so that more retrieval can be run in parallel",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "retrieve sql server foreign key use a sql query",
+        "why": "so that more retrieval can be run in parallel"
+    },
+    {
+        "msg": "fix compile error with java 5",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "add an extra hint on the sip account wizard so that it would also help create serverless account",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add an extra hint on the sip account wizard",
+        "why": "help create serverless account"
+    },
+    {
+        "msg": "log message correction",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "property name change of flink interprter",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "delete useless variable",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "modify in order to hold any valid jid format smack-152",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "modify",
+        "why": "to hold any valid jid format smack-152"
+    },
+    {
+        "msg": "support scala 2.12 for flink",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "support scala 2.12",
+        "why": "for flink"
+    },
+    {
+        "msg": "fix automatically report bug",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "alignment of linearedgeview",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss what"
+    },
+    {
+        "msg": "adds button in the audio configuration dialog in order to play sound to test the select playback and notification device",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "adds button in the audio configuration dialog",
+        "why": "play sound to test the select playback and notification device"
+    },
+    {
+        "msg": "add login method so that set the resource be support",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "add login method",
+        "why": "set the resource be support"
+    },
+    {
+        "msg": "fix quickfindallaction for root node",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "fix gethistoryget so that remote cv operation work",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "fix gethistoryget",
+        "why": "so that remote cv operation work"
+    },
+    {
+        "msg": "sipcommtransptextpane be remove and replace by sipcommmsgtextarea , because it offer the same functionality",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "sipcommtransptextpane be remove and replace by sipcommmsgtextarea",
+        "why": "it offer the same functionality"
+    },
+    {
+        "msg": "re-doing dependency , so that we can create a distribution project",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "re-doing dependency",
+        "why": "so that we can create a distribution project"
+    },
+    {
+        "msg": "allow to inject application id into custom spark url",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "why: (implied) to enable customization of spark url with application id",
+        "why": "Note: The \"why\" is implied in this case, as the purpose is to allow customization, but it could be more explicitly stated. However, it still qualifies as a good commit message."
+    },
+    {
+        "msg": "hide the contact photo at the east of the chat tool bar in order to fully free the horizontal space take by the tool bar",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "hide the contact photo at the east of the chat tool bar",
+        "why": "fully free the horizontal space taken by the tool bar"
+    },
+    {
+        "msg": "add all apt option to abstractquerydslprocessor",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "support flink 1.14",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "update filteredclasspathrunner so that junit rule work",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "update filteredclasspathrunner",
+        "why": "so that junit rule work"
+    },
+    {
+        "msg": "bump geolatte-geom from 1.4.0 to 1.8.1",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "update tick manager & player update",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "when create a sip conference call , attempt to start an audio mixer so that each conference member can hear the other one",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "attempt to start an audio mixer when creating a sip conference call",
+        "why": "so that each conference member can hear the other one"
+    },
+    {
+        "msg": "bug # 337 : analyzer be not thread-safe because of static state variable",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "analyzer be not thread-safe",
+        "why": "because of static state variable"
+    },
+    {
+        "msg": "implement a soft shutdown for k8s interpreter",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "implement a soft shutdown for k8s interpreter",
+        "why": "ensure graceful termination of processes and prevent data loss"
+    },
+    {
+        "msg": "count nod only at the end because some intermediatel result could turn to become empty",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "count nod only at the end",
+        "why": "some intermediate result could turn to become empty"
+    },
+    {
+        "msg": "support yarn interpreter launch mode",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "LLM failed to identify and split the commit message"
+    },
+    {
+        "msg": "add damage application verification",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss why"
+    },
+    {
+        "msg": "enable extension of flexmark in markdown interpreter",
+        "y_label": 0,
+        "predict_label": 1,
+        "what": "enable extension of flexmark",
+        "why": "in markdown interpreter"
+    },
+    {
+        "msg": "wire in the componentpreseteditor into the edit menu it be currently disable because of some bug in the componentpreseteditor",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "wire in the componentpreseteditor into the edit menu",
+        "why": "it be currently disable because of some bug in the componentpreseteditor"
+    },
+    {
+        "msg": "attributetable , attributetablecellrenderer",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    },
+    {
+        "msg": "delay the creation of dialpaddialog because it be not always necessary",
+        "y_label": 1,
+        "predict_label": 1,
+        "what": "delay the creation of dialpaddialog",
+        "why": "it be not always necessary"
+    },
+    {
+        "msg": "refactoring of notebookrestapi",
+        "y_label": 0,
+        "predict_label": 0,
+        "reason": "miss both"
+    }
+]

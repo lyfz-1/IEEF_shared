@@ -1,0 +1,1 @@
+We present code to fine-tune CodeTrans and test it. The scripts for other pre-trained models are similar. Please refer to the official source code.
