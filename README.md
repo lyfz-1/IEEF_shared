@@ -22,9 +22,9 @@ pip install torch==1.10 transformers==4.12.5 tqdm==4.64.1 prettytable==2.5.0 gdo
 
 * In the **“data”** directory, we provide the training set in RQ1 used to train the Bi-LSTM classifier as well as the test set used for RQ1.
 
-* Due to the size of the HQ-dataset we collected, we share it on Google Cloud. Please see the following link:
+* Due to the size of the HQ-dataset we collected, we shared it on Google Drive. Please see the following link:
 
-
+https://drive.google.com/drive/folders/1m64O3r_GEwbUfTnbmQzRXGWYCG46Eo7j?usp=sharing
 
 
 
