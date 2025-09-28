@@ -8,7 +8,7 @@
 
 
 
-##  Environment
+##  1 Environment
 
 ```
 conda create -n IEEF python=3.6 -y
@@ -18,17 +18,17 @@ pip install torch==1.10 transformers==4.12.5 tqdm==4.64.1 prettytable==2.5.0 gdo
 
 
 
-## Dataset
+## 2 Dataset
 
 * In the **“data”** directory, we provide the training set in RQ1 used to train the Bi-LSTM classifier as well as the test set used for RQ1.
 
-* Due to the size of the HQ-dataset we collected, we shared it on Google Drive. Please see the following link:
+* Due to the size of the HQCMD we collected, we shared it on Google Drive. Please see the following link:
 
 https://drive.google.com/drive/folders/1m64O3r_GEwbUfTnbmQzRXGWYCG46Eo7j?usp=sharing
 
 
 
-## Scripts
+## 3 Scripts
 
 In the **"code"** directory, we provide:
 
@@ -56,8 +56,51 @@ For detailed code, please refer to the official public implementation packages f
 
 
 
-## Results
+## 4 Results
 
 In the **"results"** directory, we provide the experimental results of our four research questions and the discussion section involved in this study. For ease of viewing, we've divided the subdirectories by name.
 
 Please refer to the paper for details of the experiments and the resulting data.
+
+
+
+## 5 Supplement
+
+### 5.1 Significance analysis
+
+In order to prove that the performance improvement of IEEF for the pre-trained models is statistically significant, we conducted on the experimental results of RQ2 as well as RQ3, respectively. Specifically, we used the Mann-Whitney U Test.
+
+
+
+**Significance analysis for RQ2（IEEF-enhanced VS HQ-Fine-tuned）**
+
+![rq2_sa.png](https://youke1.picui.cn/s1/2025/09/28/68d89438c6417.png)
+
+Note: The table shows the p-value, where a p-value < 0.05 indicates a significant difference between the two value distributions (highlighted in green in the table).
+
+
+
+**Significance analysis for RQ3（IEEF-enhanced VS w/o what & IEEF-enhanced VS w/o why）**
+
+![rq3_sa.png](https://youke1.picui.cn/s1/2025/09/28/68d8958f8ddfb.png)
+
+The results of significance analysis show that the improvement of IEEF on these pre-trained models is statistically significant in most cases.
+
+
+
+### 5.2 Designed prompt for LLMs to generate high-quality commit messages
+
+![llms_prompt.png](https://youke1.picui.cn/s1/2025/09/28/68d89957bc304.png)
+
+In this prompt, we first assign a specific role to the LLMs and define what constitutes a high-quality commit message. Then, we provide several examples of code changes along with their corresponding high-quality commit messages to guide the LLMs in learning the task pattern. Finally, the LLMs are required to generate an appropriate commit message for new code changes.
+
+
+
+### 5.3 Performance of IEEF-enhanced models under different settings
+
+![Snipaste_2025-09-28_10-19-54.png](https://youke1.picui.cn/s1/2025/09/28/68d89b8830491.png)
+
+Note: 
+
+* IEEF-half: We halved the amount of data used in the enhancement stage.
+* IEEF-reversed: We reversed the order of the augmentation tasks.
